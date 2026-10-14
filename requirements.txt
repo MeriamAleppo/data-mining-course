@@ -1,0 +1,17 @@
+# Core Data Manipulation & Scientific Computing
+numpy
+pandas
+scipy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning & Statistical Modeling
+scikit-learn
+statsmodels
+xgboost
+
+# Jupyter Notebook Execution & Interactive Environment
+ipykernel
+jupyterlab

@@ -7,8 +7,8 @@
 - **Nama Mahasiswa**     : Nayyara Rauf Ghani Al Khayri
 - **NIM / ID**           : A11.2024.16055
 - **Program Studi**      : Teknik Informatika 
-- **Mata Kuliah**        : Data Mining
-- **Dosen Pengampu**     : 
+- **Mata Kuliah**        : Data Mining  
+- **Dosen Pengampu**     : Abu Salam, M.Kom
 - **Target Capaian**     : Penguasaan End-to-End Pipeline Data Mining (Data Ingestion, Data Cleaning, Advanced Imputation, Outlier Analytics, EDA, Feature Engineering, Inferensi Statistik & Pengujian Hipotesis, serta Pemodelan Prediktif Machine Learning Terbaik).
 - **Periode Pelaksanaan**: 4 Minggu (20 Hari Kerja Efektif)
 - **Struktur Folder**    : Folder Per Course (`course_1/`)
