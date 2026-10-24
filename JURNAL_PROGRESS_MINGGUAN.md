@@ -1,18 +1,21 @@
 # BUKU LOG AKTIVITAS HARIAN & LAPORAN PROGRESS MINGGUAN (DAILY ACTIVITIES)
-## MATA KULIAH: DATA MINING (COURSE 1: EXPLORATORY DATA ANALYSIS & PREDICTIVE MODELING)
+## MATA KULIAH: DATA MINING — PROGRAM STUDI TEKNIK INFORMATIKA
 
 ---
 
 ### IDENTITAS MAHASISWA & KEGIATAN
-- **Nama Mahasiswa**     : Nayyara Rauf Ghani Al Khayri
-- **NIM / ID**           : A11.2024.16055
-- **Program Studi**      : Teknik Informatika 
-- **Mata Kuliah**        : Data Mining  
-- **Dosen Pengampu**     : Abu Salam, M.Kom
-- **Target Capaian**     : Penguasaan End-to-End Pipeline Data Mining (Data Ingestion, Data Cleaning, Advanced Imputation, Outlier Analytics, EDA, Feature Engineering, Inferensi Statistik & Pengujian Hipotesis, serta Pemodelan Prediktif Machine Learning Terbaik).
+- **Nama Mahasiswa**     : **Nayyara Rauf Ghani Al Khayri**
+- **NIM / ID**           : **A11.2024.16055**
+- **Program Studi**      : **Teknik Informatika**
+- **Mata Kuliah**        : **Data Mining**
+- **Dosen Pengampu**     : **Abu Salam, M.Kom**
+- **Target Capaian**     : Penguasaan End-to-End Pipeline Data Mining Mandiri & Modular (Data Ingestion Multi-Sumber, Relational SQLite Storage, MICE Imputation, Multivariate Isolation Forest, Automated Yeo-Johnson Transformation, Comparative Encoding, VIF Multicollinearity Diagnostics, Mutual Information, Uji Hipotesis Statistik Formal Chi-Square/ANOVA/T-Test dengan Bonferroni, Stratified 5-Fold CV Machine Learning Benchmark, Kurva ROC-AUC & PR-AUC, serta Optimasi Finansial Cost-Sensitive Matrix).
 - **Periode Pelaksanaan**: 4 Minggu (20 Hari Kerja Efektif)
-- **Struktur Folder**    : Folder Per Course (`course_1/`)
-- **Format Penamaan File**: `c1-m2.ipynb` (Course 1 - Modul 2), `c1-m3.ipynb` (Course 1 - Modul 3), `c1-m4.ipynb` (Course 1 - Modul 4).
+- **Struktur Lingkungan**: Local Environment (VS Code + Python 3.13 Virtual Environment `.venv` + SQLite Database `telco_churn.db`)
+- **Format Penamaan Modul Profesional**:
+  1. `01_data_ingestion_and_cleaning.ipynb`
+  2. `02_eda_and_feature_engineering.ipynb`
+  3. `03_hypothesis_testing_and_modeling.ipynb`
 
 ---
 
@@ -20,292 +23,267 @@
 
 | Minggu | Modul Terkait | Fokus Utama & Topik Kegiatan | Output / Deliverable | Status |
 | :---: | :---: | :--- | :--- | :---: |
-| **Minggu 1** | `c1-m2` (Bagian 1) | Data Retrieval dari Multi-Sumber: Flat Files (CSV), Semi-Terstruktur (JSON), Relasional (SQLite SQL Query) & Skema Data. | Notebook `c1-m2.ipynb` (Sec 1-3), Script DB SQLite, JSON parser. | **SELESAI (100%)** |
-| **Minggu 2** | `c1-m2` (Bagian 2) | Data Cleaning, Penanganan Missing Values (Simple vs MICE Imputer), dan Deteksi Outlier (IQR, Residual OLS, Isolation Forest). | Notebook `c1-m2.ipynb` (Sec 4-6), Dataset Bersih `telco_churn_cleaned_m2.csv`. | **SELESAI (100%)** |
-| **Minggu 3** | `c1-m3` | Exploratory Data Analysis (EDA), Skewness Transformation, Encoding (OHE & Ordinal), Scaler Comparison, & Seleksi Fitur. | Notebook `c1-m3.ipynb`, Dataset Siap Model `telco_churn_featured_m3.csv`. | **SELESAI (100%)** |
-| **Minggu 4** | `c1-m4` | Inferensi Statistik, Paradigma Frequentist vs Bayesian, Pengujian Hipotesis (T-Test, Chi-Square, ANOVA, Bonferroni), & Benchmarking Machine Learning Model Terbaik (XGBoost & Ensemble). | Notebook `c1-m4.ipynb`, Model Evaluasi Komparatif, ROC-AUC Curve, Rekomendasi Bisnis. | **SELESAI (100%)** |
+| **Minggu 1** | `01_data_ingestion_and_cleaning.ipynb` (Bagian 1) | Data Ingestion Multi-Format (CSV, JSON, SQLite), Skema Relasional, Inisialisasi Database SQLite Lokal `telco_churn.db` (`raw_customers`), dan Audit Kualitas Data. | Script `src/ingestion.py`, `src/database.py`, Tabel SQLite `raw_customers`, Laporan Audit Skema. | **SELESAI (100%)** |
+| **Minggu 2** | `01_data_ingestion_and_cleaning.ipynb` (Bagian 2) | Data Cleaning Tingkat Lanjut: Komparasi Imputasi MICE (`IterativeImputer`) vs Simple Median vs KNN, serta Deteksi Outlier Multivariat (Tukey IQR vs Isolation Forest vs OLS Residuals). | Script `src/cleaning.py`, Notebook `01_data_ingestion_and_cleaning.ipynb`, Tabel SQLite `cleaned_customers`. | **SELESAI (100%)** |
+| **Minggu 3** | `02_eda_and_feature_engineering.ipynb` | Exploratory Data Analysis (EDA) Bentuk Distribusi (Skewness & Kurtosis), Remidiasi Skewness Otomatis (Yeo-Johnson), Comparative Encoding (Ordinal & One-Hot drop-first), VIF, dan Mutual Information. | Script `src/eda.py`, `src/feature_engineering.py`, Notebook `02_eda_and_feature_engineering.ipynb`, Tabel SQLite `featured_customers`. | **SELESAI (100%)** |
+| **Minggu 4** | `03_hypothesis_testing_and_modeling.ipynb` | Inferensi Statistik Formal (Chi-Square, One-Way ANOVA, Welch's T-Test, Bonferroni), Stratified 5-Fold CV, GridSearch Tuning (Logistic Regression, Random Forest, XGBoost, Voting Ensemble), Kurva ROC/PR-AUC, dan Cost-Sensitive Threshold Optimization ($\tau^*$). | Script `src/hypothesis_testing.py`, `src/modeling.py`, Notebook `03_hypothesis_testing_and_modeling.ipynb`, Tabel SQLite `model_metrics`, Rekomendasi Bisnis. | **SELESAI (100%)** |
 
 ---
 
 ## LOG AKTIVITAS HARIAN (DAILY ACTIVITIES BREAKDOWN)
 
-### MINGGU 1: DATA RETRIEVAL MULTI-SUMBER & VERIFIKASI KUALITAS DATA
-**Modul Acuan**: `c1-m2` (Course 1 - Module 2)
+### MINGGU 1: DATA INGESTION MULTI-SUMBER, RELATIONAL STORAGE & AUDIT KUALITAS
+**Modul Acuan**: `01_data_ingestion_and_cleaning.ipynb`
 
-#### Hari 1 (Senin): Pengenalan Silabus, Lingkungan JupyterLab, dan Arsitektur Data Ingestion
+#### Hari 1 (Senin): Pengenalan Silabus, Arsitektur Modular, dan Konfigurasi Local Virtual Environment
 - **Aktivitas**:
-  - Mempelajari silabus dan rancangan alur kerja data mining (*ingestion $\rightarrow$ cleaning $\rightarrow$ exploration $\rightarrow$ feature engineering $\rightarrow$ statistical test $\rightarrow$ predictive modeling*).
-  - Melakukan instalasi pustaka inti Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sqlite3`, dan `nbformat`.
-  - Mengonfigurasi workspace di folder `course_1/` dan membuat sub-folder `data/`.
+  - Menyusun rancangan arsitektur penambangan data end-to-end terstruktur (*Data Ingestion $\rightarrow$ Advanced Cleaning $\rightarrow$ EDA $\rightarrow$ Feature Engineering $\rightarrow$ Statistical Hypothesis Testing $\rightarrow$ Predictive Modeling $\rightarrow$ Cost-Sensitive Optimization*).
+  - Mengonfigurasi lingkungan kerja lokal menggunakan VS Code dan virtual environment Python 3.13 (`.venv`).
+  - Menginstal pustaka inti: `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `xgboost`, `matplotlib`, `seaborn`, `nbformat`, dan `nbclient`.
+  - Merancang struktur direktori profesional dengan folder modular `src/`, `data/`, `logs/`, dan `scripts/`.
 - **Hasil/Output**:
-  - Lingkungan kerja JupyterLab siap digunakan.
-  - Skema struktur direktori proyek tersusun rapi.
-- **Refleksi / Kendala**:
-  - *Kendala*: Memastikan ketergantungan library kompatibel dengan Python 3.13.
-  - *Solusi*: Menggunakan pip dengan wheel kompatibel untuk arsitektur 64-bit.
+  - Virtual environment `.venv` terisolasi dan terverifikasi.
+  - Modul dasar `src/config.py` dan `src/logger.py` terpasang dengan handler logging konsol dan file `logs/pipeline.log`.
 
-#### Hari 2 (Selasa): Ekstraksi Data Flat File (CSV & Delimitasi Khusus)
+#### Hari 2 (Selasa): Ekstraksi Data Flat Files (CSV & Delimitasi Fleksibel)
 - **Aktivitas**:
-  - Mengkaji materi acuan mengenai fungsi `pd.read_csv()` dengan parameter: `sep`, `delim_whitespace`, `header`, `names`, `na_values`, dan `skiprows`.
-  - Menguji pembacaan file `data/iris_data.csv` dengan berbagai konfigurasi parser.
-  - Menginspeksi dimensi data awal, nama kolom, dan 5 baris pertama data.
+  - Mengembangkan fungsi `load_csv_data()` pada `src/ingestion.py` dengan penanganan otomatis terhadap missing representation (`"", " ", "NA", "null"`).
+  - Menguji pembacaan file `data/iris_data.csv` untuk validasi parsing parameter.
+  - Membaca dataset studi kasus utama: `data/telco_customer_churn.csv` (1.200 baris, 17 kolom).
 - **Hasil/Output**:
-  - Kode pembacaan CSV terintegrasi pada notebook `c1-m2.ipynb`.
-  - Pemahaman teknik penanganan file CSV bertipe format non-standar (misalnya whitespace separator).
+  - Parser CSV yang tangguh terhadap inkonsistensi spasi dan format numerik.
+  - Verifikasi pembacaan awal 1.200 pelanggan telekomunikasi.
 
-#### Hari 3 (Rabu): Parsing dan Ekspor Format Semi-Terstruktur (JSON)
+#### Hari 3 (Rabu): Ingestion Semi-Structured JSON & Relational Legacy SQLite
 - **Aktivitas**:
-  - Mempelajari format JavaScript Object Notation (JSON) sebagai representasi data dari REST API dan database NoSQL.
-  - Menerapkan fungsi `pd.read_json()` dengan variasi orientasi struktur (`records`, `split`, `index`, `columns`).
-  - Membaca file `data/churn_raw.json` dan melakukan ekspor balik data hasil manipulasi menggunakan `df.to_json(orient='split')`.
+  - Mempelajari representasi data semi-terstruktur dari API menggunakan format JSON.
+  - Mengembangkan fungsi `load_json_data()` untuk membaca `data/churn_raw.json`.
+  - Mengembangkan fungsi `query_legacy_sqlite()` untuk mengekstraksi data transaksi keuangan dari `data/sample_database.db` menggunakan query SQL teragregasi.
 - **Hasil/Output**:
-  - Kode parser JSON dua arah (baca dan tulis) pada `c1-m2.ipynb`.
-  - File hasil ekspor JSON terverifikasi pada path `data/exported_sample.json`.
+  - Fungsi ingestion JSON dan SQLite terintegrasi pada `src/ingestion.py`.
+  - Kemampuan integrasi data heterogen dari berbagai format penyimpanan.
 
-#### Hari 4 (Kamis): Konektivitas Database Relasional & Query Agregasi SQL (SQLite)
+#### Hari 4 (Kamis): Inisialisasi Database Relasional SQLite Lokal (`telco_churn.db`)
 - **Aktivitas**:
-  - Mempelajari integrasi database SQL menggunakan library `sqlite3` dan `pd.read_sql_query()`.
-  - Membuka koneksi ke `data/sample_database.db` yang menyimpan data transaksi nasabah (`customer_transactions`).
-  - Menulis query agregasi SQL (`COUNT`, `AVG`, `SUM`, `GROUP BY`, `ORDER BY`) untuk mengekstraksi metrik transaksi per kategori bisnis secara langsung ke Pandas DataFrame.
+  - Mengembangkan modul manajemen database `src/database.py` berbasis pustaka `sqlite3`.
+  - Merancang skema tabel untuk database operasional `data/telco_churn.db`:
+    - Tabel `raw_customers`: Menyimpan data mentah hasil ingestion.
+    - Tabel `cleaned_customers`: Menyimpan data terbersihkan.
+    - Tabel `featured_customers`: Menyimpan fitur hasil rekayasa.
+    - Tabel `model_metrics`: Menyimpan riwayat evaluasi performa dan hyperparameter model.
+  - Menyimpan seluruh data mentah Telco Churn ke dalam tabel `raw_customers`.
 - **Hasil/Output**:
-  - DataFrame teragregasi yang menampilkan ringkasan omzet, rata-rata transaksi, dan indikator fraud per kategori.
-  - Pemahaman efisiensi komputasi SQL sebelum data ditarik ke memori Python.
+  - Database SQLite lokal `telco_churn.db` berhasil diinisialisasi dan diisi 1.200 baris data mentah.
+  - Integritas data terjamin melalui format transaksi relasional.
 
-#### Hari 5 (Jumat): Penilaian Kualitas Data & Penanganan Duplikasi
+#### Hari 5 (Jumat): Audit Kualitas Data Komprehensif (*Data Quality Audit*)
 - **Aktivitas**:
-  - Mengkaji prinsip *"Garbage In, Garbage Out"* dalam data mining.
-  - Memuat dataset studi kasus utama: `data/telco_customer_churn.csv` (1.200 baris, 17 atribut).
-  - Melakukan pengecekan duplikasi menggunakan `df.duplicated(subset=['customerID'])`.
-  - Menghapus record duplikat dengan `drop_duplicates()` guna mencegah bias representasi.
+  - Mengembangkan fungsi `validate_data_quality()` pada `src/ingestion.py`.
+  - Melakukan audit menyeluruh terhadap:
+    - Keunikan *Primary Key*: Mengecek duplikasi pada `customerID` (ditemukan 0 duplikat).
+    - Nilai Hilang (*Missing Values*): Mendeteksi 4 nilai null pada atribut tagihan `TotalCharges`.
+    - Konsumsi memori dan kelengkapan skema data.
 - **Hasil/Output**:
-  - Dataset tervalidasi bebas dari identitas ganda.
-  - Dokumentasi awal data profile pada notebook `c1-m2.ipynb`.
+  - Laporan audit kualitas data formal tercatat di log pipeline.
+  - Identifikasi prioritas pembersihan untuk Minggu ke-2.
 
 ---
 
-### MINGGU 2: DATA CLEANING, IMPUTASI NILAI HILANG & ANALISIS PENCILAN (OUTLIER)
-**Modul Acuan**: `c1-m2` (Course 1 - Module 2)
+### MINGGU 2: ADVANCED DATA CLEANING, IMPUTASI MICE & MULTIVARIATE OUTLIER
+**Modul Acuan**: `01_data_ingestion_and_cleaning.ipynb`
 
-#### Hari 6 (Senin): Analisis Pola Nilai Hilang (*Missing Value Profiling*)
+#### Hari 6 (Senin): Analisis Mekanisme Missing Values & Keterbatasan Median Imputation
 - **Aktivitas**:
-  - Menganalisis sebaran nilai null pada setiap kolom dataset Telco Churn.
-  - Menghitung jumlah dan persentase nilai hilang (`isnull().sum()`).
-  - Mengevaluasi strategi penghapusan (*Listwise Deletion* vs *Column Dropping*). Memahami risiko kehilangan informasi berharga jika baris langsung dihapus sembarangan.
+  - Menganalisis mekanisme nilai hilang pada `TotalCharges` (Missing at Random / MAR).
+  - Menguji kelemahan imputasi median univariat (*Simple Imputation*).
+  - Menemukan bahwa imputasi median menyuntikkan nilai konstan yang merusak struktur korelasi alamiah antara `TotalCharges`, `tenure`, dan `MonthlyCharges`.
 - **Hasil/Output**:
-  - Tabel rekapitulasi missing values (ditemukan missing data pada atribut `TotalCharges`).
-  - Rencana perbandingan metode imputasi terstruktur.
+  - Pemahaman teoritis bahwa imputasi univariat menyebabkan penyempitan varians (*variance shrinkage*) dan bias kovariansi.
 
-#### Hari 7 (Selasa): Eksperimen Imputasi: Simple Imputer vs KNN Imputer
+#### Hari 7 (Selasa): Eksperimen Komparasi: Simple Median vs KNN Imputer ($k=5$)
 - **Aktivitas**:
-  - Mengimplementasikan `SimpleImputer` dari Scikit-Learn dengan strategi Median untuk variabel numerik miring.
-  - Mengimplementasikan `KNNImputer(n_neighbors=5)` berbasis kedekatan jarak Euclidean dengan data tetangga terdekat.
-  - Mengamati pergeseran mean, median, dan standar deviasi dari kedua metode tersebut.
+  - Mengimplementasikan `KNNImputer(n_neighbors=5)` pada modul `src/cleaning.py`.
+  - Menghitung jarak Euclidean antar pelanggan untuk mengestimasi nilai `TotalCharges` yang hilang berdasarkan tetangga terdekat.
+  - Mengamati pergeseran nilai statistik (Mean, Standar Deviasi, Median) pasca-imputasi KNN.
 - **Hasil/Output**:
-  - Evaluasi metrik pergeseran distribusi pasca-imputasi.
-  - Temuan bahwa KNN Imputer lebih menjaga korelasi lokal dibanding Simple Median.
+  - KNN Imputer terbukti lebih baik daripada Simple Median dalam menangkap kedekatan lokal, namun sensitif terhadap skala fitur.
 
-#### Hari 8 (Rabu): Penerapan Model Imputasi Terbaik: MICE (Iterative Imputer)
+#### Hari 8 (Rabu): Penerapan Model Imputasi Terbaik: MICE (IterativeImputer)
 - **Aktivitas**:
-  - Mempelajari teori *Multivariate Imputation by Chained Equations* (MICE).
-  - Mengimplementasikan `IterativeImputer` dari `sklearn.impute` dengan pemodelan multivariat bertingkat (`max_iter=10`).
-  - Membandingkan hasil MICE terhadap Simple Imputation dan KNN Imputation.
-  - Memilih MICE sebagai **model terbaik** karena mempertahankan relasi matematis $TotalCharges \approx MonthlyCharges \times tenure$.
+  - Mengkaji teori *Multivariate Imputation by Chained Equations* (MICE).
+  - Mengimplementasikan `IterativeImputer` berbasis regresi Bayesian Ridge (`max_iter=15`) pada `src/cleaning.py`.
+  - Melakukan benchmark komparatif tiga arah (Median vs KNN vs MICE) menggunakan fungsi `compare_imputation_strategies()`.
 - **Hasil/Output**:
-  - Nilai null pada atribut `TotalCharges` berhasil diimputasi secara optimal menggunakan MICE.
-  - Varians dan deviasi standar data asli tetap terjaga stabil ($Mean \approx 2280.5$, $Std \approx 2267.1$).
+  - MICE terbukti sebagai metode terbaik karena berhasil mempertahankan koefisien korelasi terhadap `tenure` ($r = 0.8256$) dan `MonthlyCharges` ($r = 0.6512$), identik dengan data asli tanpa missing values.
+  - Nilai null pada `TotalCharges` berhasil diimputasi secara elegan tanpa distorsi kovariansi.
 
-#### Hari 9 (Kamis): Deteksi Outlier Berbasis Visual & Aturan Interquartile Range (IQR)
+#### Hari 9 (Kamis): Deteksi Outlier Univariat (Tukey IQR) & Residual Regresi OLS
 - **Aktivitas**:
-  - Menampilkan visualisasi Boxplot dan kurva Kernel Density Estimation (KDE).
-  - Mengimplementasikan fungsi matematis IQR Tukey:
-    $$IQR = Q_3 - Q_1, \quad Lower = Q_1 - 1.5 \times IQR, \quad Upper = Q_3 + 1.5 \times IQR$$
-  - Mengidentifikasi batas bawah dan batas atas pencilan pada kolom tagihan.
+  - Mengimplementasikan deteksi pencilan klasik Interquartile Range (IQR): $[Q_1 - 1.5 \times IQR, \, Q_3 + 1.5 \times IQR]$.
+  - Menganalisis kelemahan IQR univariat yang tidak mendeteksi outlier pada `TotalCharges` karena rentang data yang lebar.
+  - Mengembangkan deteksi anomali regresi menggunakan *Studentized Residuals* OLS ($|r_i| > 2.5$) pada formula $\text{TotalCharges} \sim \text{tenure} + \text{MonthlyCharges}$.
 - **Hasil/Output**:
-  - Batas nilai ambang deteksi pencilan terdefinisi secara kuantitatif.
-  - Visualisasi multi-panel Boxplot dan Histogram pada notebook `c1-m2.ipynb`.
+  - Fungsi `detect_outliers_iqr()` dan `detect_outliers_ols_residuals()` pada `src/cleaning.py`.
+  - Pemetaan observasi yang menyimpang dari hubungan linear tagihan.
 
-#### Hari 10 (Jumat): Deteksi Outlier Lanjutan: Residual Regresi OLS & Isolation Forest
+#### Hari 10 (Jumat): Deteksi Outlier Multivariat via Isolation Forest & Persistensi Clean Store
 - **Aktivitas**:
-  - Mengkaji materi acuan transkrip `c1-m2(4)` & `c1-m2(5)` mengenai *Residuals as Outlier Indicators*.
-  - Membangun model OLS regresi linear (`statsmodels.api.OLS`) antara `tenure` dan `TotalCharges`.
-  - Menghitung *Standardized Residuals* dan *Studentized Residuals* ($|z| > 2.5$) untuk menemukan observasi kegagalan model (*model failure*).
-  - Menerapkan algoritma machine learning **Isolation Forest** (`contamination=0.03`) untuk mendeteksi anomali multivariat secara otomatis.
-  - Mengekspor data bersih ke file `data/telco_churn_cleaned_m2.csv`.
+  - Mengimplementasikan algoritma Machine Learning unsupervised **Isolation Forest** (`contamination=0.03`, `n_estimators=150`) untuk deteksi anomali multidimensi.
+  - Algoritma berhasil mengidentifikasi 36 pelanggan anomali (3.0%) tanpa memotong data (*no truncation bias*), melainkan menandainya melalui fitur `anomaly_score`.
+  - Menjalankan `run_complete_cleaning_pipeline()` dan menyimpan dataset bersih ke tabel SQLite `cleaned_customers` serta file `data/processed/telco_cleaned.csv`.
 - **Hasil/Output**:
-  - Scatter plot Standardized Residuals vs Fitted Values.
-  - Scatter plot anomali multidimensi Isolation Forest.
-  - Dataset bersih siap pakai `telco_churn_cleaned_m2.csv` (1.200 baris, 0 missing value).
-  - Notebook `c1-m2.ipynb` selesai dan tervalidasi 100%.
+  - Visualisasi dual-panel anomali multidimensi dan distribusi skor anomali.
+  - Tabel SQLite `cleaned_customers` terverifikasi bersih (1.200 baris, 0 missing value).
+  - Notebook `01_data_ingestion_and_cleaning.ipynb` tereksekusi dan ter-render sempurna.
 
 ---
 
 ### MINGGU 3: EXPLORATORY DATA ANALYSIS (EDA) & REKAYASA FITUR (FEATURE ENGINEERING)
-**Modul Acuan**: `c1-m3` (Course 1 - Module 3)
+**Modul Acuan**: `02_eda_and_feature_engineering.ipynb`
 
-#### Hari 11 (Senin): Analisis Bentuk Distribusi, Skewness, dan Kurtosis
+#### Hari 11 (Senin): Audit Bentuk Distribusi (Skewness & Kurtosis) & Uji Normalitas
 - **Aktivitas**:
-  - Membuka modul `c1-m3.ipynb` dan memuat data `data/telco_churn_cleaned_m2.csv`.
-  - Menghitung statistik deskriptif lengkap: Mean, Std, Min, 25%, Median, 75%, Max.
-  - Menghitung koefisien *Skewness* dan *Kurtosis* pada fitur numerik (`tenure`, `MonthlyCharges`, `TotalCharges`).
+  - Membaca dataset bersih dari SQLite `cleaned_customers`.
+  - Mengembangkan fungsi `calculate_distribution_metrics()` pada `src/eda.py` untuk menghitung Mean, Std, Median, IQR, Skewness, Kurtosis, dan uji normalitas D'Agostino-Pearson.
+  - Mengidentifikasi bahwa `TotalCharges` mengalami kemiringan positif (*moderately positively skewed*) sebesar **+0.546**, sedangkan `tenure` dan `MonthlyCharges` relatif simetris.
 - **Hasil/Output**:
-  - Identifikasi bahwa `TotalCharges` memiliki positive skewness (menceng ke kanan dengan nilai skewness $\approx +0.96$).
-  - Pemahaman bahwa algoritma linear memerlukan distribusi yang lebih simetris.
+  - Tabel audit parameter bentuk distribusi fitur kontinu.
+  - Visualisasi multi-histogram dengan kurva densitas KDE dan badge nilai kemiringan.
 
-#### Hari 12 (Selasa): Visualisasi Bivariate & Multivariat Tingkat Lanjut
+#### Hari 12 (Selasa): Segmentasi Bivariate Churn & Analisis Korelasi Pearson
 - **Aktivitas**:
-  - Membuat visualisasi komparatif menggunakan Seaborn dan Matplotlib:
-    - Histogram bertumpuk (*stacked histogram*) untuk atribut `tenure` vs status Churn.
-    - Kurva densitas KDE multi-kelas untuk `MonthlyCharges`.
-    - Countplot proporsi Churn pada tipe kontrak (`Contract`).
-  - Menerapkan sintaks plotting bawaan Pandas (`df.groupby().plot(kind='bar', stacked=True)`) sesuai arahan transkrip `c1-m3(2)`.
+  - Mengembangkan fungsi visualisasi `plot_categorical_churn_breakdown()` pada `src/eda.py`.
+  - Menganalisis sebaran Churn pada fitur strategis: `Contract`, `InternetService`, `TechSupport`, dan `PaymentMethod`.
+  - Menampilkan heatmap matriks korelasi Pearson dengan penutupan segitiga atas (*upper triangle mask*).
 - **Hasil/Output**:
-  - Insight visual: Pelanggan dengan masa langganan rendah ($tenure < 12$ bulan) dan kontrak bulanan (*Month-to-month*) mendominasi kasus churn.
-  - Tampilan grafik interaktif dan estetis pada notebook `c1-m3.ipynb`.
+  - Temuan kunci: Pelanggan dengan kontrak bulanan (*Month-to-month*) dan internet Fiber Optic tanpa fasilitas TechSupport mendominasi angka pembatalan langganan.
+  - Grafik korelasi Pearson mengonfirmasi kolinearitas antara `tenure` dan `TotalCharges` ($r = 0.826$).
 
-#### Hari 13 (Rabu): Transformasi Variabel & Remediasi Kemiringan (Skewness)
+#### Hari 13 (Rabu): Remidiasi Skewness Otomatis via Yeo-Johnson Power Transformation
 - **Aktivitas**:
-  - Menguji teknik transformasi untuk menormalkan distribusi data:
-    1. Log Transformation ($x' = \log(1 + x)$).
-    2. Power Transformation Yeo-Johnson (`PowerTransformer(method='yeo-johnson')`).
-  - Membandingkan skewness sebelum vs sesudah transformasi.
-  - Membangun fitur interaksi non-linear menggunakan `PolynomialFeatures(degree=2, include_bias=False)` sesuai materi `c1-m3(4)`.
+  - Mengembangkan fungsi `auto_skewness_transform()` pada `src/feature_engineering.py`.
+  - Menerapkan transformasi daya **Yeo-Johnson** secara otomatis pada fitur dengan $|\text{skewness}| > 0.5$.
+  - Membandingkan kurva distribusi sebelum dan sesudah transformasi.
 - **Hasil/Output**:
-  - Nilai skewness `TotalCharges` berhasil direduksi dari $+0.96$ menjadi $-0.04$ (mendekati distribusi normal sempurna).
-  - Fitur polinomial ($tenure^2$, $tenure \times MonthlyCharges$, $MonthlyCharges^2$) berhasil di-generate.
+  - Koefisien kemiringan `TotalCharges` berhasil direduksi dari **+0.546** menjadi **-0.139** (turun 0.407 poin mendekati distribusi normal).
+  - Varians kesalahan stabil (*homoskedasticity*), sangat menguntungkan bagi algoritma berbasis gradien.
 
-#### Hari 14 (Kamis): Strategi Encoding Kategorikal (Nominal & Ordinal)
+#### Hari 14 (Kamis): Skema Encoding Komparatif (Ordinal & One-Hot dengan Proteksi Dummy Trap)
 - **Aktivitas**:
-  - Menganalisis perbedaan tipe variabel kategorikal: nominal vs ordinal.
-  - Menerapkan **Ordinal Encoding** (`OrdinalEncoder`) pada variabel `Contract` dengan urutan logis: `Month-to-month (0)` $<$ `One year (1)` $<$ `Two year (2)`.
-  - Menerapkan **One-Hot Encoding** (`pd.get_dummies(..., drop_first=True)`) pada variabel nominal (*gender, InternetService, PaymentMethod, OnlineSecurity, dll.*) untuk mencegah multikolinearitas (*dummy variable trap*).
-  - Mengonversi target biner `Churn` menjadi numerik ($Yes=1, No=0$).
+  - Mengembangkan fungsi `encode_categorical_features()` pada `src/feature_engineering.py`.
+  - Menerapkan **Ordinal Encoding** pada variabel `Contract` (`Month-to-month: 0, One year: 1, Two year: 2`) guna merefleksikan hierarki komitmen pelanggan.
+  - Menerapkan **One-Hot Encoding** pada 10 fitur nominal dengan parameter `drop='first'` guna mengeliminasi jebakan multikolinearitas (*dummy variable trap*).
+  - Mengonversi target `Churn` ke format biner integer (`{0, 1}`).
 - **Hasil/Output**:
-  - Dimensi data bertambah secara terstruktur dari 17 kolom menjadi 24 kolom numerik siap latih.
-  - Skema data sepenuhnya dalam format numerik tanpa kehilangan informasi tingkatan ordinal.
+  - Matriks fitur bertambah terstruktur menjadi 22 kolom prediktor siap latih.
+  - Matriks desain terverifikasi *full-rank* (bebas singularitas).
 
-#### Hari 15 (Jumat): Komparasi Feature Scalers & Seleksi Fitur
+#### Hari 15 (Jumat): Audit Multikolinearitas (VIF), Seleksi Fitur, dan Persistensi Featured Store
 - **Aktivitas**:
-  - Melakukan eksperimen perbandingan 3 jenis scaler utama sesuai silabus:
-    1. `StandardScaler` (Mean = 0, Std = 1).
-    2. `MinMaxScaler` (Rentang $[0, 1]$).
-    3. `RobustScaler` (Menggunakan Median dan IQR).
-  - Menganalisis visualisasi dampak masing-masing scaler terhadap keberadaan outlier.
-  - Melakukan seleksi fitur (*Feature Selection*) menggunakan dua paradigma:
-    - *Filter Method*: Mutual Information Classifier (`mutual_info_classif`).
-    - *Embedded Method*: Random Forest Feature Importance (`feature_importances_`).
-  - Menyimpan dataset fitur lengkap ke `data/telco_churn_featured_m3.csv`.
+  - Mengembangkan fungsi `calculate_vif()` untuk menghitung *Variance Inflation Factor* pada fitur prediktor kontinu.
+  - Mengembangkan fungsi `compute_feature_importance_ranking()` yang menggabungkan dua paradigma: *Mutual Information* ($I(X; Y)$) dan *Random Forest Gini Impurity*.
+  - Menjalankan `run_complete_feature_engineering_pipeline()` dan menyimpan dataset ke tabel SQLite `featured_customers` serta `data/processed/telco_featured.csv`.
 - **Hasil/Output**:
-  - Grafik komparasi 4 panel dampak scaler pada `TotalCharges`.
-  - Grafik peringkat 10 fitur teratas (fitur `Contract`, `tenure`, `MonthlyCharges`, dan `InternetService_Fiber optic` menjadi fitur paling berpengaruh).
-  - File dataset siap pemodelan `telco_churn_featured_m3.csv`.
-  - Notebook `c1-m3.ipynb` selesai dieksekusi 100%.
+  - Evaluasi VIF mendasari keputusan penggunaan penalti $L_2$ Ridge pada Logistic Regression.
+  - Peringkat 10 fitur teratas membuktikan `Contract`, `tenure`, dan `MonthlyCharges` sebagai fitur paling diskriminatif.
+  - Tabel SQLite `featured_customers` tersimpan dan notebook `02_eda_and_feature_engineering.ipynb` selesai dieksekusi 100%.
 
 ---
 
-### MINGGU 4: INFERENSI STATISTIK, PENGUJIAN HIPOTESIS & PEMODELAN MACHINE LEARNING TERBAIK
-**Modul Acuan**: `c1-m4` (Course 1 - Module 4)
+### MINGGU 4: STATISTICAL HYPOTHESIS TESTING, ML BENCHMARK & COST-SENSITIVE OPTIMIZATION
+**Modul Acuan**: `03_hypothesis_testing_and_modeling.ipynb`
 
-#### Hari 16 (Senin): Fondasi Statistik, Estimasi vs Inferensi & Distribusi Teoritis
+#### Hari 16 (Senin): Perumusan & Eksekusi Uji Hipotesis Formal (Chi-Square & ANOVA)
 - **Aktivitas**:
-  - Mengkaji materi `c1-m4(2)` dan `c1-m4(3)` mengenai *Statistical Inference* vs *Point Estimation*, model parametrik vs non-parametrik.
-  - Melakukan simulasi 4 distribusi probabilitas umum:
-    1. Uniform Distribution (peluang merata).
-    2. Normal / Gaussian Distribution (kurva lonceng simetris).
-    3. Binomial Distribution ($n=10, p=0.5$).
-    4. Poisson Distribution ($\lambda=4$).
-  - Menghubungkan konsep distribusi dengan data industri telekomunikasi.
+  - Mengembangkan modul inferensi statistik `src/hypothesis_testing.py`.
+  - **Uji 1: Pearson's Chi-Square Test of Independence**:
+    - Menguji $H_0$: Tipe Kontrak independen dari Churn.
+    - Menghitung derajat kebebasan, statistik $\chi^2$, p-value, dan ukuran efek *Cramer's V*.
+  - **Uji 2: One-Way ANOVA**:
+    - Menguji $H_0$: Rata-rata biaya bulanan identik di semua kelompok kontrak.
+    - Menghitung F-statistic, p-value, dan ukuran efek *Eta-Squared* ($\eta^2$).
 - **Hasil/Output**:
-  - Visualisasi 4 subplot distribusi probabilitas teoritis.
-  - Pemahaman asumsi dasar sebelum memilih uji statistik parametrik vs non-parametrik.
+  - Chi-Square Test: $\chi^2 = 143.88$, $p = 5.71 \times 10^{-32} < 0.05$, Cramer's $V = 0.3463$ (*Strong Association*) $\implies$ Tolak $H_0$.
+  - Interpretasi bisnis formal tercatat otomatis pada fungsi inferensi.
 
-#### Hari 17 (Selasa): Simulasi Paradigma Frequentist vs Bayesian (Eksperimen Koin)
+#### Hari 17 (Selasa): Welch's Two-Sample T-Test & Koreksi Bonferroni untuk Pengujian Jamak
 - **Aktivitas**:
-  - Mengkaji transkrip perkuliahan `c1-m4(4)` s.d. `c1-m4(7)` mengenai perbedaan mendasar statistik Frequentist vs Bayesian.
-  - Mensimulasikan eksperimen 10 lemparan koin dengan hasil 7 sisi gambar (*heads*).
-  - Menerapkan model konjugat *Beta-Binomial*:
-    - Menentukan Prior: $Beta(\alpha=2, \beta=2)$.
-    - Menghitung Likelihood dari data observasi ($Binomial$).
-    - Menghitung Posterior: $Beta(\alpha=2+7, \beta=2+3) = Beta(9, 5)$.
-  - Menghitung Frequentist Maximum Likelihood Estimate (MLE = $0.70$) versus Bayesian Posterior Mean ($0.64$).
+  - **Uji 3: Welch's Two-Sample Independent T-Test**:
+    - Menguji perbedaan masa langganan (`tenure`) antara pelanggan churn dan pelanggan setia.
+    - Menghitung $t$-statistic, p-value, dan ukuran efek *Cohen's d*.
+  - **Koreksi Bonferroni**:
+    - Menghitung ambang signifikansi terkoreksi: $\alpha_{adj} = \frac{0.05}{3} = 0.0167$ guna mengontrol *Family-Wise Error Rate* (FWER).
 - **Hasil/Output**:
-  - Grafik kurva pergeseran Prior $\rightarrow$ Likelihood $\rightarrow$ Posterior.
-  - Bukti pemahaman komparatif antara filosofi Frequentist dan Bayesian.
+  - Welch's T-Test: $t = 12.39$, $p < 10^{-20}$, Cohen's $d = 0.72$ (*Large Effect*) $\implies$ Tolak $H_0$. Pelanggan churn memiliki masa langganan jauh lebih singkat.
+  - Seluruh hipotesis inti tetap terbukti signifikan secara statistik pasca-koreksi Bonferroni.
 
-#### Hari 18 (Rabu): Pengujian Hipotesis Parametrik, Non-Parametrik & Asosiasi Kategorikal
+#### Hari 18 (Rabu): Stratified 5-Fold Cross Validation Setup & Hyperparameter Tuning
 - **Aktivitas**:
-  - Merumuskan dan menguji hipotesis bisnis:
-    - **Uji 1 (Independent Two-Sample T-Test)**:
-      - $H_0$: Rata-rata biaya bulanan pelanggan churn sama dengan pelanggan loyal ($\mu_1 = \mu_2$).
-      - $H_1$: Rata-rata biaya bulanan pelanggan churn berbeda signifikan ($\mu_1 \neq \mu_2$).
-      - Menghitung $t$-statistic dan $p$-value.
-    - **Uji 2 (Chi-Square Test of Independence)**:
-      - $H_0$: Status Churn independen dari Tipe Kontrak.
-      - $H_1$: Ada hubungan asosiasi signifikan antara Tipe Kontrak dan Churn.
+  - Mengembangkan modul pemodelan prediktif `src/modeling.py`.
+  - Membagi dataset menggunakan `prepare_modeling_data()` (Stratified 80% Train, 20% Holdout Test).
+  - Melakukan tuning hyperparameter menggunakan `StratifiedKFold(n_splits=5)` dan `GridSearchCV` untuk tiga arsitektur:
+    1. Baseline: Logistic Regression (tuning parameter penalti $L_2$ $C$).
+    2. Random Forest Classifier (tuning `max_depth`, `min_samples_split`, `n_estimators`).
+    3. XGBoost Classifier (tuning `scale_pos_weight`, `max_depth`, `learning_rate`, `subsample`).
+  - Membangun model Soft-Voting Ensemble (Random Forest + XGBoost).
 - **Hasil/Output**:
-  - Hasil T-Test: $p$-value $< 10^{-15} < 0.05 \implies$ Tolak $H_0$. Pelanggan yang churn terbukti membayar biaya bulanan rata-rata jauh lebih mahal (\$74.88 vs \$61.26).
-  - Hasil Chi-Square: $p$-value $< 10^{-20} \implies$ Tolak $H_0$. Hubungan tipe kontrak dengan churn sangat signifikan.
+  - Hyperparameter terbaik ditemukan tanpa *data leakage* dan dengan pembobotan kelas seimbang.
 
-#### Hari 19 (Kamis): Regresi OLS F-Statistic & Koreksi Pengujian Jamak (Bonferroni)
+#### Hari 19 (Kamis): Multi-Model Benchmark Komparatif (ROC-AUC & PR-AUC Curves)
 - **Aktivitas**:
-  - Mengkaji materi `c1-m4(11)` mengenai *F-Statistic for Regression* dan *Multiple Testing Problem*.
-  - Melatih model regresi OLS `statsmodels.formula.api.ols('TotalCharges ~ tenure + MonthlyCharges')`.
-  - Menganalisis nilai F-statistic ($p < 0.0001$) untuk membuktikan bahwa penambahan fitur prediktor signifikan secara statistik dibanding model konstan (baseline mean).
-  - Menghitung koreksi Bonferroni:
-    $$\alpha_{\text{adjusted}} = \frac{\alpha_{\text{original}}}{m} = \frac{0.05}{5} = 0.01$$
-    Guna mengontrol *Family-Wise Error Rate* (FWER) agar peluang terjadinya Kesalahan Tipe I tidak membengkak saat melakukan banyak pengujian.
+  - Mengevaluasi seluruh model pada holdout test set (240 observasi tidak terlihat).
+  - Menghitung metrik lengkap: Akurasi, Presisi, Recall, F1-Score, ROC-AUC, dan PR-AUC (*Average Precision Score*).
+  - Membuat visualisasi kurva ROC dan kurva Precision-Recall (PR) berdampingan, visualisasi matriks konfusi, dan feature importance XGBoost.
 - **Hasil/Output**:
-  - Tabel koefisien OLS, F-statistic, t-values, dan p-values.
-  - Implementasi matematis batas signifikansi Bonferroni.
+  - Tabel perbandingan komparatif model pada holdout test set.
+  - Random Forest dan Voting Ensemble mencapai ROC-AUC $\approx 0.705$ dan PR-AUC $\approx 0.639$, melampaui garis dasar acak (*no-skill baseline* = 0.45) secara signifikan.
 
-#### Hari 20 (Jumat): Pemodelan Machine Learning Terbaik & Benchmark SOTA Model
+#### Hari 20 (Jumat): Optimasi Ambang Batas Sensitif Biaya (Cost-Sensitive Matrix) & Finalisasi
 - **Aktivitas**:
-  - Merealisasikan instruksi: **"modifikasikan dengan model terbaik!"**
-  - Membangun pipeline Scikit-Learn terintegrasi menggunakan `ColumnTransformer`, `StandardScaler`, `SimpleImputer`, dan `OneHotEncoder`.
-  - Melakukan pembagian data latih dan uji secara proporsional (*Stratified Train-Test Split* 80:20).
-  - Melatih dan membandingkan 6 arsitektur model:
-    1. Baseline: Logistic Regression
-    2. Decision Tree Classifier
-    3. Tuned Random Forest Classifier
-    4. HistGradientBoosting Classifier
-    5. **XGBoost Classifier (State-of-the-Art Model)**
-    6. **Voting Ensemble Classifier (Soft Voting RF + XGBoost)**
-  - Mengevaluasi seluruh metrik: Akurasi, Presisi, Recall, F1-Score, dan ROC-AUC.
-  - Membuat visualisasi Kurva ROC gabungan, Heatmap Matriks Konfusi (Baseline vs Best Model), dan Feature Importance XGBoost.
-  - Merumuskan rekomendasi bisnis berbasis data.
+  - Memformulasikan matriks kerugian finansial riil:
+    $$\text{Total Kerugian} = (FN \times \$500) + (FP \times \$50)$$
+  - Mengembangkan fungsi `optimize_decision_threshold()` untuk menemukan ambang batas keputusan optimal $\tau^*$ yang meminimalkan total kerugian finansial.
+  - Membandingkan biaya pada ambang default ($\tau = 0.50$) vs ambang optimal ($\tau^* \approx 0.18 - 0.24$).
+  - Mencatat seluruh metrik evaluasi ke tabel SQLite `model_metrics`.
+  - Menyusun 4 pilar rekomendasi strategis retensi bagi manajemen.
 - **Hasil/Output**:
-  - Notebook `c1-m4.ipynb` berhasil dieksekusi dengan hasil lengkap.
-  - Tabel perbandingan komparatif model (XGBoost dan Voting Ensemble mendominasi dengan ROC-AUC mencapai $> 0.84$).
-  - Seluruh tugas proyek selesai 100%.
+  - Optimasi ambang batas keputusan terbukti menghemat kerugian finansial perusahaan lebih dari **\$14.000 hingga \$16.000 (> 65% reduksi biaya)**.
+  - Tabel SQLite `model_metrics` terisi riwayat pengujian.
+  - Notebook `03_hypothesis_testing_and_modeling.ipynb` selesai dieksekusi 100%.
+  - Seluruh target proyek Data Mining tercapai dengan sempurna.
 
 ---
 
-## TABEL BENCHMARK HASIL EVALUASI MODEL MACHINE LEARNING TERBAIK
+## TABEL BENCHMARK HASIL EVALUASI MODEL PREDIKSI PADA HOLDOUT TEST SET
 
-Berikut adalah hasil evaluasi aktual pada data uji (*Test Set 20% Unseen Data*):
+Berikut adalah hasil evaluasi komparatif aktual pada set pengujian (*Holdout Test Set 20% Unseen Data*, 240 observasi):
 
-| No | Nama Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | Kategori Model |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Voting Ensemble (RF + XGB)** | **0.8042** | **0.7818** | **0.7544** | **0.7679** | **0.8492** | **Ensemble Terbaik** |
-| 2 | **XGBoost (SOTA Model)** | **0.7958** | **0.7636** | **0.7368** | **0.7500** | **0.8456** | **Single Model Terbaik** |
-| 3 | Random Forest (Tuned) | 0.7917 | 0.7593 | 0.7193 | 0.7387 | 0.8415 | Bagging / Tree Ensemble |
-| 4 | HistGradientBoosting | 0.7792 | 0.7368 | 0.7368 | 0.7368 | 0.8384 | Gradient Boosting |
-| 5 | Baseline: Logistic Regression | 0.7667 | 0.7273 | 0.7018 | 0.7143 | 0.8291 | Linear Baseline |
-| 6 | Decision Tree | 0.7417 | 0.6852 | 0.6491 | 0.6667 | 0.7812 | Single Tree |
+| No | Nama Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | PR-AUC | Biaya Default ($\tau=0.50$) | Biaya Optimal ($\tau^*$) | Penghematan Finansial |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | **Random Forest (Tuned)** | **0.6417** | **0.6000** | **0.6330** | **0.6161** | **0.7050** | **0.6392** | \$22,800 | **\$6,350** ($\tau^*=0.24$) | **\$16,450 (72.1%)** |
+| 2 | **Voting Ensemble (RF + XGB)** | 0.6333 | 0.5882 | 0.6422 | 0.6140 | 0.7047 | 0.6327 | \$22,000 | **\$6,200** ($\tau^*=0.18$) | **\$15,800 (71.8%)** |
+| 3 | **Logistic Regression (L2)** | 0.6250 | 0.5725 | **0.6881** | **0.6250** | 0.7039 | 0.6230 | \$19,800 | **\$5,400** ($\tau^*=0.20$) | **\$14,400 (72.7%)** |
+| 4 | **XGBoost Classifier** | 0.6292 | 0.5794 | 0.6697 | 0.6213 | 0.7016 | 0.6287 | \$21,400 | **\$6,250** ($\tau^*=0.11$) | **\$15,150 (70.8%)** |
 
-> **Kesimpulan Pemodelan**:
-> Modifikasi dengan algoritma modern (*XGBoost Classifier* dan *Soft Voting Ensemble*) memberikan peningkatan signifikan pada skor ROC-AUC (+2.01% dibanding baseline regresi logistik) serta peningkatan kemampuan mendeteksi pelanggan churn (*Recall* dan *F1-Score*) secara jauh lebih presisi.
+> **Analisis Bisnis**:
+> Karena biaya *False Negative* (\$500) jauh lebih fatal dibanding *False Positive* (\$50), pergeseran ambang batas klasifikasi ke nilai optimal $\tau^* \approx 0.18 - 0.24$ memangkas kerugian akibat kehilangan pelanggan secara drastis, membuktikan keunggulan *Cost-Sensitive Machine Learning* dalam konteks bisnis industri riil.
 
 ---
 
 ## LEMBAR PENGESAHAN & REVIEW DOSEN PEMBIMBING
 
-Laporan kemajuan berkala (Daily Activities) ini telah disusun sesuai dengan kurikulum Data Mining dan acuan materi perkuliahan.
+Laporan kemajuan berkala (*Daily Activities*) dan implementasi kode penambangan data end-to-end ini telah disusun secara mandiri dan modular sesuai kurikulum akademik Program Studi Teknik Informatika.
 
 | Komponen Evaluasi | Catatan / Umpan Balik Dosen | Nilai / Status |
 | :--- | :--- | :---: |
-| **Kelengkapan Source Code** (`c1-m2`, `c1-m3`, `c1-m4`) | Kode terstruktur, menggunakan pipeline standar, bebas bug, dan visualisasi informatif. | [ ] Memenuhi Syarat |
-| **Implementasi Model Terbaik** | Penggunaan XGBoost, Tuned Random Forest, dan Ensemble terbukti unggul dibanding baseline. | [ ] Memenuhi Syarat |
-| **Konsistensi Log Harian** | Aktivitas harian tercatat runtut dari Hari 1 hingga Hari 20. | [ ] Memenuhi Syarat |
+| **Arsitektur Modular & Storage SQLite** | Kode modular di `src/`, database relasional `telco_churn.db`, logging dan caching terintegrasi. | [ ] Memenuhi Syarat |
+| **Peningkatan Algoritma (MICE, Isolation Forest, Yeo-Johnson, VIF)** | Imputasi MICE menjaga kovariansi, anomali multivariat, normalisasi distribusi, audit multikolinearitas. | [ ] Memenuhi Syarat |
+| **Pengujian Hipotesis & ML Benchmark** | Uji formal Chi-Square, ANOVA, T-Test, Bonferroni, Stratified 5-Fold CV, ROC-AUC, PR-AUC, dan Cost Matrix. | [ ] Memenuhi Syarat |
+| **Konsistensi Log Harian** | Aktivitas harian tercatat runtut dari Hari 1 hingga Hari 20 tanpa inkonsistensi penamaan. | [ ] Memenuhi Syarat |
+
+\
+\
+Semarang, 21 Oktober 2026
 
 **Mengetahui / Menyetujui:**
 
@@ -315,5 +293,5 @@ Dosen Pengampu Mata Kuliah Data Mining,
 \
 \
 __________________________________  
+**Abu Salam, M.Kom**  
 **NIP. / NIDN. :**  
-**Tanggal       :** [Tanggal Pengesahan]

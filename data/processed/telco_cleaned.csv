@@ -1,0 +1,1201 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,TechSupport,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn,anomaly_score
+1001-ABCD,Male,0,No,No,43.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Credit card (automatic),75.01,3228.52,Yes,0.14189408122056674
+1002-ABCD,Female,0,No,No,72.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,No,Electronic check,59.5,4287.89,Yes,0.03398886320746852
+1003-ABCD,Male,0,Yes,Yes,72.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Mailed check,65.23,4688.51,Yes,0.04011975960070113
+1004-ABCD,Male,0,Yes,No,42.0,Yes,No,No,No,No,One year,Yes,Bank transfer (automatic),27.69,1164.42,No,0.06519086574475408
+1005-ABCD,Male,0,Yes,No,26.0,Yes,No phone service,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),65.92,1704.52,Yes,0.16754529906287602
+1006-ABCD,Female,0,No,No,23.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,No,Electronic check,70.81,1618.1,Yes,0.15290309865740503
+1007-ABCD,Male,0,No,No,43.0,Yes,No phone service,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),70.52,3016.19,No,0.14896206497048825
+1008-ABCD,Male,0,Yes,Yes,28.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,70.76,1985.34,Yes,0.15224593138748327
+1009-ABCD,Male,0,Yes,No,9.0,Yes,Yes,No,No,No,One year,Yes,Electronic check,51.5,465.14,Yes,0.1082407521053812
+1010-ABCD,Female,0,Yes,Yes,20.0,No,No,DSL,No,Yes,Two year,Yes,Mailed check,54.58,1088.57,No,0.14339453058875362
+1011-ABCD,Male,0,No,No,56.0,Yes,Yes,DSL,Yes,No internet service,One year,Yes,Credit card (automatic),72.48,4054.54,Yes,0.12729741279224188
+1012-ABCD,Male,0,No,Yes,39.0,No,No,No,No,No,Month-to-month,No,Mailed check,31.31,1202.79,No,0.08736718303909896
+1013-ABCD,Male,0,Yes,No,51.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Mailed check,86.33,4405.39,Yes,0.09509980710674715
+1014-ABCD,Male,0,Yes,No,12.0,Yes,No,Fiber optic,Yes,No,Two year,Yes,Mailed check,83.17,994.88,Yes,0.10632380223865412
+1015-ABCD,Female,1,Yes,No,55.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,80.27,4423.81,No,0.11482767053786103
+1016-ABCD,Male,1,No,No,11.0,Yes,Yes,DSL,No internet service,Yes,Two year,No,Credit card (automatic),80.69,1335.9867791464526,Yes,0.10729863660515909
+1017-ABCD,Female,0,Yes,No,26.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Electronic check,71.36,1946.7806625454218,No,0.15596569802645827
+1018-ABCD,Female,0,No,No,42.0,No,No phone service,Fiber optic,No,No,Two year,Yes,Mailed check,76.6,3152.4502547926227,Yes,0.14504894763913667
+1019-ABCD,Female,0,No,Yes,27.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,68.02,1888.3562102105657,Yes,0.16134285443686464
+1020-ABCD,Male,0,Yes,No,11.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),58.91,657.32,Yes,0.12173648657664138
+1021-ABCD,Female,0,Yes,Yes,38.0,Yes,No,No,Yes,Yes,One year,No,Mailed check,36.37,1380.14,Yes,0.10694257740423596
+1022-ABCD,Male,0,Yes,No,43.0,Yes,No,DSL,Yes,Yes,One year,No,Mailed check,48.95,2109.57,No,0.12902428818426886
+1023-ABCD,Female,0,No,No,19.0,Yes,Yes,No,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),45.7,863.86,No,0.11994719443818658
+1024-ABCD,Female,0,No,No,64.0,Yes,Yes,DSL,No internet service,No,One year,Yes,Electronic check,69.65,4456.29,No,0.10945271531539053
+1025-ABCD,Female,0,No,Yes,6.0,Yes,Yes,Fiber optic,No,No internet service,One year,Yes,Credit card (automatic),85.0,525.94,Yes,0.07590105664209035
+1026-ABCD,Female,0,No,No,46.0,Yes,No phone service,No,Yes,No internet service,Month-to-month,Yes,Mailed check,28.48,1316.49,No,0.07322341456381565
+1027-ABCD,Female,0,Yes,No,42.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),78.54,3293.27,Yes,0.1396984856421492
+1028-ABCD,Female,0,No,No,65.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),88.84,5778.83,Yes,0.019627664338289774
+1029-ABCD,Female,0,No,No,72.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,79.72,5727.04,Yes,0.00935782435105692
+1030-ABCD,Female,0,Yes,No,59.0,Yes,Yes,Fiber optic,Yes,Yes,One year,No,Electronic check,86.9,5124.89,No,0.06917622004216017
+1031-ABCD,Male,0,No,Yes,52.0,Yes,No,DSL,No internet service,Yes,Month-to-month,No,Electronic check,54.19,2808.35,Yes,0.134231542098476
+1032-ABCD,Male,1,No,No,47.0,Yes,Yes,No,No,No internet service,Month-to-month,No,Mailed check,29.33,1383.03,No,0.06802543582297038
+1033-ABCD,Female,0,No,No,7.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),77.53,540.82,Yes,0.11154747538843351
+1034-ABCD,Female,0,No,Yes,11.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Mailed check,78.24,863.47,Yes,0.12164449744071021
+1035-ABCD,Female,0,No,Yes,61.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),80.81,4937.15,Yes,0.0875952017095264
+1036-ABCD,Male,0,No,Yes,68.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Credit card (automatic),60.53,4111.44,Yes,0.08893899296179797
+1037-ABCD,Female,0,Yes,No,25.0,Yes,No,DSL,No,Yes,Month-to-month,No,Electronic check,48.89,1218.01,Yes,0.12897397177930786
+1038-ABCD,Male,0,Yes,No,12.0,Yes,No,Fiber optic,No,Yes,Two year,No,Credit card (automatic),69.16,829.55,No,0.13473449816196842
+1039-ABCD,Male,0,No,Yes,26.0,Yes,No phone service,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),88.14,2283.04,Yes,0.07915735914986788
+1040-ABCD,Male,0,Yes,No,12.0,Yes,No,Fiber optic,No,No,One year,Yes,Credit card (automatic),66.04,792.37,No,0.13807225108206783
+1041-ABCD,Male,0,Yes,Yes,43.0,Yes,No,No,No internet service,Yes,Month-to-month,No,Mailed check,41.78,1796.96,No,0.11880828145460709
+1042-ABCD,Male,0,Yes,No,51.0,Yes,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer (automatic),62.35,3182.14,No,0.14312620081706895
+1043-ABCD,Female,0,Yes,Yes,37.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Electronic check,69.77,2585.69,Yes,0.15339856080148007
+1044-ABCD,Female,0,No,No,46.0,No,No,DSL,No internet service,No,Month-to-month,Yes,Electronic check,58.07,2655.19,No,0.1413867885204565
+1045-ABCD,Female,0,No,No,53.0,No,No,Fiber optic,Yes,No,Two year,Yes,Credit card (automatic),75.42,3984.41,Yes,0.13118622822954196
+1046-ABCD,Female,1,Yes,No,13.0,Yes,No,DSL,Yes,Yes,Two year,No,Electronic check,53.42,682.79,No,0.11482342049577976
+1047-ABCD,Female,0,Yes,No,54.0,Yes,Yes,No,No,Yes,One year,Yes,Mailed check,41.76,2255.97,No,0.10242959802940083
+1048-ABCD,Male,0,Yes,No,57.0,Yes,No,DSL,No,Yes,One year,Yes,Bank transfer (automatic),55.3,3149.26,No,0.12729261154845667
+1049-ABCD,Female,0,No,No,4.0,No,No,No,No internet service,No,Month-to-month,No,Mailed check,28.28,90.44,No,0.02690639841787612
+1050-ABCD,Female,0,No,Yes,49.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,82.49,4061.48,Yes,0.11455873876460043
+1051-ABCD,Male,0,Yes,Yes,7.0,Yes,Yes,No,No,No,Two year,No,Mailed check,28.42,179.05,No,0.047611591322219926
+1052-ABCD,Female,0,No,No,11.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,77.68,854.78,Yes,0.12282825251848856
+1053-ABCD,Male,0,No,Yes,54.0,Yes,Yes,No,Yes,Yes,One year,No,Bank transfer (automatic),33.69,1824.89,No,0.06651986476178628
+1054-ABCD,Female,0,No,Yes,45.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),46.54,2087.1,Yes,0.12023469253435853
+1055-ABCD,Male,0,No,No,23.0,No,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,85.69,1977.27,Yes,0.09595957969219832
+1056-ABCD,Female,0,Yes,No,28.0,Yes,Yes,No,Yes,Yes,Two year,Yes,Mailed check,44.04,1223.04,No,0.12004845058716596
+1057-ABCD,Female,0,No,No,57.0,Yes,No phone service,DSL,No,No internet service,Month-to-month,No,Electronic check,39.3,2241.81,No,0.08749946403697706
+1058-ABCD,Male,0,Yes,Yes,26.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,61.21,1569.65,Yes,0.16127944272502914
+1059-ABCD,Male,0,No,Yes,25.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),72.43,1822.48,Yes,0.1569251331636602
+1060-ABCD,Male,0,No,No,54.0,Yes,Yes,No,Yes,No,Two year,No,Electronic check,37.71,2036.35,No,0.08655769054700868
+1061-ABCD,Male,0,No,Yes,29.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),64.72,1860.93,Yes,0.15957000389238069
+1062-ABCD,Male,1,No,Yes,36.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Bank transfer (automatic),72.49,2615.93,No,0.1493657656862345
+1063-ABCD,Male,0,Yes,No,14.0,Yes,No phone service,DSL,Yes,Yes,Month-to-month,No,Credit card (automatic),47.71,684.26,No,0.11817036492296151
+1064-ABCD,Male,0,No,No,35.0,Yes,No phone service,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),52.32,1821.94,No,0.1369834543712682
+1065-ABCD,Male,0,No,No,30.0,Yes,Yes,No,No,No,One year,Yes,Electronic check,26.24,785.1,No,0.06849159823177964
+1066-ABCD,Female,0,No,Yes,17.0,No,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),62.38,1055.31,Yes,0.14947058429311127
+1067-ABCD,Female,0,Yes,Yes,67.0,No,Yes,Fiber optic,No,Yes,One year,Yes,Electronic check,79.25,5302.05,No,0.07139188165819432
+1068-ABCD,Male,0,Yes,No,30.0,Yes,No,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),27.9,828.24,No,0.07698883623054475
+1069-ABCD,Female,0,Yes,Yes,45.0,Yes,No,DSL,No internet service,No,Month-to-month,No,Bank transfer (automatic),57.41,2576.99,No,0.1376113251214114
+1070-ABCD,Female,0,No,No,51.0,No,No,Fiber optic,No,No,Two year,Yes,Mailed check,74.64,3800.72,No,0.13331392635717704
+1071-ABCD,Female,0,No,No,47.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),61.35,2879.89,Yes,0.1427339298547004
+1072-ABCD,Female,1,Yes,No,53.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),82.11,4347.54,No,0.11423045992323116
+1073-ABCD,Male,0,No,No,64.0,No,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),59.95,3844.41,No,0.10858133833534239
+1074-ABCD,Female,0,No,Yes,38.0,Yes,No phone service,Fiber optic,No internet service,No internet service,Month-to-month,No,Mailed check,84.0,3198.72,No,0.12003586796750593
+1075-ABCD,Male,0,No,No,64.0,Yes,Yes,DSL,No internet service,No,Two year,Yes,Bank transfer (automatic),67.19,4284.82,No,0.11000726224078794
+1076-ABCD,Female,1,No,No,7.0,No,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),74.83,517.87,Yes,0.1135445183863712
+1077-ABCD,Female,0,No,No,22.0,Yes,Yes,Fiber optic,No internet service,No,Two year,Yes,Bank transfer (automatic),88.31,1955.33,No,0.07468981921710649
+1078-ABCD,Female,0,No,Yes,41.0,Yes,No,DSL,No internet service,No internet service,Two year,No,Mailed check,57.47,2359.21,No,0.14228912135647565
+1079-ABCD,Male,1,Yes,Yes,10.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,No,Electronic check,83.01,833.44,Yes,0.09758721602241693
+1080-ABCD,Female,1,No,No,57.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),71.35,4069.34,Yes,0.11868932433837442
+1081-ABCD,Male,0,No,No,7.0,Yes,No,Fiber optic,No,No,Two year,No,Credit card (automatic),81.45,567.53,No,0.09940393882566567
+1082-ABCD,Female,0,No,No,50.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,Yes,Mailed check,65.35,3267.09,No,0.14553372792604102
+1083-ABCD,Male,0,No,Yes,52.0,No,No,Fiber optic,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),77.73,4037.92,No,0.1362648134061052
+1084-ABCD,Female,0,No,No,33.0,Yes,No,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),57.58,1908.7,Yes,0.14910552852696418
+1085-ABCD,Male,1,Yes,No,1.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Mailed check,75.34,75.34,No,0.030914555649565467
+1086-ABCD,Male,0,Yes,No,53.0,Yes,No,DSL,No,No internet service,Two year,No,Bank transfer (automatic),63.55,3367.02,No,0.145039609239145
+1087-ABCD,Female,0,Yes,No,60.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),61.65,3706.35,No,0.12645740068141026
+1088-ABCD,Male,0,Yes,Yes,34.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,70.7,2400.52,Yes,0.15037899379075376
+1089-ABCD,Female,0,No,No,4.0,No,Yes,No,No internet service,Yes,Two year,No,Electronic check,42.14,167.85,No,0.06436080047841297
+1090-ABCD,Female,0,No,Yes,17.0,Yes,No,No,No,No internet service,One year,No,Electronic check,27.73,467.83,Yes,0.06533782617343309
+1091-ABCD,Female,0,Yes,No,4.0,Yes,No phone service,DSL,No internet service,No internet service,One year,Yes,Electronic check,58.13,231.63,No,0.09022735689496231
+1092-ABCD,Female,0,Yes,No,43.0,Yes,Yes,Fiber optic,Yes,No,One year,No,Bank transfer (automatic),88.35,3795.81,Yes,0.08156015622086799
+1093-ABCD,Female,0,No,No,4.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,54.54,212.8,Yes,0.08574022726770902
+1094-ABCD,Female,0,Yes,No,1.0,Yes,Yes,Fiber optic,No,No,One year,No,Credit card (automatic),96.33,96.33,Yes,-0.03806692598829242
+1095-ABCD,Female,0,No,Yes,71.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Credit card (automatic),75.58,5364.46,Yes,0.053847057290073
+1096-ABCD,Female,0,No,No,50.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),103.52,5186.18,Yes,-0.04495940905005125
+1097-ABCD,Female,0,No,No,61.0,No,Yes,Fiber optic,No,Yes,One year,No,Bank transfer (automatic),91.32,5576.76,No,0.02389358259362928
+1098-ABCD,Female,0,Yes,Yes,35.0,Yes,No,DSL,No,No,Month-to-month,No,Credit card (automatic),55.4,1923.21,No,0.1438077782779993
+1099-ABCD,Female,0,Yes,Yes,8.0,Yes,No,Fiber optic,No,No,Two year,Yes,Mailed check,69.48,551.55,No,0.1140600614917443
+1100-ABCD,Male,0,No,No,24.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),64.11,1532.26,No,0.15466907227212917
+1101-ABCD,Male,0,No,Yes,36.0,Yes,No,Fiber optic,Yes,No,Two year,Yes,Mailed check,76.2,2727.58,No,0.1468458927845579
+1102-ABCD,Female,0,Yes,No,50.0,Yes,No,Fiber optic,Yes,No,Two year,No,Credit card (automatic),86.72,4338.75,No,0.0928567914924665
+1103-ABCD,Female,0,No,No,43.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,94.81,4075.87,Yes,0.03895811195947518
+1104-ABCD,Female,0,Yes,No,27.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Electronic check,68.61,1872.7,No,0.16142466824815216
+1105-ABCD,Female,0,No,Yes,32.0,Yes,No,DSL,Yes,Yes,Month-to-month,Yes,Credit card (automatic),69.15,2209.46,No,0.15697317417087797
+1106-ABCD,Female,1,Yes,No,18.0,Yes,Yes,DSL,No,Yes,Two year,No,Electronic check,48.87,871.9,No,0.1269156339877997
+1107-ABCD,Female,0,No,No,28.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),58.7,1634.87,Yes,0.15787721474804078
+1108-ABCD,Female,0,Yes,Yes,29.0,Yes,No phone service,Fiber optic,No,No,One year,Yes,Electronic check,85.05,2461.93,Yes,0.1021610086352111
+1109-ABCD,Female,0,Yes,No,16.0,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,44.38,715.98,Yes,0.11325841605522913
+1110-ABCD,Male,0,Yes,No,47.0,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),29.34,1386.03,No,0.06802543582297038
+1111-ABCD,Female,0,Yes,No,59.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),86.12,5110.34,Yes,0.07636529519682
+1112-ABCD,Male,0,No,Yes,31.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,81.09,2501.72,No,0.12903845826228555
+1113-ABCD,Female,0,No,No,4.0,Yes,No phone service,DSL,No,No,One year,No,Mailed check,57.74,231.82,No,0.09003311270057435
+1114-ABCD,Female,0,Yes,Yes,37.0,Yes,No,No,No,No,One year,No,Credit card (automatic),30.71,1129.43,No,0.08008578390602161
+1115-ABCD,Male,0,Yes,Yes,17.0,Yes,Yes,DSL,No,No,One year,No,Bank transfer (automatic),80.95,1379.65,Yes,0.1363152222236001
+1116-ABCD,Female,1,No,No,39.0,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,33.56,1322.67,Yes,0.10116697170152272
+1117-ABCD,Male,0,No,No,48.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),83.06,3995.5,Yes,0.11225323512687291
+1118-ABCD,Female,1,No,Yes,46.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,68.51,3139.38,Yes,0.13675180906032625
+1119-ABCD,Female,0,Yes,Yes,48.0,No,Yes,No,No internet service,No internet service,Two year,No,Mailed check,46.06,2217.73,No,0.11852658304216313
+1120-ABCD,Male,0,Yes,Yes,39.0,Yes,Yes,DSL,No internet service,Yes,Two year,No,Mailed check,72.89,2821.58,No,0.1496800933393258
+1121-ABCD,Female,1,No,Yes,4.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Mailed check,75.45,278.0,No,0.08174871121918081
+1122-ABCD,Male,0,Yes,Yes,30.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Electronic check,70.54,2113.71,Yes,0.15866021647766615
+1123-ABCD,Female,0,No,Yes,30.0,Yes,Yes,DSL,Yes,No,Month-to-month,No,Credit card (automatic),75.64,2275.31,No,0.14214719889647665
+1124-ABCD,Male,0,Yes,No,22.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Electronic check,77.9,1717.28,No,0.14533994993972288
+1125-ABCD,Male,0,No,No,66.0,Yes,No,Fiber optic,No,No internet service,One year,Yes,Electronic check,90.76,6009.22,Yes,0.006408619913319535
+1126-ABCD,Female,1,Yes,No,12.0,Yes,No,Fiber optic,No,Yes,One year,Yes,Mailed check,69.12,830.53,Yes,0.1341250106180133
+1127-ABCD,Female,0,No,No,36.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),54.77,1970.65,Yes,0.14183272689882098
+1128-ABCD,Male,0,No,Yes,18.0,Yes,Yes,No,Yes,No,One year,No,Mailed check,30.8,565.95,Yes,0.0858193441624947
+1129-ABCD,Female,0,No,No,53.0,Yes,Yes,DSL,No internet service,No,One year,Yes,Bank transfer (automatic),56.12,2970.62,No,0.13042099420848197
+1130-ABCD,Female,0,Yes,No,71.0,Yes,No phone service,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,53.11,3774.7,Yes,0.04197875455875166
+1131-ABCD,Female,0,No,No,1.0,Yes,No,DSL,No internet service,Yes,Month-to-month,Yes,Mailed check,51.25,55.74,Yes,0.02555400864039925
+1132-ABCD,Male,0,No,No,58.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Mailed check,63.2,3655.88,No,0.1315434161217715
+1133-ABCD,Male,0,No,No,6.0,No,No,DSL,No,Yes,Month-to-month,Yes,Electronic check,62.06,376.23,Yes,0.10365969535577502
+1134-ABCD,Male,0,No,No,70.0,No,Yes,No,No,No,Two year,Yes,Mailed check,38.21,2696.55,No,0.02704780837997056
+1135-ABCD,Male,0,No,Yes,44.0,Yes,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),79.83,3523.89,Yes,0.12917636698490909
+1136-ABCD,Male,1,No,No,72.0,Yes,No,DSL,No,Yes,Two year,No,Bank transfer (automatic),53.11,3815.53,No,0.02436002374754398
+1137-ABCD,Male,0,Yes,No,24.0,Yes,Yes,DSL,No,Yes,One year,Yes,Bank transfer (automatic),64.17,1563.47,No,0.15536052884855034
+1138-ABCD,Male,0,No,No,19.0,No,Yes,Fiber optic,No,No internet service,Month-to-month,No,Bank transfer (automatic),74.78,1427.71,No,0.14630363495142457
+1139-ABCD,Male,0,No,No,18.0,Yes,No,No,No,Yes,One year,No,Mailed check,29.36,532.72,No,0.08585182762329013
+1140-ABCD,Male,0,Yes,Yes,30.0,Yes,No phone service,DSL,No,Yes,Month-to-month,No,Credit card (automatic),57.38,1720.43,Yes,0.15483570897914323
+1141-ABCD,Female,0,Yes,No,42.0,Yes,Yes,DSL,No,No,Month-to-month,No,Mailed check,55.53,2339.09,Yes,0.14179829152288703
+1142-ABCD,Male,0,Yes,No,33.0,Yes,No,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),51.01,1684.45,Yes,0.13491912823245555
+1143-ABCD,Female,0,No,No,12.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,57.62,691.64,Yes,0.12434694312377392
+1144-ABCD,Female,0,No,No,27.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),60.8,1640.27,No,0.16436415431210005
+1145-ABCD,Female,0,No,Yes,39.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,79.13,3095.81,Yes,0.1414037550997419
+1146-ABCD,Male,1,No,No,9.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),71.26,649.97,Yes,0.11912866997829452
+1147-ABCD,Male,0,Yes,No,21.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Electronic check,64.74,1358.05,Yes,0.15585687585701008
+1148-ABCD,Male,0,Yes,No,29.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Electronic check,56.3,1617.51,No,0.15171765503584334
+1149-ABCD,Male,1,Yes,No,33.0,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Electronic check,41.42,1367.22,Yes,0.11328291436743931
+1150-ABCD,Female,0,Yes,No,62.0,Yes,No,No,Yes,No,One year,Yes,Bank transfer (automatic),36.77,2272.56,No,0.05494775601272606
+1151-ABCD,Male,0,Yes,No,15.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Credit card (automatic),77.44,1156.86,Yes,0.13899709542925182
+1152-ABCD,Male,1,Yes,Yes,2.0,Yes,Yes,Fiber optic,Yes,No,One year,No,Bank transfer (automatic),83.21,165.17,No,0.05678628811840225
+1153-ABCD,Male,0,No,No,52.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Mailed check,82.56,4282.52,Yes,0.11550189387901899
+1154-ABCD,Male,0,No,No,44.0,No,No,Fiber optic,No,No internet service,Two year,No,Mailed check,83.08,3639.42,No,0.11530919553320262
+1155-ABCD,Male,0,No,No,54.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),81.87,4423.9,Yes,0.11392102968022849
+1156-ABCD,Female,0,No,No,18.0,Yes,No,Fiber optic,No,Yes,Two year,Yes,Credit card (automatic),75.4,1357.47,No,0.1451328080745225
+1157-ABCD,Male,0,No,No,3.0,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),37.78,113.23,Yes,0.04814950706350174
+1158-ABCD,Female,0,Yes,Yes,7.0,No,No,No,No,No,Month-to-month,Yes,Electronic check,30.28,217.07,Yes,0.0583619437368067
+1159-ABCD,Male,1,No,No,43.0,Yes,No,DSL,Yes,No internet service,One year,No,Credit card (automatic),49.18,2108.14,No,0.12923388774606015
+1160-ABCD,Female,0,No,Yes,38.0,Yes,No,Fiber optic,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),73.8,2807.72,Yes,0.14588262629628662
+1161-ABCD,Male,0,Yes,No,37.0,Yes,No,DSL,No,Yes,Month-to-month,No,Credit card (automatic),51.08,1903.33,Yes,0.1397957455065486
+1162-ABCD,Male,0,Yes,Yes,58.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),64.19,3720.47,No,0.12986204935878692
+1163-ABCD,Female,0,No,No,33.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Mailed check,81.37,2704.2,No,0.12883476887304068
+1164-ABCD,Female,0,Yes,No,59.0,Yes,No,DSL,No,No internet service,Two year,Yes,Mailed check,59.19,3492.71,No,0.13160532634815636
+1165-ABCD,Female,0,No,Yes,11.0,Yes,No,No,No internet service,No,Month-to-month,Yes,Credit card (automatic),36.55,393.53,Yes,0.07699106986232918
+1166-ABCD,Male,0,No,No,68.0,Yes,No,DSL,No,No internet service,Two year,No,Mailed check,51.96,3541.78,No,0.08202859876677737
+1167-ABCD,Female,0,Yes,No,68.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),78.5,5336.87,Yes,0.07095108150465024
+1168-ABCD,Male,1,Yes,Yes,22.0,Yes,No phone service,Fiber optic,Yes,No,Month-to-month,No,Mailed check,80.69,1785.71,Yes,0.1348149344118063
+1169-ABCD,Male,0,Yes,No,66.0,Yes,No,Fiber optic,No internet service,No,Two year,No,Electronic check,76.48,5051.81,No,0.08400378406006048
+1170-ABCD,Female,0,Yes,No,44.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Bank transfer (automatic),82.07,3607.8,No,0.11900263273690037
+1171-ABCD,Female,0,Yes,No,6.0,Yes,No,No,Yes,Yes,One year,No,Mailed check,41.0,261.21,No,0.0762669308637145
+1172-ABCD,Male,1,No,Yes,42.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,70.48,2955.17,No,0.14706210854091462
+1173-ABCD,Male,0,Yes,Yes,25.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Bank transfer (automatic),59.06,1454.84,Yes,0.1547493871627098
+1174-ABCD,Female,0,No,Yes,57.0,Yes,No,DSL,No internet service,No,Month-to-month,No,Mailed check,49.34,2821.19,No,0.10682894700086704
+1175-ABCD,Female,0,Yes,Yes,55.0,No,No,Fiber optic,Yes,No,Month-to-month,No,Mailed check,87.95,4840.75,Yes,0.07130707921178037
+1176-ABCD,Female,0,No,Yes,16.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),37.46,612.2,Yes,0.08708374244264705
+1177-ABCD,Male,0,Yes,No,14.0,Yes,Yes,Fiber optic,Yes,No internet service,Two year,Yes,Electronic check,80.88,1123.5,No,0.12968605932316973
+1178-ABCD,Male,0,Yes,No,39.0,Yes,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),30.21,1175.72,No,0.08535720809998415
+1179-ABCD,Male,0,No,No,28.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),83.09,2322.92,Yes,0.10741971613933499
+1180-ABCD,Male,0,No,No,51.0,Yes,No,DSL,No internet service,No internet service,Month-to-month,No,Mailed check,54.34,2780.68,No,0.1353291304513487
+1181-ABCD,Male,0,Yes,Yes,49.0,Yes,No,DSL,No,Yes,Two year,No,Bank transfer (automatic),59.73,2933.28,No,0.1440972241637245
+1182-ABCD,Male,0,No,Yes,9.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),63.49,573.56,Yes,0.12542416917146187
+1183-ABCD,Female,0,Yes,No,58.0,Yes,No,Fiber optic,No,Yes,One year,Yes,Electronic check,79.79,4630.03,Yes,0.10094223513528738
+1184-ABCD,Male,0,No,Yes,45.0,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,41.44,1853.29,No,0.1123324805568085
+1185-ABCD,Male,0,Yes,No,22.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),61.82,1367.73,Yes,0.15507766540219192
+1186-ABCD,Male,1,Yes,No,32.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Electronic check,87.06,2793.81,No,0.0950776337150766
+1187-ABCD,Female,0,No,No,69.0,Yes,Yes,Fiber optic,No internet service,Yes,Month-to-month,Yes,Electronic check,80.66,5588.45,Yes,0.05035152866446224
+1188-ABCD,Male,0,No,No,69.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Mailed check,73.97,5108.64,Yes,0.079150095945284
+1189-ABCD,Male,0,Yes,No,42.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,64.84,2729.6,No,0.15375884199800677
+1190-ABCD,Female,1,No,No,53.0,No,Yes,DSL,Yes,No internet service,Two year,Yes,Electronic check,54.69,2903.35,No,0.12932419811051393
+1191-ABCD,Male,0,No,No,59.0,No,Yes,DSL,Yes,Yes,Two year,No,Credit card (automatic),69.78,4110.05,No,0.12136731181647215
+1192-ABCD,Male,0,Yes,No,39.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Mailed check,54.7,2145.79,Yes,0.1433026964787945
+1193-ABCD,Male,0,No,No,15.0,Yes,No,DSL,No internet service,No,Month-to-month,No,Mailed check,66.39,995.29,Yes,0.13904472052592304
+1194-ABCD,Male,0,Yes,No,71.0,Yes,Yes,DSL,No,No,One year,No,Bank transfer (automatic),62.36,4425.63,Yes,0.06750608685309567
+1195-ABCD,Male,0,No,No,29.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Electronic check,74.84,2169.01,Yes,0.14484099007483847
+1196-ABCD,Female,1,No,No,3.0,Yes,No,DSL,No,No internet service,One year,Yes,Credit card (automatic),43.24,129.06,No,0.05562166865765439
+1197-ABCD,Female,1,No,No,10.0,Yes,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),21.17,206.84,No,0.009695494462879428
+1198-ABCD,Female,0,Yes,No,29.0,Yes,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,51.57,1497.68,No,0.14439177436624917
+1199-ABCD,Male,0,Yes,Yes,35.0,Yes,No,Fiber optic,No,No,One year,No,Electronic check,83.62,2925.73,No,0.12068655064987999
+1200-ABCD,Male,1,Yes,No,6.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card (automatic),81.32,486.1,No,0.0930297941472531
+1201-ABCD,Male,0,Yes,No,12.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),75.62,912.34,No,0.13375361122764245
+1202-ABCD,Female,0,Yes,No,38.0,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Electronic check,18.56,706.04,No,0.002691386440329735
+1203-ABCD,Male,0,No,Yes,19.0,Yes,No,DSL,No,No,Month-to-month,Yes,Electronic check,67.38,1274.68,No,0.15357144869272604
+1204-ABCD,Male,0,Yes,No,67.0,Yes,Yes,No,No,No internet service,Two year,Yes,Electronic check,39.46,2636.18,No,0.055248368884969645
+1205-ABCD,Female,0,Yes,No,8.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),42.72,342.74,No,0.079007363593668
+1206-ABCD,Male,0,No,No,8.0,Yes,Yes,Fiber optic,No,No internet service,One year,Yes,Mailed check,76.5,604.53,Yes,0.11145590712517195
+1207-ABCD,Female,1,Yes,No,47.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Mailed check,79.22,3715.15,Yes,0.1290029840909292
+1208-ABCD,Female,1,No,No,4.0,Yes,No,Fiber optic,No internet service,No,One year,Yes,Bank transfer (automatic),72.01,280.0,No,0.08582550754450624
+1209-ABCD,Female,0,Yes,No,51.0,Yes,Yes,Fiber optic,No,No internet service,One year,No,Credit card (automatic),75.45,3850.5,No,0.1308655948729613
+1210-ABCD,Male,0,No,No,67.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,65.34,4389.72,No,0.09908861062449742
+1211-ABCD,Male,1,Yes,Yes,45.0,Yes,No,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),45.2,2037.48,No,0.1196865153486169
+1212-ABCD,Male,0,Yes,No,8.0,Yes,No,DSL,No,No,One year,No,Bank transfer (automatic),58.04,473.19,No,0.11464869987979787
+1213-ABCD,Male,0,No,Yes,16.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,79.91,1277.86,Yes,0.1369510734105583
+1214-ABCD,Male,1,Yes,No,67.0,Yes,No,Fiber optic,No,No internet service,One year,Yes,Electronic check,61.88,4147.38,No,0.09189883057975679
+1215-ABCD,Male,1,No,Yes,9.0,Yes,Yes,No,No,No internet service,One year,Yes,Electronic check,42.95,403.08,No,0.08222136416720305
+1216-ABCD,Male,0,Yes,Yes,60.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),37.62,2265.49,No,0.0680313441840209
+1217-ABCD,Female,0,Yes,Yes,71.0,No,Yes,No,Yes,Yes,Month-to-month,No,Credit card (automatic),50.63,3604.1,No,0.047681518546996204
+1218-ABCD,Male,0,No,Yes,15.0,Yes,Yes,DSL,No,No,Month-to-month,No,Credit card (automatic),80.89,1210.71,Yes,0.13481560446180574
+1219-ABCD,Female,0,Yes,No,71.0,Yes,Yes,Fiber optic,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),74.5,5289.45,No,0.04921338713831336
+1220-ABCD,Male,0,No,No,41.0,Yes,No,DSL,Yes,No,One year,No,Electronic check,63.42,2604.28,No,0.15269176454613897
+1221-ABCD,Male,0,No,No,22.0,No,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,87.79,1925.32,Yes,0.08293133684909859
+1222-ABCD,Male,0,No,Yes,24.0,Yes,No,DSL,No,No,Two year,No,Bank transfer (automatic),51.0,1200.37,No,0.13424864805139014
+1223-ABCD,Female,0,No,Yes,44.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Bank transfer (automatic),81.37,3584.24,No,0.12053100968634012
+1224-ABCD,Female,0,Yes,Yes,1.0,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,35.24,44.85,Yes,-0.0035321541110027166
+1225-ABCD,Female,0,Yes,Yes,10.0,Yes,No,Fiber optic,No,No,One year,No,Mailed check,74.68,747.35,No,0.12743063044956832
+1226-ABCD,Female,1,Yes,No,72.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),54.25,3900.04,Yes,0.025022382970993573
+1227-ABCD,Male,0,No,Yes,56.0,Yes,No,No,No internet service,No internet service,Month-to-month,No,Mailed check,46.58,2605.17,No,0.10607980024977509
+1228-ABCD,Female,0,No,No,50.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,78.47,3903.22,No,0.13071119747117965
+1229-ABCD,Male,0,Yes,Yes,12.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,84.58,1011.63,Yes,0.09900766346194484
+1230-ABCD,Male,0,No,Yes,60.0,Yes,No,DSL,No internet service,Yes,Month-to-month,No,Mailed check,49.25,2943.85,No,0.09551348952533179
+1231-ABCD,Female,0,Yes,No,26.0,Yes,Yes,No,No,No internet service,Two year,Yes,Credit card (automatic),38.49,993.74,No,0.09953390811007617
+1232-ABCD,Female,0,No,No,41.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),85.15,3479.49,Yes,0.1072581696631364
+1233-ABCD,Female,0,Yes,Yes,36.0,Yes,No,DSL,No internet service,No internet service,Two year,Yes,Electronic check,57.09,2042.43,Yes,0.146196692145443
+1234-ABCD,Female,0,No,Yes,23.0,Yes,Yes,DSL,No,Yes,One year,No,Electronic check,68.0,1553.96,No,0.1557265147671565
+1235-ABCD,Female,0,No,No,43.0,Yes,Yes,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),30.01,1296.76,No,0.080311158918011
+1236-ABCD,Female,0,Yes,Yes,6.0,Yes,No,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,52.2,308.1,No,0.09459689133733223
+1237-ABCD,Female,1,Yes,Yes,69.0,Yes,No,No,No,No,Two year,No,Electronic check,30.41,2087.21,No,0.009630502396317575
+1238-ABCD,Female,0,Yes,No,43.0,Yes,No phone service,DSL,Yes,No internet service,Two year,Yes,Bank transfer (automatic),60.57,2612.05,No,0.14740891510422616
+1239-ABCD,Male,0,Yes,No,25.0,Yes,No,No,No internet service,Yes,Month-to-month,No,Electronic check,26.67,668.04,Yes,0.07217788459750762
+1240-ABCD,Female,0,Yes,No,18.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,Yes,Electronic check,82.42,1459.92,Yes,0.12572025606759468
+1241-ABCD,Female,0,No,No,62.0,Yes,No phone service,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),65.85,4092.66,No,0.11268714122504137
+1242-ABCD,Male,0,No,No,13.0,Yes,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,40.56,528.0,No,0.0801149594930547
+1243-ABCD,Female,0,No,No,43.0,No,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,84.22,3629.16,No,0.11069886855075728
+1244-ABCD,Male,1,Yes,No,28.0,Yes,No,Fiber optic,No,No internet service,Two year,No,Bank transfer (automatic),62.88,1758.39,No,0.16188142509028752
+1245-ABCD,Male,0,No,No,18.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),54.62,999.21,Yes,0.1463106511545743
+1246-ABCD,Female,0,No,Yes,59.0,Yes,No,DSL,No,No,One year,Yes,Electronic check,50.34,2966.24,No,0.1060097837123648
+1247-ABCD,Male,0,Yes,No,60.0,Yes,Yes,DSL,No,No,One year,Yes,Credit card (automatic),76.31,4552.24,No,0.11175877334707918
+1248-ABCD,Male,1,No,No,63.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,81.72,5139.47,Yes,0.07846097244570804
+1249-ABCD,Male,0,No,No,57.0,Yes,No,DSL,No internet service,Yes,Month-to-month,No,Mailed check,57.81,3300.19,No,0.13373810408034592
+1250-ABCD,Male,0,Yes,No,51.0,Yes,Yes,DSL,No internet service,No,One year,No,Bank transfer (automatic),55.15,2814.24,No,0.13901036612287043
+1251-ABCD,Female,0,Yes,No,56.0,Yes,Yes,Fiber optic,No internet service,Yes,Two year,Yes,Credit card (automatic),86.89,4864.61,No,0.08047180434351231
+1252-ABCD,Male,0,No,Yes,27.0,Yes,No,Fiber optic,No internet service,No,One year,Yes,Bank transfer (automatic),71.68,1925.5,No,0.15626138372769577
+1253-ABCD,Female,0,Yes,No,32.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),78.79,2521.46,No,0.13196912456725618
+1254-ABCD,Male,1,No,Yes,9.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Electronic check,77.67,698.89,Yes,0.12046220523582768
+1255-ABCD,Male,0,No,No,68.0,Yes,No,DSL,No internet service,Yes,Month-to-month,No,Mailed check,52.17,3547.31,Yes,0.08318697167264033
+1256-ABCD,Male,0,No,Yes,46.0,Yes,No,No,No,Yes,One year,No,Credit card (automatic),28.3,1307.18,No,0.0722351015724686
+1257-ABCD,Male,0,Yes,No,67.0,Yes,Yes,DSL,No internet service,Yes,One year,No,Credit card (automatic),72.22,4840.56,No,0.08349615298753443
+1258-ABCD,Female,0,Yes,Yes,26.0,Yes,Yes,No,No,No,Month-to-month,No,Mailed check,33.85,877.58,Yes,0.0896701594991024
+1259-ABCD,Female,0,No,No,8.0,Yes,Yes,No,No,Yes,Two year,No,Mailed check,43.23,335.81,Yes,0.0796404532550673
+1260-ABCD,Male,0,No,No,6.0,Yes,No phone service,Fiber optic,No,No,One year,Yes,Mailed check,79.08,488.08,Yes,0.0996308087565716
+1261-ABCD,Male,0,Yes,Yes,24.0,Yes,No,DSL,No internet service,No internet service,One year,Yes,Mailed check,56.96,1386.86,No,0.15373647382765793
+1262-ABCD,Female,0,No,No,48.0,Yes,No,No,Yes,No,Two year,Yes,Mailed check,48.37,2339.2,No,0.12179504548644349
+1263-ABCD,Male,0,No,No,45.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),78.57,3542.64,Yes,0.12753947174488078
+1264-ABCD,Male,0,Yes,Yes,13.0,Yes,No phone service,Fiber optic,No,Yes,Two year,No,Electronic check,87.3,1118.15,Yes,0.07859481243116195
+1265-ABCD,Male,0,Yes,No,69.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,68.78,4727.85,No,0.08002473138847488
+1266-ABCD,Female,0,No,Yes,25.0,Yes,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),72.28,1801.52,Yes,0.1571898855629708
+1267-ABCD,Female,0,Yes,No,20.0,Yes,No,DSL,No,No internet service,Two year,Yes,Mailed check,57.73,1154.05,No,0.15351756886066603
+1268-ABCD,Female,0,Yes,No,66.0,Yes,No phone service,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),90.03,5941.02,No,0.009138734313428154
+1269-ABCD,Male,1,Yes,No,45.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),82.44,3711.74,Yes,0.11733024821788063
+1270-ABCD,Male,1,Yes,No,47.0,Yes,Yes,Fiber optic,No,No,One year,No,Credit card (automatic),88.98,4168.14,Yes,0.07007608876495952
+1271-ABCD,Female,0,No,Yes,63.0,Yes,No phone service,Fiber optic,No,No internet service,One year,No,Mailed check,85.44,5398.79,No,0.05625916692273114
+1272-ABCD,Female,0,No,Yes,55.0,Yes,Yes,Fiber optic,No,Yes,Two year,No,Electronic check,80.53,4444.2,Yes,0.1129462000464529
+1273-ABCD,Female,0,Yes,No,19.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,93.0,1753.89,No,0.04841026064521836
+1274-ABCD,Female,0,No,No,35.0,Yes,No,No,No internet service,Yes,Two year,Yes,Bank transfer (automatic),29.85,1026.13,No,0.07678325708510625
+1275-ABCD,Male,0,No,No,53.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,45.12,2390.46,Yes,0.10887195417623768
+1276-ABCD,Female,0,No,No,26.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Electronic check,63.39,1660.76,No,0.16532800217863858
+1277-ABCD,Male,0,Yes,No,14.0,Yes,No phone service,DSL,No,No,Month-to-month,Yes,Electronic check,54.27,759.46,No,0.1281049236429468
+1278-ABCD,Female,0,Yes,No,45.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),82.93,3734.45,Yes,0.11467628907368504
+1279-ABCD,Male,0,No,No,44.0,Yes,Yes,Fiber optic,No,No internet service,Two year,No,Bank transfer (automatic),68.37,3003.88,Yes,0.13657267882534713
+1280-ABCD,Female,0,No,No,65.0,Yes,No phone service,No,No,No,Month-to-month,Yes,Mailed check,31.6,2055.46,No,0.030469479223701468
+1281-ABCD,Female,0,Yes,No,51.0,Yes,Yes,DSL,No,No,Two year,Yes,Mailed check,72.14,3688.58,No,0.133244221437183
+1282-ABCD,Female,0,Yes,Yes,43.0,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),29.78,1284.66,Yes,0.07855115930158307
+1283-ABCD,Female,0,Yes,No,23.0,Yes,No,DSL,No,No,One year,Yes,Credit card (automatic),49.93,1154.15,No,0.1377298471431757
+1284-ABCD,Male,0,No,No,56.0,No,Yes,Fiber optic,Yes,Yes,Two year,Yes,Credit card (automatic),89.58,4999.85,Yes,0.05364424351638153
+1285-ABCD,Female,0,No,No,19.0,Yes,Yes,DSL,No,No internet service,One year,Yes,Bank transfer (automatic),71.79,1385.39,No,0.1505837636509309
+1286-ABCD,Male,0,No,Yes,55.0,Yes,Yes,No,Yes,No,One year,No,Mailed check,52.83,2889.14,Yes,0.1197985022233663
+1287-ABCD,Male,0,Yes,No,60.0,Yes,No,Fiber optic,Yes,Yes,One year,No,Credit card (automatic),70.31,4220.16,Yes,0.11569394929908783
+1288-ABCD,Male,0,No,No,59.0,Yes,No,Fiber optic,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),68.48,4038.82,Yes,0.12248782331367497
+1289-ABCD,Male,0,No,No,33.0,Yes,No,No,No,No,Two year,No,Mailed check,43.22,1425.19,No,0.12126251618972156
+1290-ABCD,Female,0,Yes,Yes,19.0,Yes,No phone service,DSL,No,Yes,Month-to-month,Yes,Electronic check,48.96,938.94,Yes,0.1298606094987062
+1291-ABCD,Male,0,No,Yes,28.0,Yes,Yes,DSL,No,No,Two year,Yes,Credit card (automatic),69.06,1926.6,No,0.15776121251372377
+1292-ABCD,Male,1,No,No,52.0,Yes,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer (automatic),57.46,2983.59,Yes,0.13592014315864331
+1293-ABCD,Male,0,Yes,No,49.0,No,Yes,DSL,No,No internet service,Month-to-month,No,Mailed check,71.02,3468.51,Yes,0.1416102708079508
+1294-ABCD,Female,0,No,No,37.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Mailed check,71.27,2648.21,No,0.15611141250183846
+1295-ABCD,Female,0,Yes,No,26.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Credit card (automatic),95.22,2478.38,Yes,0.030483077157641314
+1296-ABCD,Female,0,No,Yes,40.0,No,No,Fiber optic,No internet service,Yes,Two year,No,Credit card (automatic),79.2,3174.37,No,0.14309502559494336
+1297-ABCD,Female,0,No,No,38.0,Yes,No phone service,DSL,No internet service,No,Month-to-month,Yes,Mailed check,61.3,2337.52,Yes,0.14586403618277238
+1298-ABCD,Male,1,No,Yes,54.0,Yes,No phone service,DSL,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),52.26,2841.95,Yes,0.1250903945204298
+1299-ABCD,Male,0,No,No,22.0,Yes,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,74.28,1652.33,Yes,0.15043330436460617
+1300-ABCD,Female,0,Yes,No,16.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,78.31,1256.19,No,0.13927424296672242
+1301-ABCD,Male,0,No,No,28.0,No,Yes,No,No,No,One year,Yes,Bank transfer (automatic),28.18,790.62,Yes,0.08550641695382755
+1302-ABCD,Male,0,No,No,35.0,No,Yes,No,Yes,No,Month-to-month,No,Credit card (automatic),41.94,1462.58,Yes,0.12658560102686883
+1303-ABCD,Male,0,Yes,No,60.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,No,Mailed check,57.64,3465.84,No,0.12152940783701055
+1304-ABCD,Female,0,No,No,45.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),60.71,2739.02,No,0.1461987611673531
+1305-ABCD,Female,0,No,Yes,46.0,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,38.13,1746.69,No,0.09344804435762788
+1306-ABCD,Male,1,Yes,No,72.0,Yes,No,Fiber optic,Yes,No internet service,One year,Yes,Credit card (automatic),90.24,6504.48,No,-0.04884336065586148
+1307-ABCD,Female,0,No,No,55.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,68.92,3800.68,Yes,0.1321553251245866
+1308-ABCD,Female,0,No,Yes,26.0,Yes,No,No,Yes,Yes,One year,Yes,Credit card (automatic),37.39,960.92,No,0.09623222354308564
+1309-ABCD,Female,0,Yes,No,25.0,No,No,Fiber optic,No internet service,No,Two year,No,Credit card (automatic),66.61,1667.15,No,0.16310507911363242
+1310-ABCD,Female,0,No,No,65.0,No,No phone service,Fiber optic,No,No internet service,One year,No,Electronic check,80.48,5230.54,No,0.07581500088815729
+1311-ABCD,Female,0,Yes,No,6.0,Yes,Yes,Fiber optic,Yes,No,Two year,Yes,Credit card (automatic),79.87,479.17,No,0.09961895362972262
+1312-ABCD,Male,0,Yes,No,23.0,Yes,Yes,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),73.72,1686.03,No,0.1510880930624925
+1313-ABCD,Female,0,Yes,No,64.0,Yes,No,DSL,No,No,Month-to-month,No,Credit card (automatic),46.05,2928.93,No,0.0791783260995661
+1314-ABCD,Male,0,No,Yes,43.0,Yes,No,Fiber optic,Yes,Yes,Two year,Yes,Mailed check,75.88,3255.29,No,0.14375144761314584
+1315-ABCD,Male,0,No,Yes,23.0,Yes,Yes,DSL,No,No internet service,One year,Yes,Credit card (automatic),55.74,1273.07,No,0.14791848095528226
+1316-ABCD,Female,0,Yes,No,30.0,Yes,No,Fiber optic,No,No internet service,One year,Yes,Bank transfer (automatic),76.01,2283.83,Yes,0.13927164627723565
+1317-ABCD,Male,0,Yes,No,18.0,Yes,No,No,No,Yes,One year,No,Mailed check,46.18,834.94,No,0.12169292209123045
+1318-ABCD,Male,1,No,Yes,21.0,Yes,No phone service,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),35.77,754.3,Yes,0.10137290459922266
+1319-ABCD,Male,0,Yes,No,57.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Mailed check,74.74,4246.21,Yes,0.12343830089607905
+1320-ABCD,Female,0,No,No,23.0,No,No,No,No internet service,No internet service,One year,Yes,Credit card (automatic),18.25,408.55,No,0.004907473631425963
+1321-ABCD,Female,1,No,No,45.0,Yes,No,No,No internet service,No internet service,One year,Yes,Bank transfer (automatic),25.71,1150.78,No,0.05524066605633604
+1322-ABCD,Male,0,No,Yes,44.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),78.8,3467.43,Yes,0.1280482082615067
+1323-ABCD,Female,1,No,No,47.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Mailed check,60.91,2859.42,No,0.14447008127874544
+1324-ABCD,Female,0,Yes,No,40.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Bank transfer (automatic),76.42,3059.91,Yes,0.14214439388567968
+1325-ABCD,Female,0,No,No,51.0,No,Yes,DSL,No internet service,No,Month-to-month,No,Electronic check,65.57,3353.82,Yes,0.14530267262387814
+1326-ABCD,Female,0,No,No,42.0,Yes,No,DSL,No internet service,Yes,Two year,Yes,Bank transfer (automatic),63.63,2662.47,No,0.15496718606820153
+1327-ABCD,Male,0,No,No,7.0,Yes,Yes,DSL,Yes,No,Two year,No,Credit card (automatic),66.64,456.87,No,0.1164816075292846
+1328-ABCD,Male,0,Yes,No,50.0,Yes,No phone service,DSL,No,No,Month-to-month,No,Electronic check,52.79,2640.85,Yes,0.13066322781871986
+1329-ABCD,Female,0,No,Yes,48.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,81.23,3898.22,Yes,0.1178363001177139
+1330-ABCD,Female,0,Yes,No,6.0,Yes,Yes,No,No,No,Month-to-month,No,Mailed check,31.9,198.83,Yes,0.055763959214581105
+1331-ABCD,Male,0,Yes,No,9.0,Yes,No,DSL,No,No,One year,Yes,Electronic check,63.77,574.01,No,0.1245078180644178
+1332-ABCD,Male,0,Yes,No,57.0,Yes,Yes,Fiber optic,No internet service,Yes,Month-to-month,Yes,Electronic check,81.58,4667.47,Yes,0.10241029512886085
+1333-ABCD,Female,1,No,Yes,31.0,Yes,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,89.18,2748.7,Yes,0.07579614264876333
+1334-ABCD,Male,0,No,Yes,21.0,Yes,Yes,DSL,No,Yes,Two year,No,Bank transfer (automatic),60.79,1284.99,No,0.14855548065217644
+1335-ABCD,Female,0,No,No,40.0,Yes,No,No,No,Yes,Two year,Yes,Credit card (automatic),21.34,855.59,No,0.028951201768654622
+1336-ABCD,Female,0,No,No,45.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),79.44,3560.77,Yes,0.12803994485993653
+1337-ABCD,Male,0,Yes,No,49.0,Yes,No,Fiber optic,Yes,Yes,One year,No,Electronic check,69.03,3361.79,No,0.14329770692273452
+1338-ABCD,Male,1,No,No,20.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),71.8,1424.75,Yes,0.15015135656033463
+1339-ABCD,Female,0,Yes,No,17.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),45.01,777.26,No,0.11690237263902681
+1340-ABCD,Female,0,No,No,28.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Credit card (automatic),81.06,2280.63,Yes,0.1178545656471322
+1341-ABCD,Male,0,No,No,41.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,65.19,2671.5,No,0.15384553864658462
+1342-ABCD,Female,0,No,No,66.0,Yes,No,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),27.7,1824.58,No,0.01875012220001626
+1343-ABCD,Male,0,No,No,25.0,Yes,Yes,Fiber optic,No internet service,No internet service,Month-to-month,No,Credit card (automatic),91.55,2280.19,Yes,0.05403923843188463
+1344-ABCD,Female,0,Yes,Yes,58.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card (automatic),86.16,4995.41,No,0.07150785019078998
+1345-ABCD,Male,0,Yes,No,41.0,Yes,No,DSL,No,Yes,Two year,Yes,Bank transfer (automatic),79.7,3262.96,No,0.14088308089562906
+1346-ABCD,Male,0,No,No,6.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),78.39,487.44,Yes,0.10127146042096613
+1347-ABCD,Male,0,Yes,Yes,38.0,Yes,Yes,Fiber optic,No,No internet service,One year,Yes,Electronic check,71.12,2690.19,Yes,0.15281233930980226
+1348-ABCD,Female,1,Yes,Yes,6.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,83.3,503.72,Yes,0.08614268929200475
+1349-ABCD,Female,1,No,No,45.0,Yes,No phone service,Fiber optic,No internet service,Yes,Month-to-month,No,Credit card (automatic),73.99,3347.12,Yes,0.13262691689625306
+1350-ABCD,Male,0,No,Yes,14.0,Yes,No,Fiber optic,No internet service,No,Two year,Yes,Bank transfer (automatic),70.09,989.01,No,0.1372187348982607
+1351-ABCD,Female,0,Yes,Yes,66.0,Yes,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),30.58,2007.04,No,0.024476367410711797
+1352-ABCD,Male,0,Yes,No,40.0,Yes,No,Fiber optic,Yes,Yes,One year,Yes,Bank transfer (automatic),69.85,2778.58,Yes,0.15191331357655213
+1353-ABCD,Male,0,No,No,3.0,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),32.66,100.72,No,0.03965665389444262
+1354-ABCD,Female,1,No,No,24.0,Yes,No phone service,No,No,No,Month-to-month,Yes,Electronic check,18.25,439.51,No,0.009178082633540585
+1355-ABCD,Female,0,Yes,Yes,19.0,Yes,No phone service,Fiber optic,Yes,No,Month-to-month,No,Mailed check,84.15,1611.17,Yes,0.1089798872670697
+1356-ABCD,Male,0,Yes,Yes,18.0,Yes,Yes,DSL,No internet service,No internet service,Month-to-month,No,Credit card (automatic),52.37,948.14,No,0.1450923756944162
+1357-ABCD,Female,0,Yes,No,64.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Electronic check,72.89,4660.11,Yes,0.10051706739350491
+1358-ABCD,Female,0,Yes,No,35.0,Yes,Yes,No,No,No,One year,No,Credit card (automatic),34.14,1189.37,No,0.0988703766028537
+1359-ABCD,Male,0,Yes,No,62.0,Yes,Yes,DSL,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),67.45,4168.84,Yes,0.10978497526113773
+1360-ABCD,Male,0,No,No,1.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),73.53,74.82,Yes,0.036207612202981965
+1361-ABCD,Female,0,No,No,25.0,Yes,Yes,No,No,No internet service,Month-to-month,Yes,Electronic check,42.01,1036.21,Yes,0.11505770851820402
+1362-ABCD,Male,0,No,Yes,45.0,Yes,No phone service,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),83.89,3784.15,No,0.10074007574085281
+1363-ABCD,Male,0,Yes,No,49.0,Yes,Yes,Fiber optic,Yes,Yes,Two year,Yes,Bank transfer (automatic),91.15,4472.24,No,0.058826943606136495
+1364-ABCD,Female,0,No,Yes,16.0,Yes,No,DSL,No internet service,No,One year,Yes,Electronic check,55.29,890.21,No,0.1322031018791977
+1365-ABCD,Male,0,Yes,No,19.0,Yes,No phone service,DSL,No,No,Two year,Yes,Bank transfer (automatic),58.68,1101.7,No,0.15105430742481807
+1366-ABCD,Male,0,No,No,23.0,Yes,No phone service,No,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),45.68,1049.14,No,0.11773331427723488
+1367-ABCD,Female,0,No,No,25.0,Yes,Yes,DSL,No,No,Month-to-month,No,Mailed check,71.43,1781.86,No,0.15924540230301726
+1368-ABCD,Female,0,Yes,Yes,16.0,Yes,Yes,DSL,Yes,Yes,One year,No,Electronic check,62.65,1003.43,Yes,0.1432146043485708
+1369-ABCD,Male,0,No,Yes,54.0,Yes,No,No,Yes,No,One year,Yes,Electronic check,40.22,2177.17,No,0.09650356511063912
+1370-ABCD,Male,0,Yes,No,1.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),88.13,88.13,Yes,-0.0011236269875367633
+1371-ABCD,Female,0,No,Yes,42.0,Yes,No phone service,No,No,No,Month-to-month,Yes,Bank transfer (automatic),22.3,931.84,No,0.04356137107988145
+1372-ABCD,Female,1,Yes,No,19.0,Yes,No phone service,No,No,No,Two year,No,Electronic check,28.55,549.25,No,0.0851593890638147
+1373-ABCD,Female,0,Yes,Yes,34.0,Yes,Yes,DSL,No,No,Two year,Yes,Electronic check,53.22,1798.19,No,0.13906030639150724
+1374-ABCD,Female,0,No,No,55.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Credit card (automatic),46.72,2562.13,No,0.10511487521452578
+1375-ABCD,Male,0,Yes,No,18.0,Yes,Yes,Fiber optic,No,No internet service,One year,Yes,Electronic check,77.41,1393.44,Yes,0.14339574504146108
+1376-ABCD,Female,0,No,No,34.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),75.98,2592.32,Yes,0.14337725781874527
+1377-ABCD,Female,0,Yes,No,45.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),66.0,2960.31,No,0.13967735226046835
+1378-ABCD,Male,0,No,Yes,6.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,73.71,460.16,Yes,0.10764004988929415
+1379-ABCD,Female,0,No,Yes,21.0,Yes,No,DSL,No,No,Month-to-month,No,Mailed check,35.97,741.86,No,0.10049761797236312
+1380-ABCD,Male,0,No,No,70.0,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),41.77,2939.4,No,0.033553934969489774
+1381-ABCD,Female,0,Yes,No,48.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Bank transfer (automatic),65.76,3168.48,No,0.14642522377249972
+1382-ABCD,Female,0,Yes,No,39.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),77.45,3006.25,No,0.1444660768286844
+1383-ABCD,Female,0,Yes,Yes,31.0,Yes,No phone service,DSL,No,No internet service,One year,Yes,Bank transfer (automatic),66.99,2060.37,Yes,0.15187700013510042
+1384-ABCD,Male,0,Yes,Yes,10.0,Yes,No phone service,No,Yes,No internet service,Month-to-month,No,Electronic check,35.88,366.0,Yes,0.07407861366767343
+1385-ABCD,Male,0,No,Yes,30.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),75.47,2260.33,No,0.14195468735146388
+1386-ABCD,Female,0,No,No,18.0,Yes,Yes,No,No,No internet service,Two year,Yes,Electronic check,36.82,652.69,No,0.09831367138832858
+1387-ABCD,Male,0,No,Yes,60.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Credit card (automatic),90.75,5463.12,No,0.03011940382366496
+1388-ABCD,Male,0,No,No,15.0,Yes,No,DSL,Yes,Yes,Two year,No,Mailed check,53.72,793.86,No,0.12749646752280352
+1389-ABCD,Male,0,No,Yes,4.0,Yes,Yes,DSL,Yes,No,Two year,No,Credit card (automatic),60.28,233.85,Yes,0.08998656202615296
+1390-ABCD,Male,0,No,No,63.0,No,No phone service,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),58.22,3661.78,No,0.10928256152711763
+1391-ABCD,Male,0,Yes,No,40.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),74.34,2945.61,Yes,0.14772019477683024
+1392-ABCD,Male,0,No,No,9.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Credit card (automatic),93.77,844.84,Yes,0.025870016490947
+1393-ABCD,Female,0,No,No,9.0,Yes,No phone service,DSL,No,No,Two year,No,Electronic check,65.07,576.51,No,0.12498964125510226
+1394-ABCD,Female,0,No,No,26.0,Yes,No phone service,No,No,No internet service,One year,Yes,Electronic check,30.43,799.29,No,0.0899587530335576
+1395-ABCD,Male,0,Yes,No,4.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Electronic check,57.89,240.97,No,0.0904544521591909
+1396-ABCD,Female,0,Yes,No,16.0,Yes,No,No,No internet service,Yes,One year,Yes,Mailed check,37.22,597.84,No,0.08749304644487532
+1397-ABCD,Female,1,Yes,No,15.0,Yes,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,64.88,975.63,Yes,0.13652581693918797
+1398-ABCD,Female,0,No,No,52.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Bank transfer (automatic),82.07,4269.28,Yes,0.11550189387901899
+1399-ABCD,Female,1,No,Yes,69.0,Yes,Yes,DSL,No,No,Two year,Yes,Credit card (automatic),53.35,3674.15,No,0.06908239633606139
+1400-ABCD,Male,0,Yes,No,5.0,Yes,No,Fiber optic,Yes,No internet service,One year,Yes,Credit card (automatic),91.83,453.0,Yes,0.015197039567933834
+1401-ABCD,Female,0,No,Yes,20.0,Yes,No phone service,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),80.91,1631.43,Yes,0.13102302861991105
+1402-ABCD,Female,0,Yes,Yes,18.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,81.77,1479.21,No,0.12627008323094147
+1403-ABCD,Male,1,Yes,No,2.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Mailed check,78.1,158.26,Yes,0.06654111708367039
+1404-ABCD,Male,0,Yes,No,13.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),75.64,989.32,Yes,0.13174791155524873
+1405-ABCD,Female,0,No,No,4.0,Yes,Yes,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),84.35,336.79,No,0.06070278004655594
+1406-ABCD,Female,0,No,No,42.0,No,No,No,No,No,Month-to-month,No,Electronic check,36.26,1524.77,No,0.10219247092288253
+1407-ABCD,Female,0,Yes,No,61.0,Yes,No,DSL,No,No,Month-to-month,Yes,Electronic check,65.88,4024.63,No,0.12064908492739729
+1408-ABCD,Female,1,No,No,8.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,73.53,567.5,Yes,0.11821013217682147
+1409-ABCD,Female,0,Yes,Yes,67.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Mailed check,76.4,5127.86,Yes,0.08372089174277464
+1410-ABCD,Female,0,No,Yes,63.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),80.17,5059.05,Yes,0.08476980228343367
+1411-ABCD,Male,0,No,No,9.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),80.94,720.65,Yes,0.12054088801822976
+1412-ABCD,Female,1,No,Yes,11.0,Yes,No,DSL,No,Yes,Month-to-month,No,Electronic check,61.52,689.16,Yes,0.12386478188231315
+1413-ABCD,Female,1,Yes,Yes,42.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Electronic check,62.02,2582.67,No,0.1456412875285285
+1414-ABCD,Male,0,No,No,13.0,No,Yes,DSL,No,No,Month-to-month,Yes,Credit card (automatic),55.01,718.66,Yes,0.1208128247303416
+1415-ABCD,Male,0,No,No,36.0,Yes,No,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,40.93,1473.88,Yes,0.12241230222583355
+1416-ABCD,Male,1,Yes,No,13.0,Yes,No phone service,Fiber optic,No internet service,Yes,Two year,Yes,Bank transfer (automatic),78.87,1022.22,No,0.12743992710023044
+1417-ABCD,Male,0,No,No,12.0,Yes,No phone service,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,79.07,949.03,Yes,0.12777939880370093
+1418-ABCD,Female,0,Yes,No,37.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),47.76,1772.95,No,0.1290473549097444
+1419-ABCD,Female,1,No,Yes,52.0,No,Yes,Fiber optic,No internet service,No internet service,One year,Yes,Credit card (automatic),87.62,4538.18,Yes,0.09157975019776954
+1420-ABCD,Female,0,Yes,Yes,71.0,Yes,Yes,DSL,No,No,Month-to-month,No,Credit card (automatic),34.94,2490.75,Yes,0.005263262582607342
+1421-ABCD,Female,0,No,No,2.0,Yes,No,No,Yes,No,One year,No,Mailed check,34.03,63.96,Yes,0.012769917118823249
+1422-ABCD,Female,0,No,No,56.0,Yes,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),18.34,1037.19,Yes,-0.015786610198821438
+1423-ABCD,Female,1,Yes,No,60.0,Yes,No phone service,Fiber optic,No,Yes,One year,Yes,Credit card (automatic),60.06,3610.04,Yes,0.12492053842216716
+1424-ABCD,Male,1,Yes,Yes,23.0,Yes,No phone service,Fiber optic,No,Yes,One year,Yes,Bank transfer (automatic),59.09,1354.76,No,0.15316010108134187
+1425-ABCD,Female,1,Yes,No,40.0,Yes,Yes,No,No,Yes,Two year,No,Credit card (automatic),23.36,933.61,No,0.04464441801544938
+1426-ABCD,Male,0,Yes,No,64.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,77.23,4942.51,Yes,0.09561843829104233
+1427-ABCD,Male,1,Yes,No,23.0,Yes,No,No,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),24.15,571.51,Yes,0.048130312158985444
+1428-ABCD,Female,1,No,No,29.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),42.85,1231.25,No,0.11576337722750357
+1429-ABCD,Male,0,Yes,No,51.0,Yes,Yes,DSL,No internet service,No,Two year,No,Bank transfer (automatic),65.18,3319.8,No,0.14603160724136127
+1430-ABCD,Female,0,Yes,No,69.0,No,Yes,Fiber optic,No internet service,No,Two year,No,Credit card (automatic),76.15,5238.53,Yes,0.07800182468325223
+1431-ABCD,Male,0,No,No,31.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Electronic check,82.85,2569.59,Yes,0.12492613164227001
+1432-ABCD,Female,0,Yes,No,50.0,Yes,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,51.6,2573.76,No,0.1261522089353463
+1433-ABCD,Male,0,No,No,20.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,38.26,760.18,Yes,0.1009303881595291
+1434-ABCD,Female,0,No,No,55.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Credit card (automatic),96.02,5295.95,Yes,0.009674704241058651
+1435-ABCD,Female,0,No,No,2.0,Yes,No,DSL,No,No,Month-to-month,No,Credit card (automatic),66.0,123.77,Yes,0.062299822744657396
+1436-ABCD,Female,0,No,No,25.0,No,Yes,No,No,No internet service,Month-to-month,No,Electronic check,40.68,1015.4,Yes,0.10873495332135358
+1437-ABCD,Female,0,No,Yes,13.0,Yes,Yes,Fiber optic,Yes,No,One year,No,Mailed check,98.87,1280.72,Yes,0.00836462167104779
+1438-ABCD,Female,0,Yes,No,70.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Electronic check,60.03,4198.14,No,0.06760385911390376
+1439-ABCD,Male,0,Yes,No,67.0,Yes,No,Fiber optic,No,No,Two year,No,Mailed check,59.36,4004.84,No,0.08815678146176154
+1440-ABCD,Male,0,Yes,No,58.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Credit card (automatic),62.56,3611.13,Yes,0.13322951366373909
+1441-ABCD,Male,0,No,No,64.0,No,No,Fiber optic,No,Yes,One year,No,Mailed check,69.66,4464.68,Yes,0.10945271531539053
+1442-ABCD,Female,0,Yes,No,69.0,Yes,Yes,Fiber optic,Yes,Yes,Two year,Yes,Mailed check,89.27,6183.9,No,-0.0028810006541133415
+1443-ABCD,Male,0,No,Yes,59.0,No,No phone service,DSL,No,No,Month-to-month,No,Mailed check,45.76,2710.63,No,0.09440682714710236
+1444-ABCD,Female,0,No,No,60.0,Yes,Yes,No,No,No,One year,No,Electronic check,34.59,2075.87,No,0.05239547817421242
+1445-ABCD,Female,1,No,No,62.0,No,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,75.0,4638.27,Yes,0.10293595370750147
+1446-ABCD,Male,0,No,No,16.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,79.78,1289.53,Yes,0.13716579878931318
+1447-ABCD,Male,0,Yes,No,68.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),75.74,5159.69,Yes,0.08024136502676293
+1448-ABCD,Female,0,No,No,15.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,87.86,1302.6,Yes,0.08220176484840569
+1449-ABCD,Male,1,No,No,55.0,Yes,No phone service,DSL,No,No,One year,No,Credit card (automatic),50.38,2767.7,No,0.12038944013212355
+1450-ABCD,Female,0,Yes,Yes,35.0,Yes,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),64.76,2254.54,Yes,0.14793770656959065
+1451-ABCD,Female,1,Yes,No,55.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,85.21,4657.95,No,0.09509284467380674
+1452-ABCD,Female,0,No,No,14.0,Yes,No phone service,DSL,Yes,No,Month-to-month,No,Credit card (automatic),56.07,772.69,No,0.13280372249193478
+1453-ABCD,Female,1,No,No,49.0,Yes,Yes,Fiber optic,No internet service,No,Two year,Yes,Electronic check,94.14,4613.91,No,0.04110649762669205
+1454-ABCD,Female,0,No,No,7.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),62.26,441.62,Yes,0.11647223963494496
+1455-ABCD,Male,1,No,No,30.0,Yes,No,Fiber optic,No,No,One year,No,Bank transfer (automatic),82.33,2466.67,Yes,0.11902103265314928
+1456-ABCD,Male,0,No,Yes,49.0,Yes,No,DSL,Yes,No,One year,Yes,Bank transfer (automatic),61.76,3039.98,No,0.14414577128804335
+1457-ABCD,Female,0,No,No,16.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Credit card (automatic),63.84,1031.73,No,0.14896730918884782
+1458-ABCD,Female,0,Yes,No,51.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,53.83,2744.08,No,0.13430491396265448
+1459-ABCD,Male,0,Yes,No,72.0,Yes,No,No,Yes,Yes,One year,Yes,Credit card (automatic),30.1,2164.67,Yes,-0.014827789057951124
+1460-ABCD,Male,0,Yes,No,42.0,Yes,No,No,No,No internet service,Month-to-month,No,Mailed check,39.1,1646.03,Yes,0.11039762913169732
+1461-ABCD,Female,1,No,Yes,17.0,No,No,DSL,No internet service,Yes,Month-to-month,No,Bank transfer (automatic),61.56,1046.34,No,0.1489297550431674
+1462-ABCD,Male,1,No,Yes,63.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Electronic check,98.68,6202.58,Yes,-0.04460233833082006
+1463-ABCD,Female,0,No,No,45.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),81.08,3645.65,Yes,0.12215353422729719
+1464-ABCD,Male,0,Yes,No,7.0,Yes,No,No,No,No internet service,Month-to-month,Yes,Electronic check,36.23,260.27,Yes,0.07463199484649474
+1465-ABCD,Female,0,No,Yes,27.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),76.95,2090.8,Yes,0.14618441748872107
+1466-ABCD,Male,0,No,No,10.0,Yes,No phone service,Fiber optic,No,No,Month-to-month,No,Mailed check,76.61,775.7,Yes,0.12527443438505287
+1467-ABCD,Female,0,No,No,34.0,Yes,No,DSL,Yes,No,One year,No,Electronic check,63.84,2173.9,No,0.15711495770167194
+1468-ABCD,Male,0,No,No,36.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Credit card (automatic),92.25,3335.57,Yes,0.06040067731739973
+1469-ABCD,Male,0,Yes,No,25.0,Yes,No,No,No internet service,Yes,One year,Yes,Electronic check,30.82,774.74,No,0.09368815312248202
+1470-ABCD,Female,0,No,Yes,6.0,Yes,No,Fiber optic,No,No,One year,Yes,Electronic check,72.86,436.27,Yes,0.1098992009484136
+1471-ABCD,Male,0,Yes,Yes,24.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Credit card (automatic),57.04,1383.75,Yes,0.15373647382765793
+1472-ABCD,Female,0,Yes,No,18.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Mailed check,53.19,964.62,No,0.14350928756731202
+1473-ABCD,Male,0,No,No,6.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),64.52,400.14,Yes,0.10436040587229412
+1474-ABCD,Female,0,No,No,29.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),72.25,2083.37,Yes,0.14989216031504593
+1475-ABCD,Male,1,No,No,25.0,No,Yes,Fiber optic,No,No,Two year,No,Mailed check,70.55,1755.15,No,0.1596678671793928
+1476-ABCD,Female,0,No,No,55.0,Yes,No,No,Yes,No internet service,Two year,Yes,Electronic check,19.45,1061.58,No,0.0023632865937670555
+1477-ABCD,Male,0,No,No,46.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Credit card (automatic),61.82,2845.54,Yes,0.13918027414876866
+1478-ABCD,Female,0,No,No,24.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),70.93,1720.56,Yes,0.1530008523885219
+1479-ABCD,Male,0,No,No,26.0,No,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),37.69,968.55,No,0.09739958846876495
+1480-ABCD,Female,1,Yes,No,28.0,No,No,DSL,No,No,Month-to-month,No,Mailed check,55.52,1563.61,Yes,0.15040049159354307
+1481-ABCD,Female,0,Yes,Yes,3.0,Yes,Yes,DSL,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),66.59,187.74,No,0.08270204644428858
+1482-ABCD,Female,0,Yes,No,38.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,78.68,3011.02,No,0.14039626236942243
+1483-ABCD,Male,0,Yes,Yes,61.0,Yes,No,No,No,No,Two year,No,Mailed check,32.83,1986.66,No,0.041997867269089384
+1484-ABCD,Female,1,Yes,No,51.0,Yes,No,DSL,No internet service,No,One year,No,Bank transfer (automatic),44.31,2267.21,No,0.11546278145416855
+1485-ABCD,Male,1,Yes,No,48.0,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,20.46,990.88,Yes,0.018711444072932237
+1486-ABCD,Female,0,Yes,No,21.0,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,21.86,465.26,No,0.032312963703589714
+1487-ABCD,Male,0,No,No,54.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Bank transfer (automatic),63.77,3434.81,No,0.14377611040256622
+1488-ABCD,Female,0,Yes,Yes,56.0,Yes,No,Fiber optic,No internet service,Yes,Two year,No,Credit card (automatic),82.68,4619.52,Yes,0.10910336764379253
+1489-ABCD,Male,1,No,Yes,59.0,Yes,No,Fiber optic,Yes,No internet service,Two year,No,Credit card (automatic),76.87,4548.05,No,0.11590372930581555
+1490-ABCD,Male,0,Yes,No,72.0,Yes,No,Fiber optic,No internet service,No,Two year,Yes,Electronic check,79.28,5718.64,Yes,0.0154894792945518
+1491-ABCD,Female,1,No,Yes,51.0,Yes,No phone service,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),22.82,1174.17,Yes,0.04140230639438569
+1492-ABCD,Male,0,Yes,No,20.0,Yes,No,No,No,Yes,One year,Yes,Electronic check,29.43,600.16,No,0.08359501183902596
+1493-ABCD,Male,0,Yes,No,59.0,No,Yes,DSL,No internet service,No internet service,Month-to-month,Yes,Electronic check,65.52,3850.32,Yes,0.12846504622944555
+1494-ABCD,Female,0,No,No,71.0,No,No phone service,Fiber optic,No,Yes,One year,No,Mailed check,68.95,4879.79,Yes,0.046979512387657185
+1495-ABCD,Male,0,Yes,No,9.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card (automatic),66.44,591.25,Yes,0.12481753436817272
+1496-ABCD,Male,0,Yes,Yes,1.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,83.19,83.19,Yes,0.02913781695144746
+1497-ABCD,Male,0,Yes,No,29.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Mailed check,90.29,2612.55,Yes,0.062190777735047
+1498-ABCD,Female,0,Yes,No,63.0,Yes,No,DSL,No,No internet service,Month-to-month,Yes,Electronic check,47.76,3011.65,Yes,0.08120639959628784
+1499-ABCD,Male,0,Yes,Yes,72.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Electronic check,83.33,6010.91,Yes,9.97875862025488e-05
+1500-ABCD,Female,0,Yes,No,56.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,No,Electronic check,85.84,4804.1,No,0.08923108205266927
+1501-ABCD,Male,0,No,Yes,68.0,No,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),50.85,3449.65,Yes,0.0830377742950128
+1502-ABCD,Male,1,No,No,35.0,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),40.06,1410.23,No,0.11997500337063133
+1503-ABCD,Male,1,No,No,3.0,Yes,No,No,Yes,No internet service,Month-to-month,No,Credit card (automatic),29.15,84.63,Yes,0.024280612233018917
+1504-ABCD,Female,1,Yes,Yes,7.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,83.5,585.57,Yes,0.08868033689787858
+1505-ABCD,Male,1,No,No,27.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),78.35,2112.13,Yes,0.1375846735822091
+1506-ABCD,Male,0,Yes,No,1.0,Yes,No,Fiber optic,Yes,No internet service,Two year,No,Mailed check,77.45,80.85,Yes,0.035277181818531234
+1507-ABCD,Female,0,Yes,No,71.0,Yes,No,DSL,Yes,No internet service,Month-to-month,No,Electronic check,42.44,3003.1,No,0.023302673214489755
+1508-ABCD,Male,0,No,No,44.0,Yes,No,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),67.23,2965.38,Yes,0.13828674770818117
+1509-ABCD,Female,0,Yes,No,41.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,77.2,3164.87,Yes,0.1449631453276889
+1510-ABCD,Female,0,Yes,Yes,42.0,Yes,No,DSL,No internet service,Yes,Two year,Yes,Electronic check,52.01,2176.78,No,0.13592312207473872
+1511-ABCD,Male,0,No,No,33.0,Yes,Yes,DSL,No,No internet service,One year,No,Mailed check,75.8,2506.71,No,0.14122693158018618
+1512-ABCD,Female,0,No,Yes,50.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,58.77,2930.85,Yes,0.14469590386312392
+1513-ABCD,Male,0,No,No,63.0,Yes,No,DSL,No,No internet service,One year,Yes,Credit card (automatic),68.73,4322.78,Yes,0.10966641297775148
+1514-ABCD,Female,0,No,No,37.0,Yes,No phone service,DSL,No,No,One year,Yes,Electronic check,55.75,2050.74,Yes,0.14502580653193303
+1515-ABCD,Female,0,No,No,59.0,Yes,No,No,No,No,One year,No,Credit card (automatic),38.04,2227.32,No,0.07320594323298746
+1516-ABCD,Male,0,Yes,No,48.0,Yes,No,DSL,No,No,One year,Yes,Bank transfer (automatic),79.54,3823.26,No,0.12736369339703374
+1517-ABCD,Female,0,Yes,Yes,5.0,No,Yes,DSL,No internet service,No,Two year,No,Electronic check,66.44,343.86,Yes,0.08965296591671779
+1518-ABCD,Female,1,Yes,No,48.0,Yes,No,DSL,No internet service,Yes,Two year,No,Credit card (automatic),54.23,2598.53,Yes,0.13378992404812967
+1519-ABCD,Female,0,Yes,Yes,3.0,Yes,No,No,Yes,No internet service,One year,Yes,Credit card (automatic),21.46,56.4,No,-0.014576395083870763
+1520-ABCD,Female,0,Yes,Yes,47.0,No,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),84.04,3931.76,No,0.10682622712279771
+1521-ABCD,Female,1,No,Yes,62.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,76.71,4734.29,No,0.10141289114055962
+1522-ABCD,Male,1,No,No,14.0,Yes,No phone service,No,No internet service,No,Two year,No,Mailed check,28.5,406.27,No,0.06155884506323428
+1523-ABCD,Female,1,No,Yes,63.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,108.16,6794.34,Yes,-0.09407498491335953
+1524-ABCD,Male,0,Yes,Yes,61.0,No,Yes,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),65.96,4012.12,No,0.11970327052018748
+1525-ABCD,Female,0,No,Yes,31.0,No,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),60.57,1880.5,Yes,0.15628837995235617
+1526-ABCD,Male,0,No,Yes,17.0,Yes,No phone service,Fiber optic,No,No internet service,Month-to-month,Yes,Electronic check,73.32,1247.34,No,0.14464503626765884
+1527-ABCD,Male,0,No,No,24.0,Yes,No,DSL,Yes,No,Two year,No,Bank transfer (automatic),51.71,1244.29,No,0.13583641389444484
+1528-ABCD,Female,0,Yes,No,23.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Mailed check,83.39,1918.04,Yes,0.11463701343728633
+1529-ABCD,Female,0,No,No,50.0,No,No phone service,DSL,No,No,Month-to-month,No,Mailed check,54.28,2710.43,Yes,0.1356979023994913
+1530-ABCD,Female,0,Yes,No,70.0,No,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,97.87,6839.52,Yes,-0.08052850403191414
+1531-ABCD,Male,0,Yes,Yes,27.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),52.47,1410.35,No,0.14413550086012666
+1532-ABCD,Female,0,Yes,No,15.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,62.99,941.96,No,0.13974849126241218
+1533-ABCD,Male,0,No,No,50.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),77.83,3872.6,No,0.13191763404721712
+1534-ABCD,Male,0,No,Yes,36.0,Yes,No,No,No,No,Month-to-month,No,Credit card (automatic),26.93,961.62,No,0.06771664221995766
+1535-ABCD,Male,0,Yes,Yes,8.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Bank transfer (automatic),61.13,485.32,No,0.11651745275076336
+1536-ABCD,Female,0,Yes,Yes,3.0,Yes,Yes,Fiber optic,Yes,No,Two year,Yes,Credit card (automatic),67.96,196.99,Yes,0.08383176494586286
+1537-ABCD,Female,1,Yes,Yes,62.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,70.0,4336.57,No,0.11007642132922169
+1538-ABCD,Male,0,Yes,No,47.0,Yes,No,DSL,Yes,No,One year,No,Credit card (automatic),41.04,1935.57,No,0.10212765713002481
+1539-ABCD,Male,0,Yes,No,61.0,No,Yes,DSL,No,No internet service,Month-to-month,No,Credit card (automatic),68.25,4171.16,No,0.1158372999591496
+1540-ABCD,Female,0,Yes,Yes,32.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,61.0,1967.11,Yes,0.15698782707322728
+1541-ABCD,Male,0,No,Yes,13.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Mailed check,72.52,927.68,Yes,0.1350814238403516
+1542-ABCD,Female,0,Yes,No,1.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Electronic check,51.21,51.21,No,0.022250333182579407
+1543-ABCD,Male,0,Yes,Yes,34.0,No,No,Fiber optic,No,No,Two year,No,Bank transfer (automatic),79.79,2725.14,Yes,0.13983115601137208
+1544-ABCD,Female,0,Yes,No,62.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,67.65,4176.84,Yes,0.11056269408530989
+1545-ABCD,Male,0,No,No,71.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),87.9,6229.14,Yes,-0.007224091290496615
+1546-ABCD,Female,1,No,Yes,31.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Mailed check,83.99,2597.53,No,0.11700952196111447
+1547-ABCD,Male,0,No,Yes,64.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),75.56,4856.28,Yes,0.09688374624002916
+1548-ABCD,Female,0,Yes,No,25.0,Yes,Yes,Fiber optic,No,No internet service,One year,No,Electronic check,65.42,1625.75,Yes,0.16206105317506309
+1549-ABCD,Female,1,No,No,38.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,Yes,Electronic check,68.59,2617.26,Yes,0.15023136890614625
+1550-ABCD,Male,1,Yes,No,14.0,No,Yes,DSL,No,Yes,One year,Yes,Mailed check,67.56,945.56,No,0.14220856047696423
+1551-ABCD,Male,0,No,No,8.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Electronic check,73.04,572.86,Yes,0.1179112299226105
+1552-ABCD,Female,0,No,Yes,54.0,Yes,No,No,No internet service,No,Two year,Yes,Mailed check,23.27,1284.58,Yes,0.035816720965093474
+1553-ABCD,Male,0,No,No,2.0,Yes,No,DSL,No,No,One year,No,Mailed check,52.11,106.17,No,0.05766419431308489
+1554-ABCD,Female,0,No,No,56.0,Yes,No phone service,DSL,No,No,Month-to-month,No,Electronic check,66.66,3736.72,No,0.13743793145702632
+1555-ABCD,Male,0,No,Yes,61.0,Yes,No,No,No,No internet service,One year,No,Credit card (automatic),22.64,1386.39,No,0.019849781003824396
+1556-ABCD,Female,0,Yes,No,22.0,Yes,No,Fiber optic,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),61.08,1348.33,No,0.15450078146276525
+1557-ABCD,Female,0,No,Yes,35.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),63.25,2235.27,No,0.14918934200612577
+1558-ABCD,Female,1,Yes,No,16.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,84.72,1373.38,Yes,0.11253231946812747
+1559-ABCD,Female,1,No,Yes,50.0,Yes,No phone service,DSL,No internet service,No,Two year,Yes,Bank transfer (automatic),68.37,3409.18,No,0.1414496690632912
+1560-ABCD,Female,0,Yes,No,43.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),102.64,4433.71,Yes,-0.012582186053775035
+1561-ABCD,Female,0,Yes,No,17.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,90.2,1526.4,Yes,0.07322343447606838
+1562-ABCD,Male,0,Yes,No,58.0,No,No,DSL,No internet service,No,Month-to-month,Yes,Credit card (automatic),47.15,2737.92,Yes,0.10139697883684834
+1563-ABCD,Male,0,Yes,Yes,2.0,Yes,Yes,Fiber optic,Yes,No,Two year,Yes,Bank transfer (automatic),78.0,141.48,No,0.06457925068320491
+1564-ABCD,Male,0,No,No,4.0,Yes,No,No,No,Yes,One year,Yes,Bank transfer (automatic),37.01,158.41,No,0.05435003239430525
+1565-ABCD,Female,0,No,No,39.0,Yes,No,Fiber optic,No,No,Two year,Yes,Bank transfer (automatic),85.65,3337.28,No,0.09861498270877261
+1566-ABCD,Female,0,Yes,No,6.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),49.86,287.67,Yes,0.08770172408773025
+1567-ABCD,Female,0,Yes,No,69.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Credit card (automatic),86.4,5973.49,Yes,0.02161405387883175
+1568-ABCD,Female,0,No,No,69.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Electronic check,83.16,5752.4,Yes,0.03499604699171044
+1569-ABCD,Male,0,Yes,No,20.0,Yes,No,No,Yes,No,One year,Yes,Electronic check,35.71,728.9,No,0.10339776491274338
+1570-ABCD,Male,0,No,No,64.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),84.16,5371.01,No,0.06145432210032664
+1571-ABCD,Female,0,No,No,16.0,Yes,No,DSL,No,Yes,Month-to-month,No,Electronic check,43.15,706.14,No,0.11329848256906566
+1572-ABCD,Male,1,No,No,51.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Credit card (automatic),78.61,4006.1,Yes,0.1301930428357304
+1573-ABCD,Male,0,No,No,37.0,Yes,Yes,Fiber optic,Yes,No internet service,One year,No,Electronic check,96.43,3588.43,No,0.026949185853918145
+1574-ABCD,Female,0,Yes,No,69.0,Yes,No,DSL,Yes,No,Two year,No,Mailed check,50.51,3491.44,No,0.0717654173140928
+1575-ABCD,Male,0,No,No,42.0,Yes,Yes,Fiber optic,No,No internet service,One year,No,Electronic check,76.55,3217.61,No,0.14155222976002924
+1576-ABCD,Female,0,Yes,No,57.0,Yes,No phone service,DSL,No,Yes,Two year,Yes,Bank transfer (automatic),58.96,3360.81,No,0.13985880439356302
+1577-ABCD,Male,0,Yes,Yes,66.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Electronic check,86.07,5680.48,Yes,0.03679250000454126
+1578-ABCD,Female,0,No,No,9.0,Yes,No,DSL,No internet service,No internet service,Two year,Yes,Electronic check,52.38,464.62,Yes,0.10939064315893038
+1579-ABCD,Female,0,Yes,No,64.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Electronic check,84.98,5428.04,No,0.05818086471958306
+1580-ABCD,Female,0,No,No,22.0,Yes,Yes,No,No,No internet service,Month-to-month,No,Electronic check,26.64,582.45,No,0.06693637541351338
+1581-ABCD,Female,1,No,No,34.0,Yes,No,No,No,No,Two year,Yes,Mailed check,33.24,1142.07,No,0.09083792561244464
+1582-ABCD,Male,0,No,No,55.0,Yes,No,No,No,No internet service,Month-to-month,No,Credit card (automatic),42.74,2336.73,Yes,0.09984623417619642
+1583-ABCD,Female,0,No,No,29.0,No,No,No,No,No internet service,Two year,Yes,Bank transfer (automatic),24.28,717.53,No,0.05296353971258061
+1584-ABCD,Female,1,Yes,No,38.0,Yes,No phone service,DSL,Yes,No internet service,Two year,No,Bank transfer (automatic),48.37,1839.49,No,0.1277132209268811
+1585-ABCD,Female,0,Yes,No,18.0,Yes,No,Fiber optic,Yes,No,One year,Yes,Electronic check,76.38,1382.65,Yes,0.14591018132925948
+1586-ABCD,Male,1,No,No,71.0,Yes,No,Fiber optic,No internet service,No,One year,Yes,Credit card (automatic),97.77,6950.0,No,-0.08298907339760409
+1587-ABCD,Female,0,Yes,No,65.0,Yes,Yes,No,Yes,No internet service,Month-to-month,Yes,Electronic check,48.8,3181.28,No,0.07938553659700698
+1588-ABCD,Male,0,No,No,1.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,54.25,54.47,Yes,0.025758398661790638
+1589-ABCD,Female,0,No,Yes,4.0,Yes,Yes,No,No internet service,No,Month-to-month,Yes,Credit card (automatic),40.32,161.8,Yes,0.05834085561778757
+1590-ABCD,Male,0,No,Yes,4.0,Yes,No,Fiber optic,No,No,Two year,No,Credit card (automatic),84.59,347.3,No,0.05733301265451307
+1591-ABCD,Male,0,Yes,No,27.0,Yes,No phone service,No,No,No,One year,Yes,Credit card (automatic),22.72,603.03,No,0.043344421659908705
+1592-ABCD,Female,0,Yes,Yes,43.0,Yes,No phone service,DSL,No,No,Two year,No,Credit card (automatic),59.89,2563.33,No,0.14429240070606353
+1593-ABCD,Male,0,Yes,No,59.0,Yes,No,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,46.06,2712.89,Yes,0.0954247981806407
+1594-ABCD,Female,0,Yes,No,32.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Mailed check,82.4,2639.68,No,0.1280348562910099
+1595-ABCD,Female,0,No,No,33.0,Yes,No,DSL,No,No,Two year,No,Credit card (automatic),52.65,1756.66,No,0.13597611766831996
+1596-ABCD,Female,1,Yes,No,28.0,Yes,Yes,No,No internet service,No,One year,Yes,Bank transfer (automatic),41.61,1165.56,Yes,0.11881502625987411
+1597-ABCD,Male,1,Yes,Yes,55.0,Yes,No,DSL,No internet service,Yes,Month-to-month,No,Bank transfer (automatic),52.13,2887.15,Yes,0.11932937145248007
+1598-ABCD,Male,1,Yes,No,60.0,Yes,Yes,Fiber optic,No internet service,Yes,Month-to-month,No,Mailed check,90.59,5440.55,Yes,0.03020283116398581
+1599-ABCD,Female,0,No,No,70.0,Yes,No,Fiber optic,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),73.6,5147.47,No,0.061180844608446305
+1600-ABCD,Female,0,No,No,62.0,Yes,Yes,Fiber optic,No,No,One year,No,Electronic check,102.26,6351.59,Yes,-0.0674927708527191
+1601-ABCD,Male,0,Yes,Yes,34.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Electronic check,96.35,3273.47,No,0.034461286167475125
+1602-ABCD,Female,0,Yes,No,56.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Mailed check,74.57,4178.43,Yes,0.12621492197932777
+1603-ABCD,Female,0,Yes,Yes,13.0,Yes,No,DSL,No,Yes,Month-to-month,No,Credit card (automatic),56.53,721.53,No,0.12457658879073141
+1604-ABCD,Female,0,Yes,Yes,56.0,Yes,No,DSL,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),60.88,3394.19,No,0.14381698351397404
+1605-ABCD,Male,0,No,Yes,18.0,Yes,Yes,Fiber optic,Yes,Yes,One year,Yes,Bank transfer (automatic),81.33,1469.48,No,0.12459974370033056
+1606-ABCD,Male,0,No,Yes,54.0,Yes,No,Fiber optic,No internet service,Yes,Two year,No,Mailed check,84.7,4584.84,No,0.10068999535093737
+1607-ABCD,Male,0,Yes,No,43.0,Yes,Yes,Fiber optic,No internet service,No,Two year,No,Mailed check,93.76,4051.14,No,0.05017828566457372
+1608-ABCD,Female,0,Yes,Yes,39.0,Yes,No,Fiber optic,No internet service,No internet service,Two year,No,Bank transfer (automatic),74.33,2890.78,Yes,0.14858521452914047
+1609-ABCD,Female,0,No,No,61.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,No,Credit card (automatic),82.85,5068.49,Yes,0.08241359458812891
+1610-ABCD,Female,1,Yes,No,42.0,Yes,No,Fiber optic,Yes,Yes,One year,No,Mailed check,55.71,2352.96,No,0.14266854724349598
+1611-ABCD,Male,0,No,No,18.0,Yes,No,DSL,Yes,Yes,Two year,No,Electronic check,65.86,1180.57,No,0.15577571208119795
+1612-ABCD,Female,0,Yes,Yes,23.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),72.09,1671.95,No,0.15555496723949236
+1613-ABCD,Female,0,No,No,54.0,Yes,No,No,No,No internet service,Month-to-month,Yes,Mailed check,21.3,1159.64,No,0.0251542792474172
+1614-ABCD,Female,0,Yes,No,30.0,Yes,No,No,No,Yes,Month-to-month,Yes,Mailed check,32.02,972.02,No,0.09207497452721836
+1615-ABCD,Female,0,No,No,58.0,No,No,DSL,No internet service,No,Month-to-month,No,Mailed check,38.79,2271.49,Yes,0.07802697478549869
+1616-ABCD,Male,0,No,Yes,68.0,Yes,No,Fiber optic,No internet service,No,One year,Yes,Bank transfer (automatic),68.89,4695.53,No,0.0819786452203819
+1617-ABCD,Male,0,Yes,No,67.0,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,48.77,3246.22,No,0.07215585944722103
+1618-ABCD,Female,0,Yes,No,71.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,74.9,5321.13,Yes,0.05181514731565573
+1619-ABCD,Male,0,Yes,No,18.0,No,No,DSL,Yes,Yes,Month-to-month,No,Bank transfer (automatic),54.45,964.43,No,0.14474731574452088
+1620-ABCD,Male,0,Yes,Yes,7.0,Yes,Yes,DSL,Yes,No internet service,One year,No,Mailed check,65.36,459.03,No,0.11811459598612523
+1621-ABCD,Female,1,Yes,No,40.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),84.43,3378.14,No,0.11181909404052875
+1622-ABCD,Female,0,Yes,Yes,70.0,Yes,Yes,No,No,No,One year,Yes,Bank transfer (automatic),47.9,3347.16,No,0.046194848041982595
+1623-ABCD,Male,0,No,Yes,65.0,Yes,No phone service,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,70.05,4542.97,Yes,0.1029457581513496
+1624-ABCD,Female,1,Yes,No,68.0,Yes,No,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),58.35,3962.5,No,0.08802924027063774
+1625-ABCD,Male,0,Yes,Yes,49.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card (automatic),55.84,2732.79,No,0.14219486749266153
+1626-ABCD,Female,0,No,Yes,52.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Electronic check,90.93,4727.04,Yes,0.057920273609036954
+1627-ABCD,Male,0,Yes,Yes,29.0,Yes,No,No,No,No internet service,Month-to-month,No,Credit card (automatic),27.43,796.52,Yes,0.07678582720452787
+1628-ABCD,Female,0,No,No,21.0,No,No,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),74.67,1573.92,Yes,0.14771814130580285
+1629-ABCD,Male,1,Yes,No,9.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Credit card (automatic),82.1,735.77,No,0.11112313455272294
+1630-ABCD,Male,0,No,No,47.0,No,Yes,DSL,No internet service,No,One year,Yes,Bank transfer (automatic),63.11,2978.97,No,0.14306934980393082
+1631-ABCD,Male,1,No,No,42.0,Yes,No,No,Yes,No,Month-to-month,Yes,Mailed check,21.96,921.94,Yes,0.038961750961864605
+1632-ABCD,Female,0,No,Yes,51.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),42.63,2183.37,No,0.11417454968916546
+1633-ABCD,Male,0,No,No,56.0,Yes,Yes,DSL,No,No,Two year,Yes,Electronic check,69.44,3885.6,No,0.12877893014299124
+1634-ABCD,Male,0,Yes,No,51.0,Yes,No phone service,Fiber optic,No,Yes,One year,Yes,Bank transfer (automatic),64.35,3309.29,Yes,0.14547209973604247
+1635-ABCD,Female,0,No,Yes,70.0,Yes,No,DSL,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),50.23,3520.77,Yes,0.05795299747557625
+1636-ABCD,Female,0,Yes,No,20.0,Yes,Yes,DSL,No,Yes,One year,No,Bank transfer (automatic),65.24,1321.15,No,0.15562881386263727
+1637-ABCD,Male,1,Yes,No,27.0,Yes,Yes,DSL,No,No,One year,No,Bank transfer (automatic),60.21,1618.73,No,0.1627333408333806
+1638-ABCD,Male,0,Yes,Yes,38.0,Yes,Yes,DSL,Yes,No,One year,Yes,Credit card (automatic),63.22,2397.89,No,0.15031347569915132
+1639-ABCD,Female,1,No,Yes,72.0,Yes,Yes,DSL,No,No,Month-to-month,No,Mailed check,77.93,5608.44,No,0.025039890042546697
+1640-ABCD,Female,0,Yes,Yes,65.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,66.85,4369.98,Yes,0.10660068276426621
+1641-ABCD,Female,1,No,Yes,54.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Electronic check,66.5,3588.87,No,0.13986434803682068
+1642-ABCD,Female,0,No,No,24.0,Yes,No,Fiber optic,No,No,Two year,Yes,Electronic check,70.21,1676.81,Yes,0.1542602062504786
+1643-ABCD,Female,0,No,No,47.0,No,No phone service,DSL,No,Yes,One year,Yes,Bank transfer (automatic),52.37,2474.4,Yes,0.1306251108391691
+1644-ABCD,Male,1,No,No,71.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,Yes,Electronic check,61.08,4337.27,Yes,0.06408594849190385
+1645-ABCD,Female,0,Yes,No,63.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Credit card (automatic),87.15,5488.27,No,0.04740343250886747
+1646-ABCD,Male,0,Yes,Yes,57.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Mailed check,66.78,3800.36,No,0.13318411292825394
+1647-ABCD,Male,0,Yes,No,55.0,Yes,No phone service,DSL,Yes,Yes,Two year,Yes,Bank transfer (automatic),45.6,2512.89,No,0.10303579135396246
+1648-ABCD,Male,0,Yes,No,60.0,No,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),24.6,1486.63,No,0.022639881019946295
+1649-ABCD,Female,1,Yes,No,62.0,Yes,Yes,Fiber optic,No,Yes,Two year,Yes,Credit card (automatic),79.77,4953.62,No,0.08692503434819754
+1650-ABCD,Male,0,Yes,No,30.0,Yes,No,No,No,Yes,Month-to-month,No,Electronic check,46.97,1404.31,Yes,0.12829668189838045
+1651-ABCD,Male,0,Yes,No,22.0,Yes,No,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),87.42,1913.36,Yes,0.08600879778607118
+1652-ABCD,Female,0,No,No,29.0,Yes,No phone service,DSL,No,No,Two year,No,Bank transfer (automatic),41.64,1167.37,Yes,0.11694632690997814
+1653-ABCD,Male,0,No,No,41.0,No,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),69.56,2842.51,No,0.1474519690977633
+1654-ABCD,Male,0,Yes,Yes,42.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Credit card (automatic),54.31,2277.3,Yes,0.14064742341817893
+1655-ABCD,Female,0,No,Yes,65.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Electronic check,90.29,5868.26,No,0.011649878546366788
+1656-ABCD,Male,0,Yes,Yes,31.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,70.33,2177.52,Yes,0.1582683209596516
+1657-ABCD,Male,0,Yes,No,30.0,Yes,No,No,No,No,Two year,Yes,Mailed check,29.74,920.21,No,0.083542558480594
+1658-ABCD,Male,0,No,No,18.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Electronic check,61.35,1109.21,No,0.14803940566509316
+1659-ABCD,Female,0,No,No,17.0,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,48.62,814.16,Yes,0.12331458107773474
+1660-ABCD,Female,0,Yes,No,38.0,Yes,Yes,No,No internet service,Yes,Month-to-month,No,Credit card (automatic),41.42,1580.52,No,0.1160023154899466
+1661-ABCD,Female,0,No,No,14.0,Yes,No phone service,Fiber optic,No internet service,No,Month-to-month,Yes,Credit card (automatic),88.85,1247.81,No,0.07075584037747318
+1662-ABCD,Male,0,No,No,56.0,Yes,Yes,Fiber optic,Yes,No,One year,No,Credit card (automatic),71.5,3993.5,Yes,0.12525088796050637
+1663-ABCD,Male,0,No,Yes,22.0,Yes,No,Fiber optic,No internet service,No internet service,One year,Yes,Mailed check,78.39,1727.47,Yes,0.14157840262107158
+1664-ABCD,Female,0,No,Yes,67.0,Yes,No,No,No,No,Month-to-month,No,Mailed check,25.49,1713.13,No,0.012662449335125947
+1665-ABCD,Male,0,No,No,56.0,No,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),88.31,4955.61,Yes,0.0657330783888862
+1666-ABCD,Male,0,Yes,No,19.0,Yes,No,No,No,No,Month-to-month,No,Bank transfer (automatic),32.01,590.43,No,0.09000042127003516
+1667-ABCD,Female,0,Yes,No,57.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Bank transfer (automatic),79.08,4514.04,Yes,0.10946877006524125
+1668-ABCD,Female,0,Yes,Yes,44.0,Yes,No,No,No,No,Two year,No,Mailed check,37.82,1678.18,No,0.1012292889716711
+1669-ABCD,Male,0,Yes,Yes,35.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),86.12,3033.08,No,0.09306069083279656
+1670-ABCD,Male,0,No,No,1.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,No,Credit card (automatic),90.61,90.61,Yes,-0.014921142140436938
+1671-ABCD,Male,0,Yes,Yes,52.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Mailed check,40.13,2085.3,Yes,0.09864995847374369
+1672-ABCD,Female,1,No,Yes,70.0,Yes,No phone service,No,Yes,Yes,Month-to-month,No,Electronic check,25.66,1795.71,Yes,-0.00268579883246145
+1673-ABCD,Female,0,No,No,37.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,75.19,2788.79,No,0.14974088455019646
+1674-ABCD,Female,0,No,Yes,65.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Bank transfer (automatic),58.48,3799.55,Yes,0.10583732543873792
+1675-ABCD,Female,0,No,No,51.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Mailed check,91.68,4668.53,No,0.05648630487035533
+1676-ABCD,Male,0,No,Yes,1.0,No,No phone service,No,No,No,Two year,Yes,Bank transfer (automatic),19.21,21.38,No,-0.055978425343555904
+1677-ABCD,Female,0,Yes,Yes,21.0,Yes,No,Fiber optic,Yes,No,Two year,No,Bank transfer (automatic),84.16,1763.98,No,0.1111934623163745
+1678-ABCD,Female,1,No,No,53.0,Yes,No,No,Yes,No internet service,Month-to-month,No,Electronic check,29.19,1552.69,No,0.052657771401691256
+1679-ABCD,Female,0,Yes,No,16.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,No,Electronic check,54.95,871.1,No,0.13284928174062072
+1680-ABCD,Female,0,No,No,61.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),68.21,4150.59,No,0.11629248464474684
+1681-ABCD,Female,0,Yes,No,54.0,Yes,No,Fiber optic,No internet service,Yes,One year,No,Bank transfer (automatic),67.45,3655.45,No,0.1354415568357505
+1682-ABCD,Male,0,No,Yes,40.0,Yes,No,No,Yes,No,Two year,Yes,Mailed check,22.6,926.73,No,0.047647726622304654
+1683-ABCD,Male,0,No,No,26.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Electronic check,69.56,1826.78,Yes,0.16397751888883838
+1684-ABCD,Female,0,Yes,Yes,65.0,Yes,No phone service,No,No,No,Month-to-month,Yes,Electronic check,36.91,2398.43,Yes,0.05389750265215698
+1685-ABCD,Male,0,Yes,No,64.0,Yes,No,Fiber optic,No,No,One year,Yes,Bank transfer (automatic),88.59,5680.31,No,0.032091026672942835
+1686-ABCD,Female,0,No,No,43.0,Yes,Yes,DSL,No,Yes,Two year,Yes,Mailed check,59.41,2547.77,No,0.1473374039517819
+1687-ABCD,Female,0,No,No,17.0,Yes,No,DSL,No internet service,No,Two year,Yes,Electronic check,57.74,986.66,No,0.1469842409255967
+1688-ABCD,Male,0,No,No,59.0,Yes,No,DSL,Yes,Yes,One year,Yes,Electronic check,49.82,2933.54,No,0.10169463825358976
+1689-ABCD,Male,0,No,Yes,23.0,Yes,No,Fiber optic,No,No,Two year,Yes,Mailed check,75.16,1741.25,No,0.1494098455348934
+1690-ABCD,Female,0,Yes,Yes,7.0,Yes,Yes,DSL,No,No,Month-to-month,No,Electronic check,53.16,383.35,Yes,0.10067000519136893
+1691-ABCD,Female,0,Yes,No,44.0,Yes,No,DSL,No,No,Two year,Yes,Mailed check,46.01,2045.2,No,0.12232295476514238
+1692-ABCD,Female,0,Yes,No,53.0,Yes,No,No,No internet service,Yes,Two year,Yes,Bank transfer (automatic),36.42,1927.97,No,0.08304302816974451
+1693-ABCD,Male,0,No,No,71.0,No,Yes,DSL,Yes,No,Two year,No,Electronic check,53.13,3788.02,No,0.042227607811600176
+1694-ABCD,Female,0,Yes,Yes,34.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),59.92,2042.34,No,0.15068252382557645
+1695-ABCD,Female,0,No,No,46.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,69.59,3201.89,No,0.1348020453421609
+1696-ABCD,Female,0,No,Yes,68.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),59.6,4056.17,Yes,0.08921636941884392
+1697-ABCD,Male,0,No,No,16.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),64.69,1052.02,No,0.1461308779560191
+1698-ABCD,Female,0,No,No,71.0,No,No,Fiber optic,No,No,Two year,Yes,Bank transfer (automatic),86.71,6155.09,No,0.0030029249403076275
+1699-ABCD,Female,0,No,No,19.0,Yes,No,No,No internet service,No,Month-to-month,Yes,Credit card (automatic),18.25,345.94,No,0.0016117553343025781
+1700-ABCD,Male,0,Yes,Yes,2.0,No,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,84.49,148.32,Yes,0.048694269709091964
+1701-ABCD,Female,0,No,No,10.0,Yes,Yes,DSL,No internet service,No,One year,No,Mailed check,67.83,676.83,Yes,0.1286214687530855
+1702-ABCD,Female,1,No,No,50.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,44.49,2227.14,No,0.11533544721617195
+1703-ABCD,Male,0,No,No,12.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,70.57,839.22,Yes,0.1264701840310809
+1704-ABCD,Female,0,No,No,70.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,88.83,6208.02,No,-0.008979795031593407
+1705-ABCD,Male,0,Yes,No,22.0,Yes,No,Fiber optic,Yes,Yes,One year,No,Electronic check,77.35,1683.19,No,0.14848448109130213
+1706-ABCD,Male,1,Yes,No,32.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,81.32,2596.39,Yes,0.1278341627686646
+1707-ABCD,Female,0,No,No,1.0,No,No,Fiber optic,No,Yes,Two year,No,Electronic check,76.9,91.11,No,0.037372577864797085
+1708-ABCD,Female,0,Yes,Yes,54.0,Yes,No phone service,DSL,No,No,Month-to-month,No,Bank transfer (automatic),54.18,2910.9,No,0.12869567245847802
+1709-ABCD,Female,0,No,Yes,58.0,Yes,No,DSL,No,No,Two year,Yes,Bank transfer (automatic),47.24,2747.81,No,0.10139697883684834
+1710-ABCD,Female,0,No,No,70.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,Yes,Mailed check,94.6,6630.79,No,-0.059141260737286316
+1711-ABCD,Male,0,Yes,Yes,18.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card (automatic),76.66,1404.41,Yes,0.14508855092165468
+1712-ABCD,Female,1,No,No,6.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,Yes,Mailed check,70.26,431.94,Yes,0.1062190033213462
+1713-ABCD,Male,0,Yes,No,45.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,69.17,3122.2,No,0.13676637101553318
+1714-ABCD,Female,0,No,No,23.0,No,No,Fiber optic,Yes,No internet service,Month-to-month,Yes,Mailed check,70.08,1615.52,Yes,0.1549843730568108
+1715-ABCD,Female,0,No,No,23.0,Yes,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),27.68,636.65,Yes,0.0727546388520518
+1716-ABCD,Female,0,No,No,26.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Mailed check,65.07,1700.34,No,0.1655969436937692
+1717-ABCD,Male,0,Yes,No,7.0,Yes,No phone service,Fiber optic,No internet service,Yes,One year,No,Electronic check,68.66,493.11,No,0.11693627215745372
+1718-ABCD,Female,0,Yes,Yes,44.0,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,44.42,1956.18,No,0.12178798022580212
+1719-ABCD,Female,0,No,No,27.0,No,Yes,DSL,No,Yes,Month-to-month,No,Bank transfer (automatic),53.05,1445.27,No,0.1458819131472341
+1720-ABCD,Female,0,No,Yes,26.0,Yes,No,Fiber optic,No,No,One year,No,Credit card (automatic),75.45,1990.53,No,0.1479310343578205
+1721-ABCD,Female,0,No,No,36.0,Yes,No,DSL,No internet service,No,Two year,No,Electronic check,58.05,2090.51,No,0.15118728610267185
+1722-ABCD,Male,0,Yes,No,55.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Mailed check,75.33,4144.14,Yes,0.12426713146116614
+1723-ABCD,Female,1,Yes,No,64.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),53.47,3421.16,No,0.09242693610532049
+1724-ABCD,Male,0,Yes,Yes,57.0,Yes,No,No,No,No internet service,Two year,Yes,Electronic check,26.98,1539.2,No,0.040560246011467904
+1725-ABCD,Male,1,No,No,69.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,78.57,5433.56,Yes,0.06388932835613315
+1726-ABCD,Male,0,Yes,No,61.0,Yes,No,No,Yes,Yes,Two year,Yes,Bank transfer (automatic),23.43,1430.1,No,0.01798548605708672
+1727-ABCD,Male,0,Yes,Yes,2.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Mailed check,84.27,170.43,Yes,0.050084290695874056
+1728-ABCD,Male,0,No,Yes,55.0,Yes,Yes,Fiber optic,No,No,Two year,No,Mailed check,81.47,4478.35,No,0.11133037449296607
+1729-ABCD,Male,0,Yes,Yes,38.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Mailed check,92.06,3503.17,Yes,0.059762931131848274
+1730-ABCD,Female,0,No,No,29.0,Yes,No phone service,No,Yes,No,Two year,Yes,Electronic check,35.35,1020.12,Yes,0.09705173210033802
+1731-ABCD,Male,0,No,Yes,26.0,Yes,No phone service,No,No,Yes,Month-to-month,Yes,Credit card (automatic),18.25,462.24,No,0.009362467067239533
+1732-ABCD,Male,0,No,No,35.0,Yes,Yes,Fiber optic,Yes,No,One year,Yes,Electronic check,92.07,3226.93,Yes,0.06431972498140459
+1733-ABCD,Male,0,Yes,No,67.0,Yes,Yes,No,No,No internet service,Month-to-month,Yes,Mailed check,39.57,2670.98,No,0.057293030315525795
+1734-ABCD,Female,1,Yes,No,29.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Electronic check,63.88,1849.62,No,0.15962381567466116
+1735-ABCD,Female,1,No,Yes,34.0,Yes,Yes,Fiber optic,Yes,No internet service,One year,No,Credit card (automatic),95.43,3234.21,No,0.03841962435916235
+1736-ABCD,Male,0,No,No,41.0,Yes,No phone service,Fiber optic,No,No internet service,Month-to-month,Yes,Electronic check,71.51,2951.07,Yes,0.14784019555429434
+1737-ABCD,Female,0,No,No,41.0,No,Yes,DSL,No,Yes,Two year,No,Bank transfer (automatic),60.83,2494.49,No,0.144351910088502
+1738-ABCD,Male,0,Yes,No,23.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Mailed check,68.0,1573.45,No,0.15502014846184037
+1739-ABCD,Male,0,No,No,71.0,Yes,Yes,DSL,No,No,Two year,No,Mailed check,74.14,5256.65,No,0.05215799171831048
+1740-ABCD,Female,0,No,No,3.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,85.91,257.83,Yes,0.04952026796560671
+1741-ABCD,Male,0,No,No,58.0,Yes,No,Fiber optic,No,No,Two year,No,Electronic check,75.33,4383.15,No,0.1184579137000204
+1742-ABCD,Female,0,No,No,32.0,Yes,No,Fiber optic,No,No,Two year,No,Electronic check,69.43,2223.07,Yes,0.15679904496671654
+1743-ABCD,Female,1,No,No,31.0,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,49.01,1520.74,No,0.13437557733163474
+1744-ABCD,Male,0,No,Yes,43.0,No,Yes,Fiber optic,No internet service,Yes,Two year,Yes,Mailed check,85.98,3682.25,No,0.09876193365411029
+1745-ABCD,Male,0,Yes,Yes,7.0,Yes,No,Fiber optic,Yes,No internet service,Two year,No,Electronic check,73.2,520.27,No,0.11605247486758596
+1746-ABCD,Female,0,No,Yes,1.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Mailed check,62.2,62.2,Yes,0.03211293313138475
+1747-ABCD,Male,0,Yes,No,61.0,Yes,No,DSL,No internet service,No,One year,Yes,Electronic check,63.21,3867.01,No,0.11866195216784065
+1748-ABCD,Male,0,Yes,No,14.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,72.9,1022.62,Yes,0.14005756786343143
+1749-ABCD,Male,1,Yes,No,52.0,Yes,No,Fiber optic,No internet service,No,Two year,No,Bank transfer (automatic),83.24,4331.39,No,0.11189128190071429
+1750-ABCD,Female,0,Yes,No,6.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,No,Electronic check,71.23,435.11,Yes,0.10753857552813961
+1751-ABCD,Female,1,Yes,No,10.0,Yes,No phone service,DSL,Yes,No,Month-to-month,Yes,Mailed check,60.78,611.55,No,0.11791598806675385
+1752-ABCD,Male,0,Yes,No,71.0,Yes,No phone service,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),76.66,5460.04,No,0.04606674054004434
+1753-ABCD,Female,0,No,No,30.0,Yes,Yes,DSL,Yes,Yes,One year,No,Bank transfer (automatic),57.39,1737.3,No,0.15472167037210977
+1754-ABCD,Female,0,No,No,21.0,Yes,Yes,DSL,No,No internet service,Two year,No,Credit card (automatic),64.3,1338.13,No,0.15642010627293396
+1755-ABCD,Female,0,Yes,Yes,60.0,Yes,Yes,DSL,No,Yes,Two year,No,Electronic check,47.48,2847.09,No,0.09459729265069006
+1756-ABCD,Female,1,No,Yes,63.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,49.05,3098.52,Yes,0.07948509316191954
+1757-ABCD,Female,1,No,Yes,42.0,Yes,No phone service,DSL,No,No,Month-to-month,Yes,Credit card (automatic),42.38,1770.53,No,0.12122772297919404
+1758-ABCD,Male,0,Yes,No,51.0,Yes,No,DSL,No,Yes,One year,Yes,Electronic check,70.98,3604.3,No,0.13887422797300952
+1759-ABCD,Male,0,Yes,No,64.0,Yes,Yes,No,No internet service,No internet service,One year,No,Bank transfer (automatic),27.47,1750.48,No,0.024739118273345295
+1760-ABCD,Male,0,No,No,56.0,Yes,No phone service,DSL,Yes,No internet service,Month-to-month,Yes,Electronic check,75.69,4237.49,Yes,0.1286072603676079
+1761-ABCD,Female,1,No,Yes,41.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,59.11,2382.86,No,0.14457036452912148
+1762-ABCD,Female,0,No,No,32.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),60.85,1936.06,Yes,0.1567057168273579
+1763-ABCD,Male,0,Yes,No,15.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),81.45,1203.96,Yes,0.12896233045889205
+1764-ABCD,Female,0,Yes,Yes,62.0,Yes,Yes,DSL,Yes,No,One year,No,Electronic check,59.84,3721.55,No,0.11518067505365981
+1765-ABCD,Male,0,Yes,No,27.0,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,18.72,514.75,No,0.02049471025786509
+1766-ABCD,Male,0,Yes,Yes,28.0,Yes,Yes,No,No,No,Two year,No,Credit card (automatic),40.63,1140.43,No,0.11404817800420175
+1767-ABCD,Male,0,Yes,No,64.0,Yes,No,DSL,Yes,No internet service,Month-to-month,No,Electronic check,60.6,3879.4,Yes,0.10957666606976146
+1768-ABCD,Female,1,Yes,No,59.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,85.23,5034.02,Yes,0.08183740846707865
+1769-ABCD,Female,0,No,Yes,58.0,Yes,No,DSL,Yes,No internet service,Two year,No,Electronic check,58.98,3410.86,No,0.13455790078539287
+1770-ABCD,Male,0,No,Yes,2.0,Yes,No,Fiber optic,No,No,One year,No,Bank transfer (automatic),70.77,154.07,Yes,0.06420617721773947
+1771-ABCD,Male,1,Yes,No,36.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),86.09,3100.17,Yes,0.09877873735970383
+1772-ABCD,Male,0,No,No,71.0,Yes,No,DSL,No,No internet service,One year,Yes,Mailed check,64.3,4574.48,No,0.05865043906763978
+1773-ABCD,Male,1,Yes,No,13.0,Yes,No phone service,DSL,No,No,Month-to-month,Yes,Electronic check,57.15,751.71,No,0.12692190542805232
+1774-ABCD,Female,0,Yes,No,15.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Mailed check,94.69,1425.69,Yes,0.03405484240463563
+1775-ABCD,Female,0,Yes,No,60.0,Yes,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),92.48,5551.93,Yes,0.014694750012016033
+1776-ABCD,Male,1,No,No,22.0,Yes,Yes,DSL,No,Yes,One year,No,Electronic check,60.65,1336.68,No,0.15582862046096396
+1777-ABCD,Male,0,No,No,63.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Mailed check,77.8,4900.77,Yes,0.10013545708999622
+1778-ABCD,Female,0,No,No,25.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,70.42,1765.33,Yes,0.160892688637353
+1779-ABCD,Female,0,Yes,No,48.0,Yes,No,No,No,No internet service,Two year,Yes,Electronic check,19.2,923.66,No,0.011395779393059247
+1780-ABCD,Male,0,No,No,43.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Credit card (automatic),69.73,2993.52,No,0.14367592321584072
+1781-ABCD,Male,0,Yes,No,38.0,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,18.25,699.6,Yes,3.4751350129980096e-05
+1782-ABCD,Male,0,No,No,41.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),85.12,3492.73,Yes,0.10644401285328953
+1783-ABCD,Female,1,No,Yes,45.0,No,No phone service,DSL,Yes,No,Month-to-month,Yes,Mailed check,49.62,2245.0,No,0.12598070181390508
+1784-ABCD,Female,0,Yes,No,40.0,Yes,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,95.87,3816.7,Yes,0.02758231131704081
+1785-ABCD,Female,0,No,No,17.0,Yes,No phone service,Fiber optic,Yes,No internet service,One year,Yes,Mailed check,54.54,927.54,Yes,0.1439108450498382
+1786-ABCD,Male,0,No,Yes,57.0,Yes,Yes,No,No,Yes,One year,Yes,Credit card (automatic),36.92,2097.19,No,0.07980869754977993
+1787-ABCD,Male,0,Yes,No,2.0,Yes,No,DSL,No,No,Month-to-month,Yes,Electronic check,44.66,84.14,Yes,0.032390650750648065
+1788-ABCD,Female,0,No,No,62.0,Yes,Yes,Fiber optic,No internet service,No,Two year,Yes,Bank transfer (automatic),95.83,5947.06,Yes,-0.017765500579229432
+1789-ABCD,Female,1,Yes,Yes,9.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card (automatic),98.43,871.51,Yes,0.002138862069686165
+1790-ABCD,Male,0,No,No,68.0,Yes,No,No,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),18.25,1242.33,Yes,-0.02929364542503865
+1791-ABCD,Female,0,No,Yes,17.0,Yes,No,DSL,No internet service,No,One year,Yes,Credit card (automatic),61.93,1053.11,Yes,0.14970903789519086
+1792-ABCD,Female,0,No,Yes,50.0,Yes,Yes,No,No,No internet service,Two year,No,Electronic check,48.55,2417.0,No,0.11788291347481916
+1793-ABCD,Male,0,No,No,40.0,Yes,Yes,No,Yes,No,Two year,Yes,Bank transfer (automatic),42.61,1705.98,Yes,0.12133000672040306
+1794-ABCD,Female,0,No,No,58.0,Yes,No,DSL,Yes,Yes,One year,No,Mailed check,59.71,3455.56,Yes,0.132403344423632
+1795-ABCD,Male,0,Yes,Yes,21.0,Yes,Yes,No,Yes,No,One year,No,Credit card (automatic),44.13,948.7,No,0.11685586765999784
+1796-ABCD,Male,0,No,No,18.0,Yes,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),36.96,677.3,No,0.10167520198411756
+1797-ABCD,Male,0,Yes,No,55.0,Yes,Yes,DSL,No,No internet service,Month-to-month,No,Electronic check,56.26,3094.97,Yes,0.13329835411270735
+1798-ABCD,Male,0,No,Yes,29.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),94.6,2739.08,Yes,0.035048238286784605
+1799-ABCD,Male,0,Yes,Yes,24.0,Yes,Yes,Fiber optic,Yes,No,Two year,No,Credit card (automatic),86.67,2085.12,No,0.089791771531469
+1800-ABCD,Male,0,Yes,No,17.0,Yes,No,DSL,No,No,Two year,No,Electronic check,56.19,962.9,No,0.1440789635930917
+1801-ABCD,Male,0,No,Yes,18.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Mailed check,69.53,1254.09,No,0.15108873960840413
+1802-ABCD,Female,0,Yes,No,42.0,No,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),54.83,2292.71,No,0.1416607560502396
+1803-ABCD,Male,0,No,No,45.0,Yes,No phone service,DSL,No,No,Month-to-month,Yes,Credit card (automatic),42.57,1913.55,No,0.11857181585754695
+1804-ABCD,Male,0,Yes,No,17.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Electronic check,74.03,1259.29,Yes,0.1457508618648996
+1805-ABCD,Female,0,Yes,Yes,14.0,Yes,Yes,DSL,Yes,Yes,Two year,No,Credit card (automatic),77.35,1085.8,No,0.1356113333725012
+1806-ABCD,Female,0,No,No,49.0,Yes,No,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),20.52,1008.61,Yes,0.0203846120906489
+1807-ABCD,Female,1,Yes,No,29.0,Yes,No,Fiber optic,No,No,Two year,Yes,Mailed check,76.4,2222.91,Yes,0.13592973090107818
+1808-ABCD,Male,0,Yes,No,4.0,Yes,Yes,DSL,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),59.27,250.5,No,0.08872205958282087
+1809-ABCD,Female,0,No,Yes,20.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,78.19,1573.93,No,0.1365833956401411
+1810-ABCD,Male,1,Yes,Yes,47.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),79.01,3719.37,Yes,0.12879328035480986
+1811-ABCD,Male,0,No,No,9.0,Yes,No,No,No,No internet service,One year,No,Mailed check,36.08,312.14,No,0.07594028132656572
+1812-ABCD,Male,0,Yes,No,27.0,Yes,No,DSL,No,No,One year,No,Electronic check,48.7,1326.76,No,0.13257271159656464
+1813-ABCD,Male,0,Yes,Yes,15.0,No,Yes,DSL,Yes,Yes,One year,Yes,Bank transfer (automatic),76.1,1149.69,No,0.13803139603928316
+1814-ABCD,Female,0,No,No,19.0,Yes,Yes,No,No,No,Month-to-month,No,Credit card (automatic),43.38,821.66,Yes,0.1166889014902695
+1815-ABCD,Female,0,Yes,Yes,52.0,Yes,No,No,No internet service,No,Month-to-month,Yes,Credit card (automatic),28.07,1459.94,No,0.05943664946548255
+1816-ABCD,Male,1,Yes,No,26.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,87.78,2282.94,Yes,0.0833046104818036
+1817-ABCD,Male,0,Yes,No,26.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),91.29,2369.16,No,0.061011108012927084
+1818-ABCD,Male,0,Yes,No,26.0,Yes,No,DSL,No,Yes,One year,No,Credit card (automatic),61.03,1569.3,No,0.1611140914321722
+1819-ABCD,Female,0,No,No,46.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer (automatic),79.41,3641.69,No,0.1275953282854012
+1820-ABCD,Male,1,Yes,No,49.0,Yes,No phone service,DSL,No,No internet service,One year,Yes,Mailed check,54.85,2678.58,No,0.13672804909172048
+1821-ABCD,Male,0,No,No,53.0,Yes,No,DSL,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),56.05,2950.97,No,0.13325882813455664
+1822-ABCD,Female,0,No,No,3.0,Yes,No,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,35.32,94.83,Yes,0.040036964148563836
+1823-ABCD,Female,0,Yes,No,66.0,Yes,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card (automatic),66.92,4428.13,Yes,0.10157740383824393
+1824-ABCD,Male,0,No,No,42.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Electronic check,100.16,4211.58,Yes,0.0023467951412770027
+1825-ABCD,Female,1,Yes,Yes,19.0,Yes,No,No,No internet service,No,Two year,Yes,Credit card (automatic),28.19,525.9,No,0.08277016284626804
+1826-ABCD,Female,1,No,Yes,17.0,Yes,Yes,DSL,No,No,One year,Yes,Credit card (automatic),51.16,862.84,Yes,0.13281259516450827
+1827-ABCD,Male,0,Yes,No,33.0,Yes,No phone service,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),31.72,1059.05,Yes,0.08239402168004306
+1828-ABCD,Female,1,No,No,49.0,Yes,Yes,No,Yes,Yes,Month-to-month,No,Bank transfer (automatic),36.47,1799.07,No,0.08219378684754208
+1829-ABCD,Male,0,No,No,56.0,Yes,No,Fiber optic,No,Yes,Two year,No,Mailed check,62.97,3527.02,No,0.14185735533922822
+1830-ABCD,Female,1,Yes,Yes,63.0,Yes,Yes,DSL,No,Yes,One year,Yes,Mailed check,59.37,3752.06,No,0.11056205697883303
+1831-ABCD,Male,0,No,No,3.0,Yes,No,DSL,No internet service,No,One year,Yes,Mailed check,52.13,148.73,No,0.08248216554343424
+1832-ABCD,Male,0,No,No,49.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Credit card (automatic),94.12,4614.15,No,0.04110649762669205
+1833-ABCD,Male,0,Yes,No,55.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),43.13,2357.41,No,0.1018565422245748
+1834-ABCD,Female,0,Yes,No,26.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Mailed check,67.8,1759.16,No,0.16604341950723034
+1835-ABCD,Male,0,No,No,72.0,No,No,No,No internet service,No,Two year,No,Electronic check,47.76,3439.0,No,0.014506758184445245
+1836-ABCD,Female,0,No,No,52.0,Yes,Yes,DSL,No,No,Month-to-month,No,Electronic check,63.6,3290.35,Yes,0.14629364424981917
+1837-ABCD,Male,0,No,No,7.0,Yes,No phone service,Fiber optic,Yes,No,Two year,No,Credit card (automatic),73.37,519.52,Yes,0.11898012824125481
+1838-ABCD,Male,0,No,Yes,46.0,Yes,No,DSL,Yes,No,One year,Yes,Electronic check,60.76,2802.56,No,0.1429439170258346
+1839-ABCD,Female,0,No,No,46.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,89.18,4112.39,Yes,0.06564957198807131
+1840-ABCD,Male,0,No,No,16.0,Yes,No,No,No,No internet service,Month-to-month,No,Mailed check,41.34,684.78,Yes,0.10527190724987312
+1841-ABCD,Male,1,Yes,No,24.0,No,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,63.66,1532.01,No,0.15371998154504735
+1842-ABCD,Female,0,Yes,Yes,61.0,No,No phone service,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,60.62,3697.18,No,0.12073777041586253
+1843-ABCD,Male,0,No,No,54.0,Yes,No,Fiber optic,No internet service,No,One year,Yes,Credit card (automatic),80.74,4343.94,No,0.1161394193317401
+1844-ABCD,Male,0,No,No,62.0,No,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card (automatic),82.32,5107.76,No,0.08040854961903576
+1845-ABCD,Male,1,Yes,Yes,1.0,Yes,Yes,Fiber optic,Yes,No internet service,Two year,No,Credit card (automatic),84.09,89.68,No,0.02477203945283224
+1846-ABCD,Male,0,Yes,No,49.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Electronic check,64.91,3167.03,No,0.14660589211279595
+1847-ABCD,Female,0,No,No,25.0,Yes,No phone service,DSL,No,Yes,Month-to-month,Yes,Mailed check,45.1,1125.1,No,0.11545258482836968
+1848-ABCD,Female,0,No,No,10.0,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),36.89,369.01,No,0.07395221472721081
+1849-ABCD,Male,1,Yes,No,16.0,No,No,No,Yes,No,Two year,Yes,Credit card (automatic),41.97,676.82,No,0.11085764090579409
+1850-ABCD,Female,0,Yes,Yes,58.0,Yes,No,Fiber optic,Yes,No,One year,No,Credit card (automatic),83.3,4839.96,Yes,0.08178371917403826
+1851-ABCD,Male,0,Yes,No,72.0,Yes,No phone service,No,No,Yes,One year,Yes,Credit card (automatic),25.36,1820.55,No,-0.02317386714644587
+1852-ABCD,Female,0,Yes,Yes,29.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,84.87,2463.24,Yes,0.10181571245353488
+1853-ABCD,Male,1,Yes,No,6.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),82.77,502.36,No,0.08983233723307371
+1854-ABCD,Male,0,Yes,No,16.0,Yes,No,DSL,No,No,One year,Yes,Bank transfer (automatic),58.55,934.98,Yes,0.1424990210019244
+1855-ABCD,Male,0,No,No,20.0,No,No,Fiber optic,No,Yes,Two year,Yes,Credit card (automatic),81.4,1623.79,Yes,0.1273857675844544
+1856-ABCD,Male,1,Yes,Yes,71.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,89.27,6345.3,No,-0.0196147124087368
+1857-ABCD,Male,0,No,No,43.0,Yes,Yes,DSL,No internet service,Yes,Two year,Yes,Credit card (automatic),66.72,2867.18,No,0.14874753812578395
+1858-ABCD,Male,0,No,No,26.0,Yes,Yes,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),83.67,2163.45,Yes,0.11506088993328417
+1859-ABCD,Female,0,Yes,No,71.0,Yes,No,No,Yes,No,Two year,Yes,Electronic check,20.44,1464.97,No,-0.03026369785586358
+1860-ABCD,Male,0,No,No,33.0,Yes,Yes,Fiber optic,Yes,No,One year,Yes,Electronic check,90.54,2976.96,No,0.06989299487583667
+1861-ABCD,Female,0,Yes,No,26.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Credit card (automatic),73.23,1903.03,Yes,0.15456676190424484
+1862-ABCD,Male,0,No,No,45.0,Yes,Yes,No,Yes,No internet service,One year,Yes,Mailed check,26.82,1210.12,No,0.06043878386360957
+1863-ABCD,Female,0,Yes,No,63.0,Yes,No,DSL,No,No,Month-to-month,Yes,Mailed check,50.63,3194.24,Yes,0.08754957613745107
+1864-ABCD,Female,0,No,Yes,67.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,81.82,5483.64,Yes,0.05251890200580078
+1865-ABCD,Female,1,No,Yes,52.0,Yes,No,No,No internet service,No,Month-to-month,No,Credit card (automatic),18.25,919.58,Yes,-0.007336320126816065
+1866-ABCD,Male,0,Yes,No,68.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,76.76,5212.65,Yes,0.07758788574824138
+1867-ABCD,Male,1,Yes,No,26.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Credit card (automatic),66.1,1721.56,Yes,0.16754529906287602
+1868-ABCD,Female,0,No,No,2.0,Yes,Yes,DSL,No,No internet service,One year,No,Credit card (automatic),76.25,151.41,Yes,0.06343737045809927
+1869-ABCD,Male,1,No,No,14.0,No,Yes,No,Yes,Yes,One year,Yes,Credit card (automatic),48.0,677.12,No,0.11899215029020294
+1870-ABCD,Female,0,Yes,Yes,30.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,87.01,2620.51,Yes,0.09238950961752523
+1871-ABCD,Male,0,No,No,49.0,Yes,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),31.66,1556.41,No,0.06707807097989871
+1872-ABCD,Female,0,Yes,Yes,12.0,Yes,No phone service,Fiber optic,Yes,No,One year,No,Credit card (automatic),73.33,872.67,Yes,0.13351456312676951
+1873-ABCD,Female,1,No,Yes,44.0,Yes,Yes,Fiber optic,Yes,No,Two year,Yes,Mailed check,91.75,4031.61,No,0.06401071440049477
+1874-ABCD,Male,0,Yes,No,33.0,Yes,No,No,No internet service,No,One year,Yes,Bank transfer (automatic),22.81,769.04,No,0.041869258283165456
+1875-ABCD,Female,0,No,Yes,13.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,67.18,871.55,Yes,0.1357816292155633
+1876-ABCD,Male,0,Yes,No,26.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,65.76,1708.81,No,0.16754529906287602
+1877-ABCD,Female,0,Yes,Yes,21.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Bank transfer (automatic),93.71,1973.01,No,0.045965411022762415
+1878-ABCD,Female,0,Yes,No,28.0,Yes,No,No,No internet service,Yes,Month-to-month,Yes,Mailed check,23.32,665.33,No,0.05206943021279875
+1879-ABCD,Male,0,Yes,No,48.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),83.0,3974.99,No,0.11402279369794971
+1880-ABCD,Male,0,No,Yes,40.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),76.19,3042.64,Yes,0.1436482723046682
+1881-ABCD,Male,0,Yes,No,66.0,No,No phone service,DSL,No internet service,No internet service,Month-to-month,Yes,Mailed check,63.81,4195.42,No,0.09448247051147474
+1882-ABCD,Female,0,No,No,23.0,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,31.16,713.72,No,0.09157786655615918
+1883-ABCD,Male,0,Yes,No,48.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),60.0,2885.68,No,0.1449117968193116
+1884-ABCD,Female,0,Yes,Yes,2.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Bank transfer (automatic),78.63,153.62,No,0.06666791700567498
+1885-ABCD,Female,0,Yes,No,20.0,Yes,No,Fiber optic,No,Yes,One year,No,Credit card (automatic),71.55,1448.6,No,0.14980969676564532
+1886-ABCD,Male,0,Yes,No,59.0,Yes,Yes,Fiber optic,Yes,No internet service,One year,Yes,Electronic check,65.05,3839.11,Yes,0.12852250460891151
+1887-ABCD,Male,0,Yes,No,46.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Credit card (automatic),64.02,2943.9,Yes,0.1410345961982739
+1888-ABCD,Female,0,Yes,No,3.0,Yes,No phone service,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),46.09,134.75,Yes,0.061211540396357345
+1889-ABCD,Female,0,No,No,55.0,Yes,No phone service,Fiber optic,No internet service,No,Month-to-month,No,Mailed check,66.69,3654.35,No,0.13602920061592094
+1890-ABCD,Male,0,Yes,No,12.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,90.45,1084.5,Yes,0.06402773710259957
+1891-ABCD,Male,0,No,No,40.0,Yes,No,No,No,No internet service,Month-to-month,Yes,Electronic check,32.7,1311.58,No,0.09655678646342675
+1892-ABCD,Male,0,No,No,66.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Mailed check,56.3,3714.62,Yes,0.09119408346952884
+1893-ABCD,Male,0,Yes,No,16.0,Yes,No,No,Yes,No,One year,Yes,Bank transfer (automatic),46.07,739.43,Yes,0.11934651236450133
+1894-ABCD,Male,0,Yes,No,34.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,84.4,2862.89,Yes,0.11641599168298211
+1895-ABCD,Female,0,No,No,44.0,Yes,No,No,No internet service,No,Month-to-month,Yes,Mailed check,36.41,1589.59,No,0.0982902288716585
+1896-ABCD,Female,0,No,No,6.0,Yes,No,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Mailed check,63.04,377.18,Yes,0.10390539467370707
+1897-ABCD,Female,0,No,Yes,64.0,Yes,Yes,Fiber optic,Yes,Yes,One year,No,Electronic check,85.48,5472.93,Yes,0.05336793813461793
+1898-ABCD,Female,0,Yes,No,22.0,Yes,No,No,No,Yes,Two year,Yes,Bank transfer (automatic),32.39,710.89,No,0.09726502887959082
+1899-ABCD,Male,0,No,No,18.0,No,No,No,No,No,One year,No,Electronic check,26.68,482.28,Yes,0.06080950885953118
+1900-ABCD,Male,1,No,No,12.0,Yes,Yes,Fiber optic,No internet service,No,One year,No,Mailed check,98.65,1191.57,Yes,0.009495936240499714
+1901-ABCD,Male,0,No,No,52.0,Yes,No phone service,DSL,Yes,Yes,Month-to-month,Yes,Mailed check,55.41,2889.05,No,0.1340585942045266
+1902-ABCD,Female,0,No,No,51.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Electronic check,65.17,3332.24,Yes,0.1460372684333336
+1903-ABCD,Female,0,Yes,No,71.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Bank transfer (automatic),67.02,4768.47,No,0.0568588029916256
+1904-ABCD,Male,0,Yes,Yes,48.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),83.26,4001.45,No,0.1101170247415783
+1905-ABCD,Male,0,No,No,19.0,Yes,No,DSL,No,No,Two year,No,Credit card (automatic),51.64,984.72,No,0.13873649890611117
+1906-ABCD,Female,0,No,No,6.0,Yes,Yes,No,No internet service,No,One year,Yes,Bank transfer (automatic),23.37,159.65,Yes,0.021126619983072192
+1907-ABCD,Female,0,Yes,No,27.0,Yes,Yes,DSL,No,No,One year,Yes,Electronic check,60.21,1633.51,No,0.1625798444409683
+1908-ABCD,Male,0,Yes,No,53.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,No,Bank transfer (automatic),60.39,3192.22,No,0.1383087592047202
+1909-ABCD,Male,0,Yes,No,48.0,Yes,Yes,DSL,No internet service,No,One year,No,Bank transfer (automatic),72.34,3453.69,No,0.14209776450465694
+1910-ABCD,Female,0,Yes,No,7.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),59.36,413.11,No,0.10922152479139907
+1911-ABCD,Male,0,No,Yes,59.0,Yes,Yes,DSL,No,No,Month-to-month,No,Bank transfer (automatic),53.78,3179.27,Yes,0.1110054331506109
+1912-ABCD,Male,0,No,Yes,69.0,Yes,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),55.03,3806.66,Yes,0.07463789672423915
+1913-ABCD,Male,1,Yes,Yes,11.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Credit card (automatic),93.88,1020.18,No,0.028063569604350302
+1914-ABCD,Female,0,Yes,No,15.0,Yes,No phone service,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),29.44,448.89,No,0.0689126973394335
+1915-ABCD,Female,0,Yes,No,64.0,No,No,DSL,No internet service,No,Month-to-month,Yes,Mailed check,44.94,2887.51,Yes,0.07785608052071591
+1916-ABCD,Female,0,Yes,No,3.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Electronic check,76.46,235.47,Yes,0.07779719627800608
+1917-ABCD,Female,0,No,No,69.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Electronic check,81.26,5611.1,No,0.049956182544718786
+1918-ABCD,Female,1,No,No,23.0,Yes,Yes,No,Yes,Yes,One year,No,Bank transfer (automatic),49.06,1127.05,No,0.12763217130259297
+1919-ABCD,Female,0,No,No,53.0,Yes,No phone service,Fiber optic,Yes,Yes,One year,Yes,Electronic check,81.84,4332.92,Yes,0.11537777494831919
+1920-ABCD,Female,1,Yes,No,37.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Electronic check,80.7,2993.76,Yes,0.13943971904912927
+1921-ABCD,Male,0,No,No,9.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Credit card (automatic),81.24,736.99,Yes,0.11633824653430319
+1922-ABCD,Male,1,No,No,15.0,Yes,No,No,Yes,No,One year,Yes,Mailed check,32.17,479.28,No,0.07343937351393359
+1923-ABCD,Male,0,No,No,3.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,75.93,253.21,Yes,0.07721309330307646
+1924-ABCD,Male,0,Yes,Yes,70.0,Yes,No,Fiber optic,Yes,No internet service,Two year,Yes,Mailed check,80.9,5647.9,Yes,0.03890800077222989
+1925-ABCD,Male,0,Yes,No,17.0,No,No,No,Yes,No,One year,No,Electronic check,34.38,582.14,Yes,0.08789701989833698
+1926-ABCD,Male,0,Yes,Yes,26.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,95.62,2478.41,Yes,0.029248947749200505
+1927-ABCD,Male,0,Yes,No,21.0,Yes,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,85.12,1791.36,Yes,0.10769188400218849
+1928-ABCD,Female,0,Yes,No,72.0,Yes,Yes,Fiber optic,No internet service,No internet service,Two year,Yes,Electronic check,78.82,5655.55,Yes,0.022262607787276067
+1929-ABCD,Female,0,Yes,No,21.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),76.61,1621.5,Yes,0.14852318268069314
+1930-ABCD,Male,0,No,Yes,11.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,72.16,803.81,Yes,0.13143926453223914
+1931-ABCD,Male,0,No,No,38.0,Yes,Yes,Fiber optic,No internet service,No,One year,Yes,Mailed check,89.83,3416.21,Yes,0.06944618677806969
+1932-ABCD,Female,0,Yes,Yes,72.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Electronic check,85.5,6152.9,Yes,-0.01070840113626903
+1933-ABCD,Male,0,Yes,No,35.0,Yes,No,Fiber optic,Yes,Yes,Two year,No,Mailed check,78.22,2744.86,Yes,0.13854480808531816
+1934-ABCD,Male,0,No,Yes,14.0,No,No,No,Yes,No,Month-to-month,Yes,Mailed check,20.37,288.47,No,0.014999825237675068
+1935-ABCD,Female,0,No,No,14.0,Yes,Yes,DSL,No,No,One year,Yes,Credit card (automatic),69.07,976.5,No,0.1391704785486118
+1936-ABCD,Male,0,No,No,10.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,74.72,745.98,Yes,0.12754098276392406
+1937-ABCD,Female,0,No,No,12.0,No,Yes,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),92.69,1110.47,Yes,0.045492272690509594
+1938-ABCD,Male,0,No,Yes,38.0,Yes,No,Fiber optic,No,No,Two year,No,Mailed check,82.71,3153.76,Yes,0.13374480299681712
+1939-ABCD,Female,0,No,Yes,34.0,Yes,No phone service,DSL,No,No internet service,One year,No,Mailed check,57.78,1970.86,No,0.14889266411640323
+1940-ABCD,Female,0,Yes,No,41.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Credit card (automatic),87.48,3584.94,No,0.0881221744900017
+1941-ABCD,Female,0,Yes,No,10.0,Yes,No,No,No,No,Month-to-month,No,Credit card (automatic),28.21,285.78,Yes,0.050716160369321805
+1942-ABCD,Male,0,Yes,No,17.0,Yes,No,Fiber optic,Yes,No,One year,Yes,Bank transfer (automatic),70.17,1194.74,Yes,0.1500260088978242
+1943-ABCD,Female,0,Yes,Yes,17.0,Yes,No,No,No internet service,No,Month-to-month,Yes,Mailed check,29.88,512.63,Yes,0.0835213125709433
+1944-ABCD,Male,0,Yes,No,67.0,Yes,Yes,No,Yes,No internet service,Two year,Yes,Credit card (automatic),55.86,3755.31,Yes,0.0893277337294216
+1945-ABCD,Male,1,No,Yes,62.0,Yes,No,DSL,No,Yes,Two year,Yes,Mailed check,56.83,3519.96,No,0.11110986829923714
+1946-ABCD,Male,0,No,Yes,1.0,Yes,No,DSL,No internet service,No internet service,One year,No,Mailed check,44.23,44.23,No,0.009115352549022626
+1947-ABCD,Male,0,No,No,12.0,Yes,No,No,No,No internet service,Month-to-month,Yes,Mailed check,18.25,221.74,No,-0.009504677767479652
+1948-ABCD,Female,0,Yes,No,4.0,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,28.5,108.63,Yes,0.03215627821569966
+1949-ABCD,Female,0,No,Yes,42.0,Yes,Yes,DSL,No,No internet service,One year,No,Bank transfer (automatic),61.98,2594.05,No,0.14689151928457966
+1950-ABCD,Male,0,No,Yes,13.0,Yes,Yes,DSL,No,No,Month-to-month,No,Electronic check,75.13,986.63,Yes,0.13129762256979077
+1951-ABCD,Male,1,Yes,Yes,4.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),46.81,184.37,No,0.06480134248321534
+1952-ABCD,Female,0,No,No,69.0,Yes,Yes,No,No,No,Month-to-month,No,Mailed check,51.37,3525.85,Yes,0.07460577169394667
+1953-ABCD,Male,0,Yes,No,19.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Mailed check,56.44,1080.83,Yes,0.14881440556685682
+1954-ABCD,Female,1,Yes,Yes,2.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Credit card (automatic),88.87,173.36,Yes,0.018859161849288042
+1955-ABCD,Male,0,No,Yes,12.0,Yes,Yes,No,Yes,No,Month-to-month,No,Bank transfer (automatic),43.65,529.58,No,0.08984314968390505
+1956-ABCD,Male,0,Yes,No,6.0,Yes,No,DSL,No,No,One year,No,Bank transfer (automatic),59.73,369.21,No,0.10041737535856604
+1957-ABCD,Female,0,Yes,No,8.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Electronic check,81.71,655.58,Yes,0.10230666979275449
+1958-ABCD,Male,0,No,No,51.0,Yes,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer (automatic),46.32,2341.97,Yes,0.11528238898408794
+1959-ABCD,Female,0,No,Yes,11.0,No,Yes,No,No,No,Month-to-month,No,Mailed check,35.29,368.55,Yes,0.07163312061404803
+1960-ABCD,Male,1,Yes,Yes,63.0,Yes,No,DSL,No,No internet service,One year,Yes,Credit card (automatic),47.9,3010.98,Yes,0.0821448238994027
+1961-ABCD,Male,0,Yes,No,57.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,77.48,4415.79,Yes,0.12306811265297923
+1962-ABCD,Male,0,Yes,No,12.0,Yes,Yes,Fiber optic,No,Yes,One year,Yes,Credit card (automatic),86.75,1053.0,No,0.08394966308748975
+1963-ABCD,Female,0,No,Yes,2.0,No,No,DSL,No internet service,Yes,Two year,No,Bank transfer (automatic),52.82,108.55,No,0.05892204281483682
+1964-ABCD,Male,0,Yes,No,8.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),79.04,658.49,Yes,0.11025334492982197
+1965-ABCD,Male,0,Yes,Yes,11.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,79.87,863.66,Yes,0.11846580568420118
+1966-ABCD,Male,0,No,No,53.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),47.19,2502.28,No,0.10925334234948803
+1967-ABCD,Male,0,No,No,10.0,Yes,No,No,Yes,No internet service,Two year,No,Credit card (automatic),30.96,305.15,No,0.05970447574267046
+1968-ABCD,Female,0,Yes,Yes,8.0,Yes,Yes,No,No internet service,No,One year,Yes,Mailed check,49.51,398.43,Yes,0.09135005433342946
+1969-ABCD,Female,0,No,No,36.0,Yes,Yes,Fiber optic,Yes,Yes,Two year,No,Electronic check,87.3,3160.32,No,0.09427318533030193
+1970-ABCD,Male,0,No,No,14.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Bank transfer (automatic),82.15,1168.25,No,0.11777173435097105
+1971-ABCD,Female,0,Yes,No,54.0,Yes,Yes,Fiber optic,No internet service,No,Two year,Yes,Credit card (automatic),86.92,4694.22,Yes,0.08928752178192179
+1972-ABCD,Male,0,Yes,No,21.0,No,No,No,No internet service,No,Month-to-month,Yes,Mailed check,44.71,947.53,No,0.11552939891267089
+1973-ABCD,Male,0,No,Yes,50.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Bank transfer (automatic),78.0,3902.16,Yes,0.1311858596540365
+1974-ABCD,Male,1,Yes,No,39.0,Yes,Yes,DSL,No,No internet service,Two year,No,Electronic check,65.25,2534.0,No,0.15517056425460984
+1975-ABCD,Female,0,No,Yes,20.0,Yes,No,DSL,No,No,Two year,No,Bank transfer (automatic),60.36,1207.34,No,0.15165950327293393
+1976-ABCD,Female,0,Yes,No,7.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),87.03,604.16,Yes,0.05864232168963501
+1977-ABCD,Female,0,Yes,No,9.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),73.02,656.55,Yes,0.12444566379216415
+1978-ABCD,Female,0,Yes,No,1.0,Yes,No,Fiber optic,No internet service,Yes,Month-to-month,Yes,Mailed check,71.59,71.59,Yes,0.03297910538045812
+1979-ABCD,Female,0,Yes,Yes,26.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,62.72,1632.27,No,0.16165173138543965
+1980-ABCD,Female,0,Yes,No,38.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),79.26,3014.94,Yes,0.14148071762773562
+1981-ABCD,Female,0,Yes,No,38.0,Yes,Yes,DSL,No,Yes,Two year,Yes,Bank transfer (automatic),68.79,2621.06,No,0.15196641356896345
+1982-ABCD,Female,0,No,No,61.0,Yes,No,DSL,No,Yes,One year,No,Electronic check,71.76,4380.46,No,0.10957912686312621
+1983-ABCD,Female,0,No,Yes,44.0,Yes,No,Fiber optic,No internet service,Yes,One year,No,Bank transfer (automatic),62.71,2775.59,Yes,0.14754755462128327
+1984-ABCD,Male,0,No,Yes,44.0,Yes,Yes,DSL,Yes,No,One year,No,Credit card (automatic),79.06,3500.56,Yes,0.12904557130328004
+1985-ABCD,Female,1,No,No,62.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),73.36,4544.27,No,0.10151540032108758
+1986-ABCD,Female,0,Yes,No,6.0,Yes,No,Fiber optic,No internet service,No internet service,Two year,Yes,Electronic check,74.28,455.38,Yes,0.10586372362507412
+1987-ABCD,Female,0,No,Yes,17.0,Yes,No phone service,Fiber optic,No,No,One year,No,Mailed check,81.87,1412.94,No,0.1269511526892213
+1988-ABCD,Female,0,Yes,No,51.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),81.82,4182.78,Yes,0.11634203600109372
+1989-ABCD,Female,0,No,No,38.0,Yes,Yes,DSL,No,No internet service,One year,Yes,Electronic check,74.25,2828.67,No,0.14587107244891223
+1990-ABCD,Female,0,No,No,24.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,76.0,1805.78,Yes,0.14602397634849806
+1991-ABCD,Female,0,No,Yes,51.0,Yes,Yes,No,Yes,No,Two year,Yes,Electronic check,39.68,2018.1,No,0.10463833002496536
+1992-ABCD,Female,1,No,Yes,10.0,Yes,No,Fiber optic,No internet service,No,Two year,No,Mailed check,86.1,856.88,Yes,0.07678709133273331
+1993-ABCD,Female,0,No,No,72.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),79.97,5771.71,No,0.007196954757557661
+1994-ABCD,Female,0,Yes,Yes,21.0,Yes,No phone service,DSL,No internet service,No internet service,One year,Yes,Electronic check,52.56,1096.45,No,0.13835704720215536
+1995-ABCD,Female,0,Yes,No,70.0,No,Yes,Fiber optic,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.54,5846.95,Yes,0.02063882048759369
+1996-ABCD,Male,0,No,No,57.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Electronic check,80.79,4613.43,No,0.10453287230275798
+1997-ABCD,Male,0,Yes,No,39.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,85.48,3325.96,No,0.10115028658184272
+1998-ABCD,Female,0,No,No,33.0,No,No,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,82.17,2714.4,Yes,0.1280571961795119
+1999-ABCD,Female,0,No,No,59.0,Yes,No,DSL,Yes,No,Month-to-month,No,Credit card (automatic),60.21,3553.88,No,0.13181177530289317
+2000-ABCD,Male,1,Yes,Yes,18.0,Yes,No,DSL,No internet service,No,One year,Yes,Credit card (automatic),50.09,910.39,No,0.13378115333618806
+2001-ABCD,Female,0,No,No,56.0,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,34.44,1935.23,Yes,0.06367447726034814
+2002-ABCD,Male,0,No,No,57.0,Yes,No,No,No,Yes,Two year,Yes,Credit card (automatic),23.16,1326.39,No,0.028791307167966074
+2003-ABCD,Male,0,No,No,48.0,No,Yes,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),65.71,3156.09,No,0.14642522377249972
+2004-ABCD,Male,0,No,Yes,42.0,Yes,No,Fiber optic,Yes,No,Two year,Yes,Credit card (automatic),62.35,2601.94,No,0.14705662845792733
+2005-ABCD,Male,0,No,Yes,27.0,Yes,No,DSL,Yes,Yes,One year,Yes,Credit card (automatic),47.88,1294.16,No,0.13066580630653152
+2006-ABCD,Male,0,No,Yes,52.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),61.33,3189.71,Yes,0.14490420695350914
+2007-ABCD,Female,0,No,No,42.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),63.44,2672.15,Yes,0.1554072083170413
+2008-ABCD,Male,0,Yes,No,32.0,Yes,No,DSL,Yes,No,One year,Yes,Mailed check,53.94,1721.85,No,0.13996856329102125
+2009-ABCD,Female,0,Yes,No,26.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Bank transfer (automatic),93.05,2419.72,Yes,0.05329524802761065
+2010-ABCD,Female,0,No,Yes,25.0,Yes,No,Fiber optic,No,Yes,One year,Yes,Electronic check,76.5,1913.23,Yes,0.14665805572902607
+2011-ABCD,Male,1,Yes,Yes,23.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Credit card (automatic),51.21,1170.7,No,0.13892189628206525
+2012-ABCD,Male,0,No,No,57.0,Yes,Yes,DSL,No,No internet service,Month-to-month,No,Mailed check,61.53,3495.68,No,0.13797897579927937
+2013-ABCD,Female,0,No,No,52.0,Yes,Yes,No,No,No,Two year,Yes,Bank transfer (automatic),30.67,1598.67,No,0.06277187346409108
+2014-ABCD,Male,0,Yes,Yes,31.0,Yes,No,DSL,No,No,Month-to-month,No,Credit card (automatic),74.23,2311.21,Yes,0.14336174973141713
+2015-ABCD,Male,0,No,No,64.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Electronic check,83.88,5362.07,Yes,0.06389349642537057
+2016-ABCD,Female,0,No,Yes,71.0,Yes,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,69.83,4955.75,Yes,0.04682080620141782
+2017-ABCD,Female,1,No,No,33.0,Yes,No,Fiber optic,No,No,One year,No,Mailed check,64.57,2139.11,No,0.15735097487280097
+2018-ABCD,Male,0,Yes,No,2.0,Yes,No,DSL,No internet service,No internet service,One year,Yes,Electronic check,51.39,112.05,No,0.05639544764450566
+2019-ABCD,Female,0,Yes,Yes,18.0,Yes,No phone service,DSL,No internet service,No,Month-to-month,No,Credit card (automatic),47.2,851.91,Yes,0.12236744833121926
+2020-ABCD,Male,0,Yes,Yes,47.0,No,No,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),56.02,2637.08,Yes,0.13813252712492158
+2021-ABCD,Male,0,No,No,33.0,Yes,No,DSL,No,No,Month-to-month,Yes,Electronic check,47.58,1575.46,No,0.13064578167725027
+2022-ABCD,Male,0,Yes,Yes,35.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Bank transfer (automatic),79.64,2794.51,Yes,0.13358684121406922
+2023-ABCD,Female,0,No,No,51.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),77.79,3956.58,Yes,0.13204053834720525
+2024-ABCD,Female,1,Yes,No,18.0,No,Yes,DSL,No internet service,Yes,Two year,Yes,Credit card (automatic),63.08,1154.61,No,0.1539911504716917
+2025-ABCD,Female,0,Yes,No,72.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),55.57,4003.78,No,0.032404029579244376
+2026-ABCD,Female,0,No,No,30.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),73.29,2206.0,Yes,0.14722229710474116
+2027-ABCD,Female,0,No,No,44.0,Yes,Yes,Fiber optic,Yes,No,Two year,Yes,Mailed check,97.26,4271.82,No,0.01703196484435654
+2028-ABCD,Male,0,Yes,Yes,53.0,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,46.49,2462.11,No,0.10975203050390209
+2029-ABCD,Male,0,Yes,No,10.0,Yes,No,Fiber optic,No,No internet service,One year,Yes,Mailed check,68.74,691.17,No,0.12447236563010028
+2030-ABCD,Male,0,Yes,No,52.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,87.6,4537.16,No,0.09157975019776954
+2031-ABCD,Male,0,No,No,49.0,Yes,No,Fiber optic,Yes,No internet service,Month-to-month,No,Mailed check,69.39,3391.1,Yes,0.14306631149009447
+2032-ABCD,Female,0,No,Yes,11.0,Yes,No,No,Yes,Yes,Two year,Yes,Bank transfer (automatic),26.84,287.99,No,0.03887149461990114
+2033-ABCD,Male,0,Yes,Yes,66.0,Yes,No,No,No,No internet service,One year,No,Bank transfer (automatic),33.83,2219.99,No,0.03543705507827177
+2034-ABCD,Female,0,Yes,No,58.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),70.33,4080.2,No,0.11485647682807681
+2035-ABCD,Male,1,Yes,Yes,36.0,Yes,Yes,DSL,No,No,One year,Yes,Bank transfer (automatic),60.3,2170.06,No,0.15550909465902096
+2036-ABCD,Female,0,No,No,33.0,Yes,No,DSL,No internet service,No,Two year,Yes,Credit card (automatic),46.16,1537.52,Yes,0.12470835127344232
+2037-ABCD,Female,0,No,No,47.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,No,Bank transfer (automatic),75.7,3546.69,Yes,0.1320710203629949
+2038-ABCD,Male,0,Yes,No,13.0,Yes,Yes,Fiber optic,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),88.48,1152.59,Yes,0.07162228799481607
+2039-ABCD,Male,1,No,No,40.0,Yes,Yes,Fiber optic,Yes,No,Two year,No,Electronic check,79.89,3186.8,No,0.14195106892511822
+2040-ABCD,Male,1,Yes,No,68.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Credit card (automatic),61.53,4166.87,Yes,0.08915220713572636
+2041-ABCD,Male,0,Yes,No,42.0,Yes,No phone service,Fiber optic,Yes,No,One year,No,Electronic check,80.11,3370.5,Yes,0.13707973135940527
+2042-ABCD,Female,1,No,Yes,19.0,Yes,No,No,No,No,One year,Yes,Credit card (automatic),24.78,477.53,Yes,0.05037296362880128
+2043-ABCD,Male,0,No,No,19.0,Yes,No phone service,DSL,No internet service,Yes,One year,No,Bank transfer (automatic),64.04,1222.28,No,0.15454959551447883
+2044-ABCD,Male,0,No,No,58.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Bank transfer (automatic),94.29,5455.66,Yes,0.003460909437217885
+2045-ABCD,Female,0,No,No,23.0,Yes,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,101.54,2336.26,Yes,-0.007382756205574381
+2046-ABCD,Male,0,Yes,No,54.0,Yes,No,No,No,No,One year,Yes,Mailed check,43.69,2365.23,No,0.10662197177805632
+2047-ABCD,Male,0,No,No,65.0,No,No,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,22.78,1490.22,Yes,0.009837085781274846
+2048-ABCD,Male,0,Yes,No,12.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),92.4,1115.08,No,0.04769925210758952
+2049-ABCD,Male,0,No,No,24.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),92.04,2218.61,Yes,0.04963058717541802
+2050-ABCD,Male,0,Yes,Yes,34.0,Yes,No,No,Yes,No,Month-to-month,Yes,Mailed check,27.21,935.81,Yes,0.0693005424181925
+2051-ABCD,Female,0,No,No,53.0,Yes,Yes,Fiber optic,No,No,Two year,Yes,Bank transfer (automatic),88.64,4698.97,No,0.07083556255156898
+2052-ABCD,Male,0,Yes,No,8.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),49.98,404.83,No,0.09356825053709572
+2053-ABCD,Male,0,Yes,No,18.0,Yes,No,Fiber optic,No internet service,Yes,Two year,Yes,Bank transfer (automatic),59.76,1085.68,No,0.1480780675200799
+2054-ABCD,Male,0,No,No,57.0,Yes,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),41.28,2356.86,No,0.09028237472585243
+2055-ABCD,Male,0,Yes,No,5.0,Yes,No,Fiber optic,No,No,One year,No,Electronic check,78.11,402.54,No,0.08615526014708341
+2056-ABCD,Male,1,No,Yes,26.0,Yes,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),43.49,1139.48,Yes,0.11825573776134635
+2057-ABCD,Female,0,Yes,No,30.0,Yes,No,Fiber optic,Yes,No,Two year,No,Mailed check,72.81,2177.98,No,0.15226520138398653
+2058-ABCD,Male,0,Yes,Yes,54.0,No,No,Fiber optic,No,No internet service,One year,No,Electronic check,88.77,4780.52,No,0.07029718233668558
+2059-ABCD,Female,0,Yes,No,13.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Mailed check,62.9,817.89,No,0.1343380621641867
+2060-ABCD,Female,0,Yes,No,29.0,Yes,No,Fiber optic,No internet service,No,Two year,Yes,Electronic check,62.21,1792.28,No,0.15832173139629352
+2061-ABCD,Male,0,No,Yes,3.0,Yes,Yes,DSL,No internet service,No internet service,Month-to-month,Yes,Electronic check,63.62,191.69,Yes,0.08196257860325973
+2062-ABCD,Male,0,Yes,Yes,58.0,Yes,Yes,DSL,No internet service,No,One year,No,Credit card (automatic),57.48,3333.77,Yes,0.1280104610335303
+2063-ABCD,Male,1,No,No,2.0,Yes,Yes,Fiber optic,Yes,Yes,Two year,Yes,Bank transfer (automatic),88.31,189.63,Yes,0.021932388765698918
+2064-ABCD,Male,0,No,Yes,28.0,Yes,Yes,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),64.76,1818.33,No,0.16035804332429981
+2065-ABCD,Female,1,Yes,No,2.0,Yes,No,Fiber optic,Yes,No,Two year,Yes,Electronic check,67.94,145.66,No,0.07359820340294332
+2066-ABCD,Male,1,No,Yes,7.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Credit card (automatic),88.56,615.02,Yes,0.04777975280663449
+2067-ABCD,Male,0,No,Yes,26.0,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,30.46,807.26,No,0.0891069850988021
+2068-ABCD,Male,1,No,No,16.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Mailed check,71.67,1155.66,Yes,0.14385109834739135
+2069-ABCD,Male,0,Yes,No,23.0,Yes,Yes,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),62.97,1452.58,Yes,0.15680501668324104
+2070-ABCD,Male,0,Yes,No,40.0,Yes,Yes,DSL,No internet service,No,Two year,No,Bank transfer (automatic),77.95,3099.93,No,0.14388560702836023
+2071-ABCD,Male,0,No,No,60.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,92.29,5549.19,No,0.014955907145841163
+2072-ABCD,Female,1,No,No,32.0,Yes,Yes,Fiber optic,No internet service,No,One year,Yes,Mailed check,83.7,2696.13,Yes,0.11779537408966478
+2073-ABCD,Female,1,No,No,15.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,No,Credit card (automatic),77.06,1156.01,No,0.13740326146960374
+2074-ABCD,Male,0,Yes,No,13.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,68.31,888.35,Yes,0.1369662105603422
+2075-ABCD,Male,0,No,No,5.0,Yes,No phone service,DSL,No,No,One year,No,Credit card (automatic),51.14,250.53,No,0.0841093741764628
+2076-ABCD,Male,0,Yes,No,52.0,Yes,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),89.06,4614.8,Yes,0.07042024999552776
+2077-ABCD,Female,0,No,No,41.0,Yes,Yes,Fiber optic,Yes,No,Two year,No,Mailed check,91.05,3727.43,No,0.06670192412527387
+2078-ABCD,Male,0,Yes,Yes,53.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),49.2,2624.19,Yes,0.11765639243383891
+2079-ABCD,Female,0,No,No,50.0,No,Yes,DSL,Yes,No,One year,Yes,Electronic check,71.41,3581.29,Yes,0.1390288952947038
+2080-ABCD,Male,0,Yes,Yes,15.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Electronic check,47.73,708.22,No,0.11690190088291996
+2081-ABCD,Male,0,Yes,No,7.0,Yes,No,DSL,No,No internet service,Month-to-month,Yes,Electronic check,50.11,344.99,Yes,0.09069521639046418
+2082-ABCD,Male,1,No,Yes,40.0,Yes,No phone service,Fiber optic,No,Yes,One year,Yes,Mailed check,63.4,2557.35,No,0.1524235311470103
+2083-ABCD,Male,0,Yes,No,28.0,Yes,Yes,DSL,No,No,Two year,Yes,Bank transfer (automatic),53.17,1478.56,No,0.14514969056443766
+2084-ABCD,Female,0,Yes,No,32.0,Yes,No,DSL,No,No,Month-to-month,No,Mailed check,47.64,1517.33,No,0.13636505780101865
+2085-ABCD,Female,0,Yes,Yes,15.0,Yes,No,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),54.79,817.55,No,0.13179109605079325
+2086-ABCD,Male,1,No,Yes,70.0,No,No,No,Yes,No internet service,Month-to-month,No,Credit card (automatic),22.05,1529.92,Yes,-0.014843355802853786
+2087-ABCD,Male,1,No,Yes,65.0,No,No,No,No,No,Month-to-month,Yes,Mailed check,41.98,2723.32,Yes,0.07432190261558802
+2088-ABCD,Female,0,Yes,No,4.0,Yes,Yes,DSL,No,No internet service,Two year,Yes,Electronic check,57.54,224.94,No,0.087084307466755
+2089-ABCD,Female,0,No,No,11.0,Yes,No,DSL,No,Yes,One year,No,Credit card (automatic),56.47,612.15,No,0.1164651811493771
+2090-ABCD,Female,0,No,Yes,26.0,No,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),65.56,1717.84,Yes,0.16696809369107235
+2091-ABCD,Female,0,Yes,No,61.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,75.74,4608.47,Yes,0.1083106056624269
+2092-ABCD,Male,0,No,No,37.0,Yes,No,DSL,No,Yes,One year,Yes,Bank transfer (automatic),52.09,1925.91,No,0.13810396840835742
+2093-ABCD,Female,0,No,No,23.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer (automatic),76.18,1743.37,No,0.14826497227416824
+2094-ABCD,Male,0,No,No,40.0,Yes,Yes,Fiber optic,No,No internet service,One year,No,Mailed check,80.51,3218.3,No,0.1350508050358888
+2095-ABCD,Female,0,Yes,No,23.0,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,21.99,496.54,No,0.03632546479425691
+2096-ABCD,Female,0,No,No,16.0,Yes,No,DSL,No,No,One year,Yes,Bank transfer (automatic),59.9,959.16,No,0.13953489242867873
+2097-ABCD,Female,0,No,Yes,61.0,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),25.34,1548.95,No,0.02446881419234681
+2098-ABCD,Female,0,Yes,Yes,68.0,Yes,No phone service,No,No,Yes,Two year,Yes,Credit card (automatic),37.49,2563.34,No,0.04007886910412162
+2099-ABCD,Female,1,Yes,Yes,31.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,71.37,2206.58,No,0.15408765120865514
+2100-ABCD,Male,0,Yes,Yes,53.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Bank transfer (automatic),76.33,4061.67,Yes,0.13204677301841106
+2101-ABCD,Male,1,Yes,No,25.0,Yes,Yes,DSL,Yes,Yes,Two year,No,Electronic check,72.77,1811.18,No,0.1558156926976349
+2102-ABCD,Female,0,No,No,44.0,Yes,Yes,DSL,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),60.65,2666.22,No,0.1479126841288786
+2103-ABCD,Female,0,Yes,No,12.0,Yes,No,DSL,No internet service,No,Month-to-month,Yes,Electronic check,61.27,752.89,Yes,0.12935183697414981
+2104-ABCD,Male,0,Yes,Yes,9.0,No,Yes,Fiber optic,No internet service,No internet service,Month-to-month,No,Electronic check,91.23,850.1,Yes,0.04469736776344013
+2105-ABCD,Female,0,No,Yes,12.0,No,No,Fiber optic,Yes,No,Month-to-month,Yes,Credit card (automatic),72.59,887.94,Yes,0.13329095218787052
+2106-ABCD,Female,0,Yes,No,69.0,Yes,Yes,No,No,No internet service,Two year,Yes,Bank transfer (automatic),36.56,2520.4,No,0.03375962470710703
+2107-ABCD,Male,0,No,No,54.0,Yes,Yes,DSL,Yes,No,One year,No,Electronic check,67.63,3657.17,No,0.13354196888265163
+2108-ABCD,Female,0,Yes,Yes,54.0,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),45.75,2477.33,No,0.1079967992621087
+2109-ABCD,Female,0,Yes,No,28.0,Yes,No,DSL,No internet service,No internet service,One year,Yes,Bank transfer (automatic),53.14,1491.37,No,0.14477480822262312
+2110-ABCD,Male,0,Yes,No,56.0,No,No phone service,Fiber optic,No internet service,No,Month-to-month,No,Mailed check,71.39,3987.76,Yes,0.12546218915913593
+2111-ABCD,Male,0,Yes,No,69.0,Yes,No,DSL,No,Yes,Two year,No,Bank transfer (automatic),64.43,4448.02,No,0.08671957194421887
+2112-ABCD,Male,0,Yes,No,58.0,Yes,No,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),55.55,3216.84,No,0.12374891843402436
+2113-ABCD,Female,0,No,Yes,42.0,Yes,Yes,No,No,No internet service,One year,Yes,Electronic check,46.93,1961.38,No,0.12755112271552121
+2114-ABCD,Male,0,No,Yes,38.0,Yes,Yes,DSL,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),76.8,2915.29,Yes,0.14277985124054687
+2115-ABCD,Male,0,Yes,No,68.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Bank transfer (automatic),69.74,4745.47,No,0.0852133766564489
+2116-ABCD,Male,1,No,No,53.0,Yes,No,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,74.7,3969.11,No,0.13254250988523808
+2117-ABCD,Male,0,No,No,33.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Mailed check,73.16,2411.74,Yes,0.14417732269637445
+2118-ABCD,Male,0,No,No,71.0,Yes,Yes,Fiber optic,No,Yes,One year,No,Electronic check,77.3,5487.51,Yes,0.04531095612232361
+2119-ABCD,Male,1,Yes,Yes,56.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Electronic check,59.65,3348.44,Yes,0.14231109877657877
+2120-ABCD,Female,0,Yes,No,72.0,Yes,No,DSL,Yes,Yes,Two year,Yes,Mailed check,42.27,3044.15,No,0.00502211083548576
+2121-ABCD,Female,0,Yes,Yes,51.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,85.83,4381.15,No,0.0969107520483738
+2122-ABCD,Male,0,No,No,43.0,Yes,Yes,No,No,No,One year,Yes,Credit card (automatic),35.73,1537.17,No,0.10117584039889299
+2123-ABCD,Male,0,No,No,15.0,Yes,No,DSL,No,Yes,Two year,Yes,Bank transfer (automatic),48.59,730.88,No,0.11819757061645958
+2124-ABCD,Male,0,Yes,No,38.0,Yes,No,DSL,No,Yes,One year,No,Electronic check,55.76,2108.09,No,0.14241198958716794
+2125-ABCD,Female,0,Yes,No,15.0,Yes,No,Fiber optic,No internet service,No,Two year,No,Electronic check,69.46,1043.12,No,0.13818437529078803
+2126-ABCD,Female,0,No,No,5.0,No,Yes,Fiber optic,Yes,Yes,Two year,Yes,Bank transfer (automatic),95.32,490.88,No,-0.006102532113512971
+2127-ABCD,Female,0,No,No,54.0,Yes,No phone service,Fiber optic,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),70.03,3783.31,Yes,0.13152772705406007
+2128-ABCD,Female,1,No,No,51.0,Yes,Yes,DSL,No internet service,No internet service,One year,Yes,Electronic check,77.04,3920.7,Yes,0.13385031379596113
+2129-ABCD,Female,0,No,Yes,10.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,84.76,862.37,Yes,0.08653785434113803
+2130-ABCD,Female,0,Yes,Yes,12.0,Yes,No phone service,DSL,No,No,Month-to-month,Yes,Mailed check,49.78,604.57,Yes,0.10933462537662503
+2131-ABCD,Female,0,No,Yes,4.0,Yes,Yes,Fiber optic,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),79.2,324.48,Yes,0.08186872762187813
+2132-ABCD,Female,0,No,Yes,18.0,Yes,No,Fiber optic,No,Yes,One year,Yes,Electronic check,87.11,1575.39,Yes,0.08834770131062053
+2133-ABCD,Female,0,Yes,No,36.0,Yes,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),70.57,2529.26,Yes,0.15163632651075415
+2134-ABCD,Male,0,No,No,25.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,68.92,1729.48,No,0.16038633714945905
+2135-ABCD,Male,0,No,No,36.0,Yes,No phone service,No,No,No,Month-to-month,Yes,Credit card (automatic),30.95,1128.05,Yes,0.08402633434581175
+2136-ABCD,Male,1,Yes,Yes,67.0,Yes,Yes,Fiber optic,No,No internet service,Two year,Yes,Credit card (automatic),66.13,4425.91,No,0.09954739208433244
+2137-ABCD,Male,0,No,No,9.0,Yes,No,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,19.35,154.86,Yes,-0.006420993287640453
+2138-ABCD,Female,0,No,No,61.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),79.0,4822.66,Yes,0.09616811670820485
+2139-ABCD,Female,0,No,No,53.0,Yes,No,Fiber optic,No,Yes,Month-to-month,No,Credit card (automatic),68.8,3646.73,No,0.1425640822918403
+2140-ABCD,Male,0,Yes,No,18.0,Yes,Yes,DSL,No,Yes,Two year,Yes,Mailed check,74.7,1329.12,No,0.14683482067985
+2141-ABCD,Female,0,Yes,No,43.0,No,Yes,DSL,No,No,Two year,Yes,Electronic check,49.69,2142.72,No,0.13051591723336514
+2142-ABCD,Male,0,No,Yes,35.0,Yes,Yes,DSL,No internet service,Yes,One year,Yes,Bank transfer (automatic),53.58,1880.6,Yes,0.13982803223786178
+2143-ABCD,Female,0,Yes,Yes,63.0,Yes,Yes,Fiber optic,No,No,Two year,No,Bank transfer (automatic),88.62,5568.4,No,0.03491567466785206
+2144-ABCD,Male,0,No,No,4.0,Yes,No phone service,No,No internet service,No,Month-to-month,Yes,Credit card (automatic),31.84,146.25,No,0.044973087256690025
+2145-ABCD,Female,0,No,No,41.0,Yes,Yes,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),82.2,3377.71,Yes,0.1249187186063857
+2146-ABCD,Female,0,Yes,No,45.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),101.42,4545.0,Yes,-0.01135035658501804
+2147-ABCD,Male,0,No,Yes,50.0,Yes,No,Fiber optic,Yes,Yes,Month-to-month,No,Credit card (automatic),79.94,4005.19,No,0.1265839684491854
+2148-ABCD,Female,0,No,No,28.0,Yes,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,94.78,2661.74,Yes,0.029818201774389097
+2149-ABCD,Male,0,Yes,No,42.0,No,No,Fiber optic,Yes,No,One year,Yes,Credit card (automatic),74.59,3146.93,Yes,0.14367468152257745
+2150-ABCD,Male,0,No,No,69.0,Yes,No phone service,Fiber optic,Yes,No,One year,Yes,Electronic check,70.65,4868.61,Yes,0.07117679656597886
+2151-ABCD,Male,0,No,Yes,1.0,Yes,No,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),70.74,79.07,Yes,0.03419358771580905
+2152-ABCD,Male,0,No,Yes,39.0,No,No,DSL,Yes,Yes,Two year,Yes,Credit card (automatic),62.42,2432.01,No,0.1500733731881571
+2153-ABCD,Female,0,No,No,17.0,Yes,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),36.18,609.5,No,0.09121049491731226
+2154-ABCD,Female,0,Yes,No,35.0,Yes,Yes,DSL,No internet service,No,Month-to-month,No,Credit card (automatic),63.25,2205.1,No,0.15156192300964444
+2155-ABCD,Female,1,No,Yes,46.0,Yes,No,DSL,Yes,No internet service,Month-to-month,No,Mailed check,58.77,2684.39,No,0.14474018515854697
+2156-ABCD,Male,0,No,Yes,42.0,Yes,No,No,No,No,One year,Yes,Electronic check,37.7,1588.8,No,0.10488543085613095
+2157-ABCD,Female,1,No,No,39.0,Yes,No,DSL,Yes,No,Two year,Yes,Bank transfer (automatic),50.49,1966.38,No,0.13691100230583503
+2158-ABCD,Male,0,No,No,49.0,No,No,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,72.25,3512.95,Yes,0.1401001205279247
+2159-ABCD,Female,0,Yes,No,62.0,Yes,No,DSL,No internet service,No internet service,One year,Yes,Bank transfer (automatic),58.57,3632.09,No,0.11581034143705204
+2160-ABCD,Female,0,No,No,38.0,Yes,No phone service,Fiber optic,No,Yes,Month-to-month,No,Mailed check,60.69,2317.8,No,0.14674292090098195
+2161-ABCD,Female,0,Yes,No,23.0,Yes,No,DSL,No,No,One year,No,Electronic check,58.72,1337.49,No,0.1554271331449345
+2162-ABCD,Male,1,Yes,Yes,22.0,Yes,No,Fiber optic,Yes,No internet service,Two year,Yes,Credit card (automatic),66.0,1444.87,No,0.15931014498076534
+2163-ABCD,Female,0,Yes,No,4.0,No,No,Fiber optic,No internet service,No,Month-to-month,Yes,Mailed check,82.53,334.53,No,0.07597022062459124
+2164-ABCD,Female,0,No,No,49.0,Yes,Yes,Fiber optic,No internet service,Yes,Two year,Yes,Bank transfer (automatic),102.18,4981.23,No,-0.03255555131536525
+2165-ABCD,Male,0,No,No,59.0,Yes,No phone service,Fiber optic,No internet service,No,One year,No,Bank transfer (automatic),69.42,4090.44,No,0.11898252473532672
+2166-ABCD,Female,0,No,No,68.0,Yes,No,No,No,Yes,Month-to-month,No,Mailed check,19.2,1309.07,No,-0.014483429093762878
+2167-ABCD,Male,0,No,Yes,71.0,Yes,Yes,DSL,No,No,Two year,No,Electronic check,63.56,4507.15,No,0.05964444427515214
+2168-ABCD,Female,0,No,Yes,2.0,Yes,Yes,Fiber optic,No internet service,No,Month-to-month,No,Electronic check,82.88,152.78,Yes,0.05875256091082537
+2169-ABCD,Male,0,No,No,49.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Credit card (automatic),80.29,3921.71,Yes,0.12530649456065146
+2170-ABCD,Male,0,No,Yes,31.0,Yes,Yes,No,No,No,Month-to-month,No,Credit card (automatic),41.87,1281.85,No,0.11550414494340827
+2171-ABCD,Female,0,Yes,Yes,40.0,Yes,Yes,DSL,Yes,Yes,Month-to-month,No,Bank transfer (automatic),62.63,2498.87,No,0.15077660240090252
+2172-ABCD,Male,0,Yes,No,48.0,Yes,No,Fiber optic,No internet service,Yes,Two year,Yes,Bank transfer (automatic),75.72,3645.13,No,0.13146362204701872
+2173-ABCD,Male,1,No,No,51.0,Yes,Yes,No,Yes,No internet service,One year,Yes,Credit card (automatic),31.02,1605.64,Yes,0.064808932423019
+2174-ABCD,Male,1,No,No,43.0,Yes,No,DSL,Yes,Yes,Two year,No,Credit card (automatic),61.63,2650.45,No,0.1512600777945861
+2175-ABCD,Male,0,Yes,No,55.0,Yes,Yes,No,No,No,Month-to-month,Yes,Credit card (automatic),52.94,2919.38,No,0.12286483189694919
+2176-ABCD,Male,0,Yes,No,49.0,Yes,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,55.42,2706.17,No,0.1378158622398966
+2177-ABCD,Male,0,No,No,57.0,Yes,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),62.37,3534.17,No,0.13653775061301449
+2178-ABCD,Female,0,Yes,No,15.0,No,No,No,Yes,No,Month-to-month,No,Mailed check,26.78,420.22,No,0.04660128759378779
+2179-ABCD,Male,0,No,No,27.0,Yes,Yes,Fiber optic,Yes,No,Two year,No,Mailed check,75.23,2025.26,Yes,0.14595401115503792
+2180-ABCD,Male,1,No,No,68.0,Yes,Yes,Fiber optic,No,No,One year,Yes,Credit card (automatic),74.79,5092.91,Yes,0.08278314876377024
+2181-ABCD,Female,0,Yes,No,64.0,Yes,No,DSL,No internet service,No internet service,Month-to-month,No,Electronic check,43.78,2803.5,Yes,0.07749003273427968
+2182-ABCD,Female,1,Yes,No,30.0,Yes,Yes,No,No internet service,No,Two year,Yes,Electronic check,38.45,1163.45,No,0.10778355757171004
+2183-ABCD,Female,0,No,No,36.0,No,Yes,Fiber optic,No,No,One year,Yes,Bank transfer (automatic),81.71,2951.1,Yes,0.13489919749152257
+2184-ABCD,Female,0,No,No,67.0,Yes,Yes,DSL,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),67.99,4558.11,No,0.09078918333143937
+2185-ABCD,Female,0,No,Yes,49.0,Yes,No,Fiber optic,No,No internet service,Two year,Yes,Bank transfer (automatic),70.5,3458.38,No,0.14299541120064324
+2186-ABCD,Female,1,No,No,55.0,No,No,Fiber optic,No,No,Month-to-month,No,Credit card (automatic),65.27,3601.98,No,0.13965683269055684
+2187-ABCD,Female,0,Yes,Yes,56.0,Yes,No,DSL,No,No internet service,Month-to-month,No,Bank transfer (automatic),54.86,3068.06,No,0.12688328720148762
+2188-ABCD,Male,0,No,No,68.0,Yes,No,DSL,No,Yes,Month-to-month,Yes,Mailed check,46.53,3179.6,No,0.06199568771935837
+2189-ABCD,Male,0,No,No,44.0,Yes,No,DSL,No,No,Month-to-month,Yes,Credit card (automatic),59.1,2593.32,No,0.1424851199825234
+2190-ABCD,Female,0,No,No,31.0,Yes,No,Fiber optic,No,No internet service,Month-to-month,Yes,Electronic check,61.67,1912.54,Yes,0.15510916803061292
+2191-ABCD,Male,0,Yes,No,58.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),57.68,3351.73,Yes,0.1286665705764174
+2192-ABCD,Male,0,No,No,53.0,Yes,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Bank transfer (automatic),72.12,3806.07,Yes,0.13183920693955808
+2193-ABCD,Male,0,No,No,23.0,Yes,No,No,Yes,No,One year,Yes,Bank transfer (automatic),26.65,626.77,No,0.06715969579060321
+2194-ABCD,Female,0,Yes,No,28.0,No,No,No,No,No,Two year,No,Bank transfer (automatic),27.7,780.36,No,0.07897960065399579
+2195-ABCD,Female,0,Yes,No,16.0,Yes,No,Fiber optic,Yes,No,One year,No,Bank transfer (automatic),76.1,1250.61,No,0.1409576602205866
+2196-ABCD,Male,0,No,Yes,37.0,Yes,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer (automatic),60.48,2258.57,No,0.1503337437504847
+2197-ABCD,Female,0,Yes,Yes,21.0,Yes,Yes,Fiber optic,No,No internet service,Month-to-month,No,Bank transfer (automatic),78.23,1642.72,Yes,0.14147183603445812
+2198-ABCD,Male,0,Yes,Yes,17.0,Yes,No,Fiber optic,No,No,Month-to-month,Yes,Electronic check,86.47,1487.85,Yes,0.09200781913676503
+2199-ABCD,Male,0,Yes,No,37.0,Yes,No,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer (automatic),84.35,3129.42,Yes,0.1185404094777186
+2200-ABCD,Male,0,No,No,19.0,No,No,Fiber optic,No,No internet service,One year,No,Electronic check,82.89,1577.22,Yes,0.11709004348269797
